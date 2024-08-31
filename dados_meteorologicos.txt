@@ -1,0 +1,1350 @@
+Dados meteorológicos para Rio Branco:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 20°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 23°C
+------------------------------
+==================================================
+Dados meteorológicos para Maceió:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+==================================================
+Dados meteorológicos para Macapá:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 26°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 26°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 26°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 26°C
+------------------------------
+==================================================
+Dados meteorológicos para Manaus:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 26°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 26°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 26°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 27°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 27°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 27°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 27°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 27°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 27°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 27°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 27°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 27°C
+------------------------------
+==================================================
+Dados meteorológicos para Salvador:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 25°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+==================================================
+Dados meteorológicos para Fortaleza:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
+Dados meteorológicos para Brasília:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 13°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 29°C
+Temperatura Mínima Calendário: 13°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 16°C
+------------------------------
+==================================================
+Dados meteorológicos para Vitória:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 17°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 29°C
+Temperatura Mínima Calendário: 17°C
+Temperatura Máxima: 29°C
+Temperatura Mínima: 18°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 18°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 20°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 20°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 20°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 20°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 29°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 29°C
+Temperatura Mínima: 20°C
+------------------------------
+==================================================
+Dados meteorológicos para Goiânia:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 17°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 17°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 17°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 17°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 17°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 18°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 18°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 19°C
+------------------------------
+==================================================
+Dados meteorológicos para São Luís:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 25°C
+------------------------------
+==================================================
+Dados meteorológicos para Cuiabá:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 26°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 40°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 40°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 40°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 40°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 41°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 41°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
+Dados meteorológicos para Campo Grande:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 20°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 20°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 18°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 18°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 25°C
+------------------------------
+==================================================
+Dados meteorológicos para Belo Horizonte:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 13°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 17°C
+------------------------------
+==================================================
+Dados meteorológicos para Belém:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
+Dados meteorológicos para João Pessoa:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 23°C
+------------------------------
+==================================================
+Dados meteorológicos para Curitiba:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 9°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 11°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 11°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 13°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 13°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 12°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 12°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 11°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 11°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 13°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 22°C
+Temperatura Mínima Calendário: 12°C
+Temperatura Máxima: 22°C
+Temperatura Mínima: 9°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 23°C
+Temperatura Mínima Calendário: 9°C
+Temperatura Máxima: 23°C
+Temperatura Mínima: 12°C
+------------------------------
+==================================================
+Dados meteorológicos para Recife:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 29°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 29°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
+Dados meteorológicos para Teresina:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 23°C
+------------------------------
+==================================================
+Dados meteorológicos para Rio de Janeiro:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 17°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 19°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 29°C
+Temperatura Mínima Calendário: 19°C
+Temperatura Máxima: 29°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 20°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 20°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 25°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 25°C
+Temperatura Mínima: 21°C
+------------------------------
+==================================================
+Dados meteorológicos para Natal:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 29°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 29°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 21°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 21°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 22°C
+------------------------------
+==================================================
+Dados meteorológicos para Porto Alegre:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 22°C
+Temperatura Mínima Calendário: 13°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 25°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 25°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 19°C
+Temperatura Mínima Calendário: 13°C
+Temperatura Máxima: 19°C
+Temperatura Mínima: 13°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 20°C
+Temperatura Mínima Calendário: 12°C
+Temperatura Máxima: 20°C
+Temperatura Mínima: 10°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 26°C
+Temperatura Mínima Calendário: 10°C
+Temperatura Máxima: 26°C
+Temperatura Mínima: 13°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 17°C
+Temperatura Mínima Calendário: 13°C
+Temperatura Máxima: 17°C
+Temperatura Mínima: 12°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 20°C
+Temperatura Mínima Calendário: 11°C
+Temperatura Máxima: 20°C
+Temperatura Mínima: 9°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 24°C
+Temperatura Mínima Calendário: 9°C
+Temperatura Máxima: 24°C
+Temperatura Mínima: 15°C
+------------------------------
+==================================================
+Dados meteorológicos para Porto Velho:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
+Dados meteorológicos para Boa Vista:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 30°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 35°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 34°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 34°C
+Temperatura Mínima: 25°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 25°C
+------------------------------
+==================================================
+Dados meteorológicos para Florianópolis:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 22°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 22°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 22°C
+Temperatura Mínima: 17°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 23°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 23°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 20°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 20°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 24°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 24°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 21°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 21°C
+Temperatura Mínima: 16°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 20°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 20°C
+Temperatura Mínima: 14°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 20°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: 20°C
+Temperatura Mínima: 16°C
+------------------------------
+==================================================
+Dados meteorológicos para São Paulo:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 30°C
+Temperatura Mínima Calendário: 14°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 17°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 31°C
+Temperatura Mínima Calendário: 17°C
+Temperatura Máxima: 31°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 32°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 32°C
+Temperatura Mínima: 18°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 33°C
+Temperatura Mínima Calendário: 18°C
+Temperatura Máxima: 33°C
+Temperatura Mínima: 17°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 16°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 15°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 15°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 17°C
+------------------------------
+==================================================
+Dados meteorológicos para Aracaju:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 27°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 27°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 28°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 28°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
+Dados meteorológicos para Palmas:
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 36°C
+Temperatura Mínima Calendário: 25°C
+Temperatura Máxima: None°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Sábado
+Temperatura Máxima Calendário: 35°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 36°C
+Temperatura Mínima: 24°C
+------------------------------
+Dia: Domingo
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 24°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Segunda-feira
+Temperatura Máxima Calendário: 37°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 37°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Terça-feira
+Temperatura Máxima Calendário: 38°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 38°C
+Temperatura Mínima: 22°C
+------------------------------
+Dia: Quarta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 22°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Quinta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 23°C
+------------------------------
+Dia: Sexta-feira
+Temperatura Máxima Calendário: 39°C
+Temperatura Mínima Calendário: 23°C
+Temperatura Máxima: 39°C
+Temperatura Mínima: 24°C
+------------------------------
+==================================================
