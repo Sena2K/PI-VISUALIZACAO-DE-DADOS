@@ -1,307 +1,307 @@
 pokemon_name,ability_name,description,url
 Bulbasaur,Overgrow,increases the power of,https://pokemondb.net/ability/overgrow
-Squirtle,Torrent,increases the power of,https://pokemondb.net/ability/torrent
-Squirtle,Rain Dish,A Pokémon with,https://pokemondb.net/ability/rain-dish
+Bulbasaur,Chlorophyll,doubles the ability-bearer's Speed during,https://pokemondb.net/ability/chlorophyll
 Charizard,Blaze,increases the power of,https://pokemondb.net/ability/blaze
+Charizard,Tough Claws,increases the power of moves that make contact.,https://pokemondb.net/ability/tough-claws
+Charizard,Drought,"creates harsh sunlight when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/drought
+Charizard,Solar Power,"During harsh sunlight,",https://pokemondb.net/ability/solar-power
+Weedle,Run Away,"allows the bearer to flee a battle with a wild Pokémon without fail, even if the opposing Pokémon has used a move like",https://pokemondb.net/ability/run-away
+Weedle,Shield Dust,Blocks the added effects of attacks taken.,https://pokemondb.net/ability/shield-dust
 Butterfree,Tinted Lens,Powers up “not very effective” moves.,https://pokemondb.net/ability/tinted-lens
-Arbok,Unnerve,Makes the foe nervous and unable to eat Berries.,https://pokemondb.net/ability/unnerve
-Pikachu,Lightning Rod,forces all single-target,https://pokemondb.net/ability/lightning-rod
-Venusaur,Thick Fat,reduces the damage taken from,https://pokemondb.net/ability/thick-fat
-Persian,Limber,The Pokémon is protected from paralysis.,https://pokemondb.net/ability/limber
-Horsea,Swift Swim,doubles the ability-bearer's Speed during,https://pokemondb.net/ability/swift-swim
-Ledian,Iron Fist,increases the power of all,https://pokemondb.net/ability/iron-fist
-Ledian,Early Bird,The Pokémon awakens quickly from sleep.,https://pokemondb.net/ability/early-bird
-Ariados,Insomnia,"prevents the ability-bearer from falling asleep, both from moves by other Pokémon like",https://pokemondb.net/ability/insomnia
+Butterfree,Compound Eyes,raises the ability-bearer's accuracy by 30%.,https://pokemondb.net/ability/compound-eyes
+Wartortle,Rain Dish,A Pokémon with,https://pokemondb.net/ability/rain-dish
+Blastoise,Mega Launcher,increases the power of all,https://pokemondb.net/ability/mega-launcher
+Crobat,Inner Focus,"prevents the Pokémon from flinching, for example when attacked by a move like",https://pokemondb.net/ability/inner-focus
+Gyarados,Mold Breaker,prevents a target's ability from affecting moves that the,https://pokemondb.net/ability/mold-breaker
+Gyarados,Moxie,increases the user's Attack one stage upon fainting an opponent.,https://pokemondb.net/ability/moxie
 Crobat,Infiltrator,ignores the effects of,https://pokemondb.net/ability/infiltrator
 Chinchou,Illuminate,has no effect in battle.,https://pokemondb.net/ability/illuminate
-Politoed,Drizzle,"creates a rain shower when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/drizzle
-Smoochum,Hydration,A Pokémon with,https://pokemondb.net/ability/hydration
-Smoochum,Forewarn,Determines what moves a foe has.,https://pokemondb.net/ability/forewarn
-Octillery,Moody,Raises one stat and lowers another.,https://pokemondb.net/ability/moody
-Mantine,Water Veil,Prevents the Pokémon from getting a burn.,https://pokemondb.net/ability/water-veil
+Articuno,Snow Cloak,raises ability-bearer's evasion by 20% in a hail storm. It also gives immunity to damage by hail (if they are not already protected by being,https://pokemondb.net/ability/snow-cloak
+Chinchou,Water Absorb,A Pokémon with,https://pokemondb.net/ability/water-absorb
+Articuno,Competitive,raises the ability-bearer's Special Attack by two stages when hit by a stat-lowering move.,https://pokemondb.net/ability/competitive
+Shuckle,Contrary,Makes stat changes have an opposite effect.,https://pokemondb.net/ability/contrary
+Shuckle,Gluttony,A Pokémon with,https://pokemondb.net/ability/gluttony
+Kingdra,Swift Swim,doubles the ability-bearer's Speed during,https://pokemondb.net/ability/swift-swim
 Heracross,Skill Link,causes multi-strike moves to always hit their maximum number of times. The moves affected are listed below; note that moves such as,https://pokemondb.net/ability/skill-link
-Heracross,Moxie,increases the user's Attack one stage upon fainting an opponent.,https://pokemondb.net/ability/moxie
-Heracross,Guts,"raises the ability-bearer's Attack by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If burnt, the Pokémon does not suffer the usual drop in Attack.",https://pokemondb.net/ability/guts
-Linoone,Quick Feet,"raises the ability-bearer's Speed by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If paralyzed, the Pokémon does not suffer the usual drop in Speed.",https://pokemondb.net/ability/quick-feet
-Linoone,Gluttony,A Pokémon with,https://pokemondb.net/ability/gluttony
-Beautifly,Rivalry,Deals more damage to a Pokémon of same gender.,https://pokemondb.net/ability/rivalry
-Azurill,Sap Sipper,Boosts Attack when hit by a Grass-type move.,https://pokemondb.net/ability/sap-sipper
-Azurill,Huge Power,Raises the Pokémon's Attack stat.,https://pokemondb.net/ability/huge-power
-Nosepass,Sand Force,raises the power of,https://pokemondb.net/ability/sand-force
-Nosepass,Magnet Pull,prevents,https://pokemondb.net/ability/magnet-pull
-Skitty,Wonder Skin,halves the accuracy of all status moves targeted at the ability-bearer.,https://pokemondb.net/ability/wonder-skin
-Skitty,Normalize,causes all moves used by the Pokémon to become,https://pokemondb.net/ability/normalize
-Spinda,Contrary,Makes stat changes have an opposite effect.,https://pokemondb.net/ability/contrary
-Spinda,Tangled Feet,Raises evasion if the Pokémon is confused.,https://pokemondb.net/ability/tangled-feet
-Registeel,Clear Body,Prevents other Pokémon from lowering its stats.,https://pokemondb.net/ability/clear-body
-Latias,Levitate,causes the Pokémon to be,https://pokemondb.net/ability/levitate
-Roserade,Poison Point,Contact with the Pokémon may poison the attacker.,https://pokemondb.net/ability/poison-point
-Cranidos,Sheer Force,"increases the power of moves that have beneficial secondary effects by 30%, but removes those additional effects.",https://pokemondb.net/ability/sheer-force
-Skuntank,Stench,A Pokémon with,https://pokemondb.net/ability/stench
-Tangrowth,Regenerator,A Pokémon with,https://pokemondb.net/ability/regenerator
-Togekiss,Super Luck,raises the ability-bearer's critical-hit ratio by one stage (for most moves this increases from a,https://pokemondb.net/ability/super-luck
-Togekiss,Serene Grace,"doubles the chance of moves' secondary effects occurring - specifically stat changes, status ailments, or flinching. It also increases the chance of flinching due to the held items",https://pokemondb.net/ability/serene-grace
-Darkrai,Bad Dreams,causes all sleeping opponents to lose,https://pokemondb.net/ability/bad-dreams
-Giratina,Telepathy,Pokémon with the,https://pokemondb.net/ability/telepathy
-Giratina,Pressure,makes any attack targeted at the ability-bearer - regardless of whether it hits - use 2 PP instead of 1.,https://pokemondb.net/ability/pressure
-Sewaddle,Overcoat,makes the Pokémon immune to residual damage from weather conditions (specifically,https://pokemondb.net/ability/overcoat
+Hoppip,Leaf Guard,"prevents the bearer from succumbing to major status ailments (sleep, burns, poisoning, paralysis or freezing) during sunny weather.",https://pokemondb.net/ability/leaf-guard
+Sneasel,Pickpocket,Steals an item when hit by another Pokémon.,https://pokemondb.net/ability/pickpocket
+Sneasel,Keen Eye,"prevents the Pokémon from losing accuracy, for example from moves like",https://pokemondb.net/ability/keen-eye
+Ariados,Sniper,increases the power of critical hits by 1.5×. This means a critical hit will deal,https://pokemondb.net/ability/sniper
+Ludicolo,Own Tempo,Prevents the Pokémon from becoming confused.,https://pokemondb.net/ability/own-tempo
+Shiftry,Early Bird,The Pokémon awakens quickly from sleep.,https://pokemondb.net/ability/early-bird
+Latios,Levitate,causes the Pokémon to be,https://pokemondb.net/ability/levitate
+Rayquaza,Air Lock,suppresses,https://pokemondb.net/ability/air-lock
+Jirachi,Serene Grace,"doubles the chance of moves' secondary effects occurring - specifically stat changes, status ailments, or flinching. It also increases the chance of flinching due to the held items",https://pokemondb.net/ability/serene-grace
+Kyogre,Primordial Sea,creates heavy rain when the ability is activated (by Kyogre reverting to its Primal form).,https://pokemondb.net/ability/primordial-sea
+Groudon,Desolate Land,creates extremely harsh sunlight when the ability is activated (by Groudon reverting to its Primal form).,https://pokemondb.net/ability/desolate-land
+Rayquaza,Delta Stream,creates strong winds when the ability is activated (by Rayquaza Mega-Evolving).,https://pokemondb.net/ability/delta-stream
+Wormadam,Anticipation,A Pokémon with,https://pokemondb.net/ability/anticipation
+Rampardos,Sheer Force,"increases the power of moves that have beneficial secondary effects by 30%, but removes those additional effects.",https://pokemondb.net/ability/sheer-force
+Shieldon,Soundproof,grants the Pokémon immunity to all,https://pokemondb.net/ability/soundproof
+Wormadam,Overcoat,makes the Pokémon immune to residual damage from weather conditions (specifically,https://pokemondb.net/ability/overcoat
+Kricketune,Technician,increases the power of moves - that are usually base power 60 or below - by 50%.,https://pokemondb.net/ability/technician
+Heatran,Flash Fire,When a Pokémon with,https://pokemondb.net/ability/flash-fire
+Regigigas,Slow Start,Temporarily halves Attack and Speed.,https://pokemondb.net/ability/slow-start
+Heatran,Flame Body,If a Pokémon with,https://pokemondb.net/ability/flame-body
+Gallade,Justified,raises the ability-bearer's Attack by one stage when hit by a damaging,https://pokemondb.net/ability/justified
+Gallade,Sharpness,increases the power of all,https://pokemondb.net/ability/sharpness
+Toxicroak,Poison Touch,May poison targets when a Pokémon makes contact.,https://pokemondb.net/ability/poison-touch
+Toxicroak,Dry Skin,causes several effects:,https://pokemondb.net/ability/dry-skin
+Cofagrigus,Mummy,Contact with this Pokémon spreads this Ability.,https://pokemondb.net/ability/mummy
+Tirtouga,Solid Rock,reduces the damage taken from super-effective attacks by 25%.,https://pokemondb.net/ability/solid-rock
+Emboar,Reckless,increases the power of,https://pokemondb.net/ability/reckless
+Dewott,Shell Armor,prevents the Pokémon from receiving a critical hit.,https://pokemondb.net/ability/shell-armor
+Gothitelle,Frisk,The Pokémon can check a foe's held item.,https://pokemondb.net/ability/frisk
 Gothitelle,Shadow Tag,Prevents the foe from escaping.,https://pokemondb.net/ability/shadow-tag
-Gothitelle,Competitive,raises the ability-bearer's Special Attack by two stages when hit by a stat-lowering move.,https://pokemondb.net/ability/competitive
+Solosis,Regenerator,A Pokémon with,https://pokemondb.net/ability/regenerator
 Solosis,Magic Guard,"protects the Pokémon from indirect damage, including:",https://pokemondb.net/ability/magic-guard
-Pancham,Scrappy,Enables moves to hit Ghost-type Pokémon.,https://pokemondb.net/ability/scrappy
-Delphox,Magician,The Pokémon steals the held item of a Pokémon it hits with a move.,https://pokemondb.net/ability/magician
-Barbaracle,Pickpocket,Steals an item when hit by another Pokémon.,https://pokemondb.net/ability/pickpocket
-Sliggoo,Shell Armor,prevents the Pokémon from receiving a critical hit.,https://pokemondb.net/ability/shell-armor
-Sliggoo,Gooey,Contact with the Pokémon lowers the attacker's Speed stat.,https://pokemondb.net/ability/gooey
-Decidueye,Long Reach,The Pokémon uses its moves without making contact with the target.,https://pokemondb.net/ability/long-reach
-Zygarde,Power Construct,"is unique to Zygarde. When Zygarde 10% Forme or Zygarde 50% Forme falls below half HP, it changes into Zygarde Complete Forme.",https://pokemondb.net/ability/power-construct
-Lycanroc,No Guard,"ensures that all attacks used by, and targeted at, the ability-bearer hit without fail.",https://pokemondb.net/ability/no-guard
-Lycanroc,Steadfast,Raises Speed each time the Pokémon flinches.,https://pokemondb.net/ability/steadfast
-Lycanroc,Sand Rush,doubles the ability-bearer's Speed during a,https://pokemondb.net/ability/sand-rush
-Mudbray,Stamina,raises the bearer's Defense by one stage when it is attacked by any move.,https://pokemondb.net/ability/stamina
-Crabrawler,Anger Point,raises the ability-bearer's Attack to its maximum level - +6 stages or 4× usual power - when a move targeting it receives a critical hit.,https://pokemondb.net/ability/anger-point
-Blacephalon,Beast Boost,The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.,https://pokemondb.net/ability/beast-boost
-Coalossal,Flash Fire,When a Pokémon with,https://pokemondb.net/ability/flash-fire
-Snom,Ice Scales,Halves damage from Special moves.,https://pokemondb.net/ability/ice-scales
-Urshifu,Unseen Fist,Contact moves can strike through Protect/Detect.,https://pokemondb.net/ability/unseen-fist
+Ducklett,Big Pecks,"prevents the ability-bearer's Defense stat from being lowered, for example via",https://pokemondb.net/ability/big-pecks
+Ducklett,Hydration,A Pokémon with,https://pokemondb.net/ability/hydration
+Druddigon,Rough Skin,When a Pokémon with,https://pokemondb.net/ability/rough-skin
+Golurk,Iron Fist,increases the power of all,https://pokemondb.net/ability/iron-fist
+Golurk,Klutz,The Pokémon can't use any held items.,https://pokemondb.net/ability/klutz
+Sylveon,Pixilate,causes all,https://pokemondb.net/ability/pixilate
+Talonflame,Gale Wings,Gives priority to Flying-type moves.,https://pokemondb.net/ability/gale-wings
+Aurorus,Refrigerate,causes all,https://pokemondb.net/ability/refrigerate
+Heliolisk,Sand Veil,raises the ability-bearer's evasion by 20% in a,https://pokemondb.net/ability/sand-veil
+Tyrantrum,Rock Head,Protects the Pokémon from recoil damage.,https://pokemondb.net/ability/rock-head
+Dartrix,Long Reach,The Pokémon uses its moves without making contact with the target.,https://pokemondb.net/ability/long-reach
+Crabominable,Anger Point,raises the ability-bearer's Attack to its maximum level - +6 stages or 4× usual power - when a move targeting it receives a critical hit.,https://pokemondb.net/ability/anger-point
+Charjabug,Battery,allows the Pokémon to raise the power of teammates' special moves.,https://pokemondb.net/ability/battery
+Tapu Bulu,Telepathy,Pokémon with the,https://pokemondb.net/ability/telepathy
+Centiskorch,White Smoke,Prevents other Pokémon from lowering its stats.,https://pokemondb.net/ability/white-smoke
+Grapploct,Limber,The Pokémon is protected from paralysis.,https://pokemondb.net/ability/limber
+Polteageist,Weak Armor,When a Pokémon with,https://pokemondb.net/ability/weak-armor
+Zamazenta,Dauntless Shield,Boosts Defense in battle.,https://pokemondb.net/ability/dauntless-shield
+Dragapult,Clear Body,Prevents other Pokémon from lowering its stats.,https://pokemondb.net/ability/clear-body
+Zacian,Intrepid Sword,Boosts Attack in battle.,https://pokemondb.net/ability/intrepid-sword
+Oinkologne,Lingering Aroma,Contact changes the attacker's Ability to Lingering Aroma.,https://pokemondb.net/ability/lingering-aroma
+Oinkologne,Aroma Veil,Protects allies from attacks that limit their move choices.,https://pokemondb.net/ability/aroma-veil
+Crocalor,Unaware,Ignores any stat changes in the Pokémon.,https://pokemondb.net/ability/unaware
+Mabosstiff,Stakeout,enables the Pokémon to deal twice the normal damage to any Pokémon that switches in or enters the field mid-battle.,https://pokemondb.net/ability/stakeout
+Mabosstiff,Guard Dog,"Boosts Attack if intimidated, and prevents being forced to switch out.",https://pokemondb.net/ability/guard-dog
+Shroodle,Prankster,increases the priority of status moves by +1.,https://pokemondb.net/ability/prankster
+Grafaiai,Unburden,Raises Speed if a held item is used.,https://pokemondb.net/ability/unburden
+Bramblin,Wind Rider,"gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one.",https://pokemondb.net/ability/wind-rider
+Koraidon,Orichalcum Pulse,"Turns the sunlight harsh when entering battle, and boosts Attack while active.",https://pokemondb.net/ability/orichalcum-pulse
+Miraidon,Hadron Engine,"Creates an Electric Terrain when entering battle, and boosts Special Attack while active.",https://pokemondb.net/ability/hadron-engine
+Iron Bundle,Quark Drive,"Raises highest stat on Electric Terrain, or if holding Booster Energy.",https://pokemondb.net/ability/quark-drive
+Roaring Moon,Protosynthesis,"Raises highest stat in harsh sunlight, or if holding Booster Energy.",https://pokemondb.net/ability/protosynthesis
+Terapagos,Tera Shift,"When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form.",https://pokemondb.net/ability/tera-shift
+Pecharunt,Poison Puppeteer,Pokémon poisoned by Pecharunt’s moves will also become confused.,https://pokemondb.net/ability/poison-puppeteer
+Sinistcha,Heatproof,reduces the damage taken from,https://pokemondb.net/ability/heatproof
+Sinistcha,Hospitality,"When the Pokémon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP.",https://pokemondb.net/ability/hospitality
+Ogerpon,Embody Aspect,"boosts a particular stat, depending on the form of a Terastallized",https://pokemondb.net/ability/embody-aspect
+Archaludon,Stamina,raises the bearer's Defense by one stage when it is attacked by any move.,https://pokemondb.net/ability/stamina
+Archaludon,Stalwart,Ignores moves and abilities that draw in moves.,https://pokemondb.net/ability/stalwart
+Hydrapple,Sticky Hold,prevents held items from being taken or switched.,https://pokemondb.net/ability/sticky-hold
+Munkidori,Toxic Chain,may cause bad poisoning when the Pokémon hits an opponent with a move.,https://pokemondb.net/ability/toxic-chain
+Ogerpon,Defiant,raises the ability-bearer's Attack by two stages when hit by a stat-lowering move.,https://pokemondb.net/ability/defiant
+Hydrapple,Supersweet Syrup,"A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon.",https://pokemondb.net/ability/supersweet-syrup
+Terapagos,Teraform Zero,"When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero.",https://pokemondb.net/ability/teraform-zero
+Terapagos,Tera Shell,The Pokémon’s shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.,https://pokemondb.net/ability/tera-shell
+Ting-Lu,Vessel of Ruin,Lowers Special Attack of all Pokémon except itself.,https://pokemondb.net/ability/vessel-of-ruin
+Chi-Yu,Beads of Ruin,Lowers Special Defense of all Pokémon except itself.,https://pokemondb.net/ability/beads-of-ruin
+Arctibax,Ice Body,A Pokémon with,https://pokemondb.net/ability/ice-body
+Gholdengo,Good as Gold,Gives immunity to status moves.,https://pokemondb.net/ability/good-as-gold
+Gimmighoul,Rattled,When a Pokémon with,https://pokemondb.net/ability/rattled
+Baxcalibur,Thermal Exchange,Raises Attack when hit by a Fire-type move. Cannot be burned.,https://pokemondb.net/ability/thermal-exchange
+Wo-Chien,Tablets of Ruin,Lowers Attack of all Pokémon except itself.,https://pokemondb.net/ability/tablets-of-ruin
+Chien-Pao,Sword of Ruin,Lowers Defense of all Pokémon except itself.,https://pokemondb.net/ability/sword-of-ruin
+Polteageist,Cursed Body,May disable a move used on the Pokémon.,https://pokemondb.net/ability/cursed-body
+Hatenna,Magic Bounce,Reflects status- changing moves.,https://pokemondb.net/ability/magic-bounce
+Tatsugiri,Commander,Goes inside the mouth of an ally Dondozo if one is on the field.,https://pokemondb.net/ability/commander
+Dondozo,Oblivious,"makes the Pokémon immune to gender-based moves and abilities, specifically",https://pokemondb.net/ability/oblivious
+Annihilape,Vital Spirit,prevents the ability-bearer from falling asleep. This means that it also prevents the use of the move,https://pokemondb.net/ability/vital-spirit
+Clodsire,Poison Point,Contact with the Pokémon may poison the attacker.,https://pokemondb.net/ability/poison-point
+Kingambit,Supreme Overlord,Attack and Special Attack are boosted for each party Pokémon that has been defeated.,https://pokemondb.net/ability/supreme-overlord
+Farigiraf,Cud Chew,causes the Pokémon to reuse an already consumed Berry at the end of the next turn.,https://pokemondb.net/ability/cud-chew
+Orthworm,Earth Eater,Restores HP when hit by a Ground-type move.,https://pokemondb.net/ability/earth-eater
+Revavroom,Filter,reduces the damage taken from super-effective attacks by 25%.,https://pokemondb.net/ability/filter
+Glimmora,Corrosion,"allows the bearer to poison any Pokémon, including Steel and Poison types.",https://pokemondb.net/ability/corrosion
+Houndstone,Fluffy,"reduces damage from contact moves by 50%, but Fire-type moves do double damage. Fire-type moves that make contact do regular damage.",https://pokemondb.net/ability/fluffy
+Flamigo,Costar,Copies ally's stat changes on entering battle.,https://pokemondb.net/ability/costar
+Glimmora,Toxic Debris,Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.,https://pokemondb.net/ability/toxic-debris
+Greavard,Pickup,"When another Pokémon on the field uses a single-use held item, a Pokémon with",https://pokemondb.net/ability/pickup
+Houndstone,Sand Rush,doubles the ability-bearer's Speed during a,https://pokemondb.net/ability/sand-rush
+Bombirdier,Rocky Payload,increases the power of Rock-type moves used by this Pokémon by 50%.,https://pokemondb.net/ability/rocky-payload
+Wugtrio,Gooey,Contact with the Pokémon lowers the attacker's Speed stat.,https://pokemondb.net/ability/gooey
+Flamigo,Tangled Feet,Raises evasion if the Pokémon is confused.,https://pokemondb.net/ability/tangled-feet
+Palafin,Zero to Hero,Transforms into its Hero Form when switching out.,https://pokemondb.net/ability/zero-to-hero
+Flamigo,Scrappy,Enables moves to hit Ghost-type Pokémon.,https://pokemondb.net/ability/scrappy
+Farigiraf,Armor Tail,"prevents the opponent from using any moves that have priority, such as",https://pokemondb.net/ability/armor-tail
+Cetitan,Slush Rush,Boosts the Pokémon's Speed stat in a hailstorm.,https://pokemondb.net/ability/slush-rush
+Farigiraf,Sap Sipper,Boosts Attack when hit by a Grass-type move.,https://pokemondb.net/ability/sap-sipper
+Espathra,Opportunist,Copies stat boosts by the opponent.,https://pokemondb.net/ability/opportunist
+Scovillain,Moody,Raises one stat and lowers another.,https://pokemondb.net/ability/moody
+Rabsca,Synchronize,"If the opponent causes a burn, paralysis, or poisoning of a Pokémon with",https://pokemondb.net/ability/synchronize
+Espathra,Speed Boost,Its Speed stat is gradually boosted.,https://pokemondb.net/ability/speed-boost
+Klawf,Anger Shell,"When the Pokémon's HP drops below half,",https://pokemondb.net/ability/anger-shell
+Toedscruel,Mycelium Might,"Status moves go last, but are not affected by the opponent's ability.",https://pokemondb.net/ability/mycelium-might
+Greedent,Cheek Pouch,"restores the bearer's HP when a Berry is consumed, on top of the berry's usual effects.",https://pokemondb.net/ability/cheek-pouch
+Kommo-o,Bulletproof,makes the Pokémon immune to,https://pokemondb.net/ability/bulletproof
+Kilowattrel,Wind Power,If a Pokémon with,https://pokemondb.net/ability/wind-power
+Tapu Koko,Electric Surge,"creates a low-lying electric field, like the move",https://pokemondb.net/ability/electric-surge
+Tapu Lele,Psychic Surge,"creates a low-lying psychic field, like the move",https://pokemondb.net/ability/psychic-surge
+Tapu Bulu,Grassy Surge,"creates a low-lying grassy field, like the move",https://pokemondb.net/ability/grassy-surge
+Garganacl,Purifying Salt,Protects from status conditions and halves damage from Ghost-type moves.,https://pokemondb.net/ability/purifying-salt
+Bellibolt,Electromorphosis,If a Pokémon with,https://pokemondb.net/ability/electromorphosis
+Arboliva,Harvest,May create another Berry after one is used.,https://pokemondb.net/ability/harvest
+Arboliva,Seed Sower,Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.,https://pokemondb.net/ability/seed-sower
+Palossand,Water Compaction,raises the bearer's Defense by 2 stages when it is hit by a Water-type move.,https://pokemondb.net/ability/water-compaction
+Squawkabilly,Hustle,"increases the ability-bearer's Attack by 50%, however, it also reduces the Accuracy of all Physical moves by 20%.",https://pokemondb.net/ability/hustle
+Dachsbun,Well-Baked Body,"Immune to Fire-type moves, and Defense is sharply boosted.",https://pokemondb.net/ability/well-baked-body
+Pawmot,Natural Cure,All status problems heal when it switches out.,https://pokemondb.net/ability/natural-cure
+Floragato,Protean,changes the Pokémon's type to that of its previously used attack.,https://pokemondb.net/ability/protean
+Ursaluna,Mind's Eye,"The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.",https://pokemondb.net/ability/minds-eye
+Basculegion,Adaptability,increases the effectiveness of,https://pokemondb.net/ability/adaptability
+Crabominable,Hyper Cutter,"prevents the bearer's Attack stat from being lowered by other Pokémon, through moves such as",https://pokemondb.net/ability/hyper-cutter
+Hoopa,Magician,The Pokémon steals the held item of a Pokémon it hits with a move.,https://pokemondb.net/ability/magician
+Regieleki,Transistor,increases the power of Electric-type moves used by this Pokémon by 50%.,https://pokemondb.net/ability/transistor
 Regidrago,Dragon's Maw,increases the power of Dragon-type moves used by this Pokémon by 50%.,https://pokemondb.net/ability/dragons-maw
 Glastrier,Chilling Neigh,Boosts Attack after knocking out a Pokémon.,https://pokemondb.net/ability/chilling-neigh
 Spectrier,Grim Neigh,Boosts Special Attack after knocking out a Pokémon.,https://pokemondb.net/ability/grim-neigh
-Pincurchin,Electric Surge,"creates a low-lying electric field, like the move",https://pokemondb.net/ability/electric-surge
-Armarouge,Weak Armor,When a Pokémon with,https://pokemondb.net/ability/weak-armor
-Bellibolt,Electromorphosis,If a Pokémon with,https://pokemondb.net/ability/electromorphosis
-Garganacl,Purifying Salt,Protects from status conditions and halves damage from Ghost-type moves.,https://pokemondb.net/ability/purifying-salt
-Regieleki,Transistor,increases the power of Electric-type moves used by this Pokémon by 50%.,https://pokemondb.net/ability/transistor
-Ogerpon,Embody Aspect,"boosts a particular stat, depending on the form of a Terastallized",https://pokemondb.net/ability/embody-aspect
-Fezandipiti,Toxic Chain,may cause bad poisoning when the Pokémon hits an opponent with a move.,https://pokemondb.net/ability/toxic-chain
-Ogerpon,Defiant,raises the ability-bearer's Attack by two stages when hit by a stat-lowering move.,https://pokemondb.net/ability/defiant
-Baxcalibur,Thermal Exchange,Raises Attack when hit by a Fire-type move. Cannot be burned.,https://pokemondb.net/ability/thermal-exchange
-Gholdengo,Good as Gold,Gives immunity to status moves.,https://pokemondb.net/ability/good-as-gold
-Wo-Chien,Tablets of Ruin,Lowers Attack of all Pokémon except itself.,https://pokemondb.net/ability/tablets-of-ruin
-Chien-Pao,Sword of Ruin,Lowers Defense of all Pokémon except itself.,https://pokemondb.net/ability/sword-of-ruin
-Ting-Lu,Vessel of Ruin,Lowers Special Attack of all Pokémon except itself.,https://pokemondb.net/ability/vessel-of-ruin
-Hydrapple,Sticky Hold,prevents held items from being taken or switched.,https://pokemondb.net/ability/sticky-hold
-Hydrapple,Supersweet Syrup,"A sickly sweet scent spreads across the field the first time the Pokémon enters a battle, lowering the evasiveness of opposing Pokémon.",https://pokemondb.net/ability/supersweet-syrup
-Raging Bolt,Protosynthesis,"Raises highest stat in harsh sunlight, or if holding Booster Energy.",https://pokemondb.net/ability/protosynthesis
-Iron Crown,Quark Drive,"Raises highest stat on Electric Terrain, or if holding Booster Energy.",https://pokemondb.net/ability/quark-drive
-Terapagos,Tera Shift,"When the Pokémon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form.",https://pokemondb.net/ability/tera-shift
-Pecharunt,Poison Puppeteer,Pokémon poisoned by Pecharunt’s moves will also become confused.,https://pokemondb.net/ability/poison-puppeteer
 Calyrex,As One,Combines Unnerve and Chilling Neigh/Grim Neigh,https://pokemondb.net/ability/as-one
-Okidogi,Guard Dog,"Boosts Attack if intimidated, and prevents being forced to switch out.",https://pokemondb.net/ability/guard-dog
-Terapagos,Teraform Zero,"When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero.",https://pokemondb.net/ability/teraform-zero
-Terapagos,Tera Shell,The Pokémon’s shell contains the powers of each type. All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective.,https://pokemondb.net/ability/tera-shell
-Archaludon,Stalwart,Ignores moves and abilities that draw in moves.,https://pokemondb.net/ability/stalwart
-Sinistcha,Hospitality,"When the Pokémon enters a battle, it showers its ally with hospitality, restoring a small amount of the ally's HP.",https://pokemondb.net/ability/hospitality
-Koraidon,Orichalcum Pulse,"Turns the sunlight harsh when entering battle, and boosts Attack while active.",https://pokemondb.net/ability/orichalcum-pulse
-Miraidon,Hadron Engine,"Creates an Electric Terrain when entering battle, and boosts Special Attack while active.",https://pokemondb.net/ability/hadron-engine
-Chi-Yu,Beads of Ruin,Lowers Special Defense of all Pokémon except itself.,https://pokemondb.net/ability/beads-of-ruin
-Kingambit,Supreme Overlord,Attack and Special Attack are boosted for each party Pokémon that has been defeated.,https://pokemondb.net/ability/supreme-overlord
-Farigiraf,Cud Chew,causes the Pokémon to reuse an already consumed Berry at the end of the next turn.,https://pokemondb.net/ability/cud-chew
-Veluza,Sharpness,increases the power of all,https://pokemondb.net/ability/sharpness
-Clodsire,Unaware,Ignores any stat changes in the Pokémon.,https://pokemondb.net/ability/unaware
-Tatsugiri,Storm Drain,forces all single-target,https://pokemondb.net/ability/storm-drain
-Cetoddle,Snow Cloak,raises ability-bearer's evasion by 20% in a hail storm. It also gives immunity to damage by hail (if they are not already protected by being,https://pokemondb.net/ability/snow-cloak
-Tatsugiri,Commander,Goes inside the mouth of an ally Dondozo if one is on the field.,https://pokemondb.net/ability/commander
-Flamigo,Costar,Copies ally's stat changes on entering battle.,https://pokemondb.net/ability/costar
-Cetitan,Slush Rush,Boosts the Pokémon's Speed stat in a hailstorm.,https://pokemondb.net/ability/slush-rush
-Bombirdier,Rocky Payload,increases the power of Rock-type moves used by this Pokémon by 50%.,https://pokemondb.net/ability/rocky-payload
-Houndstone,Fluffy,"reduces damage from contact moves by 50%, but Fire-type moves do double damage. Fire-type moves that make contact do regular damage.",https://pokemondb.net/ability/fluffy
-Revavroom,Filter,reduces the damage taken from super-effective attacks by 25%.,https://pokemondb.net/ability/filter
-Bombirdier,Big Pecks,"prevents the ability-bearer's Defense stat from being lowered, for example via",https://pokemondb.net/ability/big-pecks
-Palafin,Zero to Hero,Transforms into its Hero Form when switching out.,https://pokemondb.net/ability/zero-to-hero
-Orthworm,Sand Veil,raises the ability-bearer's evasion by 20% in a,https://pokemondb.net/ability/sand-veil
-Orthworm,Earth Eater,Restores HP when hit by a Ground-type move.,https://pokemondb.net/ability/earth-eater
-Glimmet,Toxic Debris,Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves.,https://pokemondb.net/ability/toxic-debris
-Farigiraf,Armor Tail,"prevents the opponent from using any moves that have priority, such as",https://pokemondb.net/ability/armor-tail
-Varoom,Slow Start,Temporarily halves Attack and Speed.,https://pokemondb.net/ability/slow-start
-Glimmet,Corrosion,"allows the bearer to poison any Pokémon, including Steel and Poison types.",https://pokemondb.net/ability/corrosion
-Espathra,Opportunist,Copies stat boosts by the opponent.,https://pokemondb.net/ability/opportunist
-Rabsca,Synchronize,"If the opponent causes a burn, paralysis, or poisoning of a Pokémon with",https://pokemondb.net/ability/synchronize
-Flittle,Anticipation,A Pokémon with,https://pokemondb.net/ability/anticipation
-Coalossal,Steam Engine,raises the user's Speed by three stages when it is hit by a Fire- or Water-type attack. The attack still deals damage.,https://pokemondb.net/ability/steam-engine
-Applin,Bulletproof,makes the Pokémon immune to,https://pokemondb.net/ability/bulletproof
-Appletun,Ripen,Doubles the effect of berries.,https://pokemondb.net/ability/ripen
-Toedscool,Mycelium Might,"Status moves go last, but are not affected by the opponent's ability.",https://pokemondb.net/ability/mycelium-might
-Capsakid,Klutz,The Pokémon can't use any held items.,https://pokemondb.net/ability/klutz
-Brambleghast,Wind Rider,"gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one.",https://pokemondb.net/ability/wind-rider
-Klawf,Anger Shell,"When the Pokémon's HP drops below half,",https://pokemondb.net/ability/anger-shell
-Arboliva,Harvest,May create another Berry after one is used.,https://pokemondb.net/ability/harvest
-Arboliva,Seed Sower,Turns the ground into Grassy Terrain when the Pokémon is hit by an attack.,https://pokemondb.net/ability/seed-sower
-Grafaiai,Unburden,Raises Speed if a held item is used.,https://pokemondb.net/ability/unburden
-Kilowattrel,Wind Power,If a Pokémon with,https://pokemondb.net/ability/wind-power
-Maschiff,Stakeout,enables the Pokémon to deal twice the normal damage to any Pokémon that switches in or enters the field mid-battle.,https://pokemondb.net/ability/stakeout
-Dachsbun,Aroma Veil,Protects allies from attacks that limit their move choices.,https://pokemondb.net/ability/aroma-veil
-Maushold,Cheek Pouch,"restores the bearer's HP when a Berry is consumed, on top of the berry's usual effects.",https://pokemondb.net/ability/cheek-pouch
-Maushold,Friend Guard,Reduces damage done to allies.,https://pokemondb.net/ability/friend-guard
-Oinkologne,Lingering Aroma,Contact changes the attacker's Ability to Lingering Aroma.,https://pokemondb.net/ability/lingering-aroma
-Dachsbun,Well-Baked Body,"Immune to Fire-type moves, and Defense is sharply boosted.",https://pokemondb.net/ability/well-baked-body
-Type: Null,Battle Armor,prevents the Pokémon from receiving a critical hit.,https://pokemondb.net/ability/battle-armor
-Minior,Shields Down,causes the Pokémon to changes its appearance and stats depending on its remaining HP.,https://pokemondb.net/ability/shields-down
-Silvally,RKS System,Changes type depending on held item.,https://pokemondb.net/ability/rks-system
-Komala,Comatose,"causes the Pokémon to behave as if it were asleep, though it doesn't officially have the Sleep status condition. It can still use its regular moves, but cannot be inflicted with any major status condition (sleep, poison, paralysis, burn, or freeze).",https://pokemondb.net/ability/comatose
-Togedemaru,Iron Barbs,When a Pokémon with,https://pokemondb.net/ability/iron-barbs
-Basculegion,Adaptability,increases the effectiveness of,https://pokemondb.net/ability/adaptability
-Ursaluna,Mind's Eye,"The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves.",https://pokemondb.net/ability/minds-eye
-Zamazenta,Dauntless Shield,Boosts Defense in battle.,https://pokemondb.net/ability/dauntless-shield
-Zacian,Intrepid Sword,Boosts Attack in battle.,https://pokemondb.net/ability/intrepid-sword
-Wishiwashi,Schooling,"changes Wishiwashi into its School Form, if its HP is above 25% and Wishiwashi is at least level 20. If its HP falls below 25%, Wishiwashi will revert back to Solo Form.",https://pokemondb.net/ability/schooling
-Toxapex,Merciless,The Pokémon's attacks become critical hits if the target is poisoned.,https://pokemondb.net/ability/merciless
-Crabrawler,Hyper Cutter,"prevents the bearer's Attack stat from being lowered by other Pokémon, through moves such as",https://pokemondb.net/ability/hyper-cutter
-Dracovish,Strong Jaw,increases the power of all,https://pokemondb.net/ability/strong-jaw
+Urshifu,Unseen Fist,Contact moves can strike through Protect/Detect.,https://pokemondb.net/ability/unseen-fist
+Duraludon,Light Metal,halves the Pokémon's weight in battle. Decreasing weight affects these moves:,https://pokemondb.net/ability/light-metal
+Morpeko,Hunger Switch,"causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode. Morpeko's form also changes the type of its signature move,",https://pokemondb.net/ability/hunger-switch
+Duraludon,Heavy Metal,doubles the Pokémon's weight in battle. Increasing weight affects these moves:,https://pokemondb.net/ability/heavy-metal
+Falinks,Battle Armor,prevents the Pokémon from receiving a critical hit.,https://pokemondb.net/ability/battle-armor
+Snom,Ice Scales,Halves damage from Special moves.,https://pokemondb.net/ability/ice-scales
 Stonjourner,Power Spot,Just being next to the Pokémon powers up moves.,https://pokemondb.net/ability/power-spot
 Eiscue,Ice Face,is the signature ability of,https://pokemondb.net/ability/ice-face
-Morpeko,Hunger Switch,"causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode. Morpeko's form also changes the type of its signature move,",https://pokemondb.net/ability/hunger-switch
-Alcremie,Sweet Veil,"prevents this Pokémon and its allies from falling asleep, for example from moves like",https://pokemondb.net/ability/sweet-veil
-Indeedee,Psychic Surge,"creates a low-lying psychic field, like the move",https://pokemondb.net/ability/psychic-surge
-Runerigus,Wandering Spirit,Swaps abilities with opponents on contact.,https://pokemondb.net/ability/wandering-spirit
 Mr. Rime,Screen Cleaner,"Nullifies effects of Light Screen, Reflect, and Aurora Veil.",https://pokemondb.net/ability/screen-cleaner
+Runerigus,Wandering Spirit,Swaps abilities with opponents on contact.,https://pokemondb.net/ability/wandering-spirit
+Alcremie,Sweet Veil,"prevents this Pokémon and its allies from falling asleep, for example from moves like",https://pokemondb.net/ability/sweet-veil
 Perrserker,Steely Spirit,Powers up ally Pokémon's Steel-type moves.,https://pokemondb.net/ability/steely-spirit
 Cursola,Perish Body,"When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle.",https://pokemondb.net/ability/perish-body
-Hatterene,Healer,May heal an ally's status conditions.,https://pokemondb.net/ability/healer
-Centiskorch,White Smoke,Prevents other Pokémon from lowering its stats.,https://pokemondb.net/ability/white-smoke
-Hatterene,Magic Bounce,Reflects status- changing moves.,https://pokemondb.net/ability/magic-bounce
+Tyrantrum,Strong Jaw,increases the power of all,https://pokemondb.net/ability/strong-jaw
+Aurorus,Snow Warning,"creates a hailstorm when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/snow-warning
+Coalossal,Steam Engine,raises the user's Speed by three stages when it is hit by a Fire- or Water-type attack. The attack still deals damage.,https://pokemondb.net/ability/steam-engine
+Appletun,Ripen,Doubles the effect of berries.,https://pokemondb.net/ability/ripen
+Arrokuda,Propeller Tail,Ignores moves and abilities that draw in moves.,https://pokemondb.net/ability/propeller-tail
 Toxtricity,Minus,Ups Sp. Atk if another Pokémon has Plus or Minus.,https://pokemondb.net/ability/minus
-Toxtricity,Punk Rock,Boosts sound-based moves and halves damage from the same moves.,https://pokemondb.net/ability/punk-rock
 Toxtricity,Plus,Ups Sp. Atk if another Pokémon has Plus or Minus.,https://pokemondb.net/ability/plus
-Xerneas,Fairy Aura,"raises the power of Fairy-type moves by 33%, for all Pokémon on the field (not just the ability-bearer).",https://pokemondb.net/ability/fairy-aura
-Zygarde,Aura Break,cancels the effects of the abilities,https://pokemondb.net/ability/aura-break
-Yveltal,Dark Aura,raises the power of Dark-type moves by 33% for all Pokémon on the field (not just the ability-bearer).,https://pokemondb.net/ability/dark-aura
+Silicobra,Sand Spit,Creates a sandstorm when hit by an attack.,https://pokemondb.net/ability/sand-spit
+Toxtricity,Punk Rock,Boosts sound-based moves and halves damage from the same moves.,https://pokemondb.net/ability/punk-rock
 Cramorant,Gulp Missile,is the signature ability of,https://pokemondb.net/ability/gulp-missile
-Barraskewda,Propeller Tail,Ignores moves and abilities that draw in moves.,https://pokemondb.net/ability/propeller-tail
-Eldegoss,Cotton Down,When a Pokémon with,https://pokemondb.net/ability/cotton-down
 Yamper,Ball Fetch,"If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle.",https://pokemondb.net/ability/ball-fetch
-Sandaconda,Sand Spit,Creates a sandstorm when hit by an attack.,https://pokemondb.net/ability/sand-spit
+Eldegoss,Cotton Down,When a Pokémon with,https://pokemondb.net/ability/cotton-down
+Sylveon,Cute Charm,If a Pokémon with,https://pokemondb.net/ability/cute-charm
+Scatterbug,Friend Guard,Reduces damage done to allies.,https://pokemondb.net/ability/friend-guard
 Eldegoss,Effect Spore,Contact may poison or cause paralysis or sleep.,https://pokemondb.net/ability/effect-spore
 Corviknight,Mirror Armor,Reflects any stat-lowering effects.,https://pokemondb.net/ability/mirror-armor
-Rillaboom,Grassy Surge,"creates a low-lying grassy field, like the move",https://pokemondb.net/ability/grassy-surge
 Cinderace,Libero,changes the Pokémon's type to that of its previously used attack.,https://pokemondb.net/ability/libero
+Meltan,Magnet Pull,prevents,https://pokemondb.net/ability/magnet-pull
 Necrozma,Prism Armor,reduces the damage taken from super-effective attacks by 25%. It is not affected by the abilities,https://pokemondb.net/ability/prism-armor
 Magearna,Soul-Heart,raises the bearer's Special Attack one stage when any Pokémon on the field faints.,https://pokemondb.net/ability/soul-heart
-Tapu Fini,Misty Surge,"creates a low-lying mist, like the move",https://pokemondb.net/ability/misty-surge
+Necrozma,Neuroforce,Powers up moves that are super effective.,https://pokemondb.net/ability/neuroforce
+Poipole,Beast Boost,The Pokémon boosts its most proficient stat each time it knocks out a Pokémon.,https://pokemondb.net/ability/beast-boost
 Solgaleo,Full Metal Body,Prevents other Pokémon from lowering its stats.,https://pokemondb.net/ability/full-metal-body
 Lunala,Shadow Shield,Reduces damage when HP is full.,https://pokemondb.net/ability/shadow-shield
-Necrozma,Neuroforce,Powers up moves that are super effective.,https://pokemondb.net/ability/neuroforce
-Greninja,Battle Bond,causes Greninja to transform into Ash-Greninja when it KOs an opponent.,https://pokemondb.net/ability/battle-bond
-Greninja,Protean,changes the Pokémon's type to that of its previously used attack.,https://pokemondb.net/ability/protean
-Mimikyu,Disguise,"allows the bearer to avoid damage for one attack, in a similar way to",https://pokemondb.net/ability/disguise
-Bruxish,Dazzling,makes the Pokémon immune to high-priority moves (i.e. those with a priority above 0).,https://pokemondb.net/ability/dazzling
-Drampa,Berserk,raises the Pokémon's Special Attack by one stage when its HP falls below 50%.,https://pokemondb.net/ability/berserk
 Dhelmise,Steelworker,increases the power of Steel-type moves used by this Pokémon by 50%.,https://pokemondb.net/ability/steelworker
-Kommo-o,Soundproof,grants the Pokémon immunity to all,https://pokemondb.net/ability/soundproof
+Drampa,Berserk,raises the Pokémon's Special Attack by one stage when its HP falls below 50%.,https://pokemondb.net/ability/berserk
+Tapu Fini,Misty Surge,"creates a low-lying mist, like the move",https://pokemondb.net/ability/misty-surge
+Bruxish,Wonder Skin,halves the accuracy of all status moves targeted at the ability-bearer.,https://pokemondb.net/ability/wonder-skin
+Bruxish,Dazzling,makes the Pokémon immune to high-priority moves (i.e. those with a priority above 0).,https://pokemondb.net/ability/dazzling
+Drampa,Cloud Nine,suppresses,https://pokemondb.net/ability/cloud-nine
+Mimikyu,Disguise,"allows the bearer to avoid damage for one attack, in a similar way to",https://pokemondb.net/ability/disguise
+Togedemaru,Iron Barbs,When a Pokémon with,https://pokemondb.net/ability/iron-barbs
+Silvally,RKS System,Changes type depending on held item.,https://pokemondb.net/ability/rks-system
+Komala,Comatose,"causes the Pokémon to behave as if it were asleep, though it doesn't officially have the Sleep status condition. It can still use its regular moves, but cannot be inflicted with any major status condition (sleep, poison, paralysis, burn, or freeze).",https://pokemondb.net/ability/comatose
+Minior,Shields Down,causes the Pokémon to changes its appearance and stats depending on its remaining HP.,https://pokemondb.net/ability/shields-down
+Pyukumuku,Innards Out,When a Pokémon with,https://pokemondb.net/ability/innards-out
+Golisopod,Emergency Exit,Switches out when HP falls below 50%.,https://pokemondb.net/ability/emergency-exit
+Passimian,Receiver,A Pokémon with,https://pokemondb.net/ability/receiver
 Wimpod,Wimp Out,causes the bearer to switch out (or flee in a wild battle) when its HP falls below 50%.,https://pokemondb.net/ability/wimp-out
 Comfey,Flower Veil,"prevents ally Grass-type Pokémon's stats from being lowered, in double and triple battles.",https://pokemondb.net/ability/flower-veil
-Passimian,Receiver,A Pokémon with,https://pokemondb.net/ability/receiver
-Golisopod,Emergency Exit,Switches out when HP falls below 50%.,https://pokemondb.net/ability/emergency-exit
-Palossand,Water Compaction,raises the bearer's Defense by 2 stages when it is hit by a Water-type move.,https://pokemondb.net/ability/water-compaction
-Pyukumuku,Innards Out,When a Pokémon with,https://pokemondb.net/ability/innards-out
-Comfey,Triage,"increases the priority of HP-restoring moves to +3, when used by the ability-bearer.",https://pokemondb.net/ability/triage
 Oranguru,Symbiosis,The Pokémon can pass an item to an ally.,https://pokemondb.net/ability/symbiosis
 Tsareena,Queenly Majesty,Prevents use of priority moves.,https://pokemondb.net/ability/queenly-majesty
+Comfey,Triage,"increases the priority of HP-restoring moves to +3, when used by the ability-bearer.",https://pokemondb.net/ability/triage
 Araquanid,Water Bubble,"reduces damage taken from Fire-type moves by 50%, and doubles the power of Water-type moves used by the ability-bearer. It also prevents the Pokémon from being burned.",https://pokemondb.net/ability/water-bubble
-Ribombee,Honey Gather,has no effect in battle.,https://pokemondb.net/ability/honey-gather
-Seismitoad,Poison Touch,May poison targets when a Pokémon makes contact.,https://pokemondb.net/ability/poison-touch
-Charjabug,Battery,allows the Pokémon to raise the power of teammates' special moves.,https://pokemondb.net/ability/battery
+Toxapex,Merciless,The Pokémon's attacks become critical hits if the target is poisoned.,https://pokemondb.net/ability/merciless
+Wishiwashi,Schooling,"changes Wishiwashi into its School Form, if its HP is above 25% and Wishiwashi is at least level 20. If its HP falls below 25%, Wishiwashi will revert back to Solo Form.",https://pokemondb.net/ability/schooling
+Alomomola,Healer,May heal an ally's status conditions.,https://pokemondb.net/ability/healer
 Oricorio,Dancer,When another Pokémon on the field uses any,https://pokemondb.net/ability/dancer
+Ribombee,Honey Gather,has no effect in battle.,https://pokemondb.net/ability/honey-gather
+Xerneas,Fairy Aura,"raises the power of Fairy-type moves by 33%, for all Pokémon on the field (not just the ability-bearer).",https://pokemondb.net/ability/fairy-aura
+Yveltal,Dark Aura,raises the power of Dark-type moves by 33% for all Pokémon on the field (not just the ability-bearer).,https://pokemondb.net/ability/dark-aura
+Zygarde,Aura Break,cancels the effects of the abilities,https://pokemondb.net/ability/aura-break
 Brionne,Liquid Voice,causes all,https://pokemondb.net/ability/liquid-voice
-Aurorus,Refrigerate,causes all,https://pokemondb.net/ability/refrigerate
-Heliolisk,Dry Skin,causes several effects:,https://pokemondb.net/ability/dry-skin
-Aurorus,Snow Warning,"creates a hailstorm when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/snow-warning
-Sylveon,Pixilate,causes all,https://pokemondb.net/ability/pixilate
+Zygarde,Power Construct,"is unique to Zygarde. When Zygarde 10% Forme or Zygarde 50% Forme falls below half HP, it changes into Zygarde Complete Forme.",https://pokemondb.net/ability/power-construct
+Furfrou,Fur Coat,reduces damage taken from physical attacks by 50%.,https://pokemondb.net/ability/fur-coat
 Aegislash,Stance Change,is exclusive to,https://pokemondb.net/ability/stance-change
 Gogoat,Grass Pelt,Boosts the Defense stat in Grassy Terrain.,https://pokemondb.net/ability/grass-pelt
-Talonflame,Gale Wings,Gives priority to Flying-type moves.,https://pokemondb.net/ability/gale-wings
-Keldeo,Justified,raises the ability-bearer's Attack by one stage when hit by a damaging,https://pokemondb.net/ability/justified
+Malamar,Suction Cups,prevents opponents forcing the ability-bearer to switch out or flee via the moves,https://pokemondb.net/ability/suction-cups
+Pyroar,Rivalry,Deals more damage to a Pokémon of same gender.,https://pokemondb.net/ability/rivalry
+Diggersby,Huge Power,Raises the Pokémon's Attack stat.,https://pokemondb.net/ability/huge-power
+Zekrom,Teravolt,prevents a target's ability from affecting moves that the,https://pokemondb.net/ability/teravolt
+Landorus,Sand Force,raises the power of,https://pokemondb.net/ability/sand-force
 Genesect,Download,"raises either the bearer's Attack or Special Attack by one stage when switching into battle, base on the opponent's defenses.",https://pokemondb.net/ability/download
-Kyurem,Teravolt,prevents a target's ability from affecting moves that the,https://pokemondb.net/ability/teravolt
 Kyurem,Turboblaze,prevents a target's ability from affecting moves that the,https://pokemondb.net/ability/turboblaze
+Greninja,Battle Bond,causes Greninja to transform into Ash-Greninja when it KOs an opponent.,https://pokemondb.net/ability/battle-bond
+Lumineon,Storm Drain,forces all single-target,https://pokemondb.net/ability/storm-drain
+Mantyke,Water Veil,Prevents the Pokémon from getting a burn.,https://pokemondb.net/ability/water-veil
 Durant,Truant,"causes the ability-bearer to only attack every alternate turn. On the even turns, it will say the Pokémon is",https://pokemondb.net/ability/truant
-Druddigon,Rough Skin,When a Pokémon with,https://pokemondb.net/ability/rough-skin
-Lickilicky,Cloud Nine,suppresses,https://pokemondb.net/ability/cloud-nine
-Rhyperior,Reckless,increases the power of,https://pokemondb.net/ability/reckless
-Rhyperior,Solid Rock,reduces the damage taken from super-effective attacks by 25%.,https://pokemondb.net/ability/solid-rock
 Stunfisk,Mimicry,Changes type depending on the terrain.,https://pokemondb.net/ability/mimicry
 Beheeyem,Analytic,Boosts move power when the Pokémon moves last.,https://pokemondb.net/ability/analytic
-Electivire,Motor Drive,Raises Speed if hit by an Electric-type move.,https://pokemondb.net/ability/motor-drive
-Magmortar,Flame Body,If a Pokémon with,https://pokemondb.net/ability/flame-body
-Yanmega,Speed Boost,Its Speed stat is gradually boosted.,https://pokemondb.net/ability/speed-boost
-Leafeon,Leaf Guard,"prevents the bearer from succumbing to major status ailments (sleep, burns, poisoning, paralysis or freezing) during sunny weather.",https://pokemondb.net/ability/leaf-guard
-Zorua,Illusion,When a Pokémon with the,https://pokemondb.net/ability/illusion
-Skuntank,Keen Eye,"prevents the Pokémon from losing accuracy, for example from moves like",https://pokemondb.net/ability/keen-eye
-Skuntank,Aftermath,If an attacker faints a Pokémon with,https://pokemondb.net/ability/aftermath
-Bronzong,Heavy Metal,doubles the Pokémon's weight in battle. Increasing weight affects these moves:,https://pokemondb.net/ability/heavy-metal
-Bronzong,Heatproof,reduces the damage taken from,https://pokemondb.net/ability/heatproof
-Bonsly,Rock Head,Protects the Pokémon from recoil damage.,https://pokemondb.net/ability/rock-head
+Emolga,Motor Drive,Raises Speed if hit by an Electric-type move.,https://pokemondb.net/ability/motor-drive
 Archeops,Defeatist,When the HP of a Pokémon with,https://pokemondb.net/ability/defeatist
-Cofagrigus,Mummy,Contact with this Pokémon spreads this Ability.,https://pokemondb.net/ability/mummy
+Garbodor,Stench,A Pokémon with,https://pokemondb.net/ability/stench
+Zoroark,Illusion,When a Pokémon with the,https://pokemondb.net/ability/illusion
+Garbodor,Aftermath,If an attacker faints a Pokémon with,https://pokemondb.net/ability/aftermath
 Darmanitan,Gorilla Tactics,Boosts the Pokémon's Attack stat but only allows the use of the first selected move.,https://pokemondb.net/ability/gorilla-tactics
 Darmanitan,Zen Mode,changes the ability-bearer's form to,https://pokemondb.net/ability/zen-mode
-Roserade,Natural Cure,All status problems heal when it switches out.,https://pokemondb.net/ability/natural-cure
-Cranidos,Mold Breaker,prevents a target's ability from affecting moves that the,https://pokemondb.net/ability/mold-breaker
-Registeel,Light Metal,halves the Pokémon's weight in battle. Decreasing weight affects these moves:,https://pokemondb.net/ability/light-metal
-Regice,Ice Body,A Pokémon with,https://pokemondb.net/ability/ice-body
-Swoobat,Simple,The,https://pokemondb.net/ability/simple
 Gigalith,Sand Stream,"creates a sandstorm when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/sand-stream
-Banette,Prankster,increases the priority of status moves by +1.,https://pokemondb.net/ability/prankster
-Banette,Cursed Body,May disable a move used on the Pokémon.,https://pokemondb.net/ability/cursed-body
-Banette,Frisk,The Pokémon can check a foe's held item.,https://pokemondb.net/ability/frisk
-Arceus,Multitype,changes the ability-bearer's type if it is holding one of the,https://pokemondb.net/ability/multitype
+Woobat,Simple,The,https://pokemondb.net/ability/simple
+Unfezant,Super Luck,raises the ability-bearer's critical-hit ratio by one stage (for most moves this increases from a,https://pokemondb.net/ability/super-luck
+Musharna,Forewarn,Determines what moves a foe has.,https://pokemondb.net/ability/forewarn
+Darkrai,Bad Dreams,causes all sleeping opponents to lose,https://pokemondb.net/ability/bad-dreams
 Victini,Victory Star,Boosts the accuracy of its allies and itself.,https://pokemondb.net/ability/victory-star
+Arceus,Multitype,changes the ability-bearer's type if it is holding one of the,https://pokemondb.net/ability/multitype
 Gliscor,Poison Heal,Restores HP if the Pokémon is poisoned.,https://pokemondb.net/ability/poison-heal
-Spinda,Own Tempo,Prevents the Pokémon from becoming confused.,https://pokemondb.net/ability/own-tempo
-Nosepass,Sturdy,allows the Pokémon to survive with 1 HP if attacked at full HP with an attack that would otherwise knock it out. It also prevents One-Hit-KO moves (,https://pokemondb.net/ability/sturdy
-Skitty,Cute Charm,If a Pokémon with,https://pokemondb.net/ability/cute-charm
+Drifloon,Flare Boost,Powers up special attacks when burned.,https://pokemondb.net/ability/flare-boost
 Cherrim,Flower Gift,raises the Attack and Special Defense of all party Pokémon by 50% during harsh sunlight.,https://pokemondb.net/ability/flower-gift
-Drifblim,Flare Boost,Powers up special attacks when burned.,https://pokemondb.net/ability/flare-boost
-Linoone,Pickup,"When another Pokémon on the field uses a single-use held item, a Pokémon with",https://pokemondb.net/ability/pickup
-Rayquaza,Delta Stream,creates strong winds when the ability is activated (by Rayquaza Mega-Evolving).,https://pokemondb.net/ability/delta-stream
-Rayquaza,Air Lock,suppresses,https://pokemondb.net/ability/air-lock
 Salamence,Aerilate,causes all,https://pokemondb.net/ability/aerilate
-Kyogre,Primordial Sea,creates heavy rain when the ability is activated (by Kyogre reverting to its Primal form).,https://pokemondb.net/ability/primordial-sea
-Groudon,Desolate Land,creates extremely harsh sunlight when the ability is activated (by Groudon reverting to its Primal form).,https://pokemondb.net/ability/desolate-land
-Remoraid,Hustle,"increases the ability-bearer's Attack by 50%, however, it also reduces the Accuracy of all Physical moves by 20%.",https://pokemondb.net/ability/hustle
-Octillery,Suction Cups,prevents opponents forcing the ability-bearer to switch out or flee via the moves,https://pokemondb.net/ability/suction-cups
-Delibird,Vital Spirit,prevents the ability-bearer from falling asleep. This means that it also prevents the use of the move,https://pokemondb.net/ability/vital-spirit
-Smoochum,Oblivious,"makes the Pokémon immune to gender-based moves and abilities, specifically",https://pokemondb.net/ability/oblivious
+Politoed,Drizzle,"creates a rain shower when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/drizzle
+Ariados,Insomnia,"prevents the ability-bearer from falling asleep, both from moves by other Pokémon like",https://pokemondb.net/ability/insomnia
+Politoed,Damp,prevents all Pokémon on the field from using the moves,https://pokemondb.net/ability/damp
 Milotic,Marvel Scale,"raises the ability-bearer's Defense by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep).",https://pokemondb.net/ability/marvel-scale
 Castform,Forecast,Castform transforms with the weather.,https://pokemondb.net/ability/forecast
 Kecleon,Color Change,"changes the ability-bearer's type, when hit by a damage dealing move, to the type of that move. For example being hit by",https://pokemondb.net/ability/color-change
+Shuckle,Sturdy,allows the Pokémon to survive with 1 HP if attacked at full HP with an attack that would otherwise knock it out. It also prevents One-Hit-KO moves (,https://pokemondb.net/ability/sturdy
 Ariados,Swarm,increases the power of,https://pokemondb.net/ability/swarm
-Crobat,Inner Focus,"prevents the Pokémon from flinching, for example when attacked by a move like",https://pokemondb.net/ability/inner-focus
-Chinchou,Volt Absorb,A Pokémon with,https://pokemondb.net/ability/volt-absorb
-Politoed,Water Absorb,A Pokémon with,https://pokemondb.net/ability/water-absorb
-Persian,Rattled,When a Pokémon with,https://pokemondb.net/ability/rattled
-Zangoose,Immunity,Prevents the Pokémon from getting poisoned.,https://pokemondb.net/ability/immunity
-Persian,Fur Coat,reduces damage taken from physical attacks by 50%.,https://pokemondb.net/ability/fur-coat
-Persian,Technician,increases the power of moves - that are usually base power 60 or below - by 50%.,https://pokemondb.net/ability/technician
-Horsea,Damp,prevents all Pokémon on the field from using the moves,https://pokemondb.net/ability/damp
-Horsea,Sniper,increases the power of critical hits by 1.5×. This means a critical hit will deal,https://pokemondb.net/ability/sniper
-Camerupt,Magma Armor,"prevents the Pokémon from becoming frozen, for example from moves like",https://pokemondb.net/ability/magma-armor
 Zangoose,Toxic Boost,Powers up physical attacks when poisoned.,https://pokemondb.net/ability/toxic-boost
+Machop,Steadfast,Raises Speed each time the Pokémon flinches.,https://pokemondb.net/ability/steadfast
+Machop,No Guard,"ensures that all attacks used by, and targeted at, the ability-bearer hit without fail.",https://pokemondb.net/ability/no-guard
+Ekans,Unnerve,Makes the foe nervous and unable to eat Berries.,https://pokemondb.net/ability/unnerve
+Zangoose,Immunity,Prevents the Pokémon from getting poisoned.,https://pokemondb.net/ability/immunity
+Pikachu,Lightning Rod,forces all single-target,https://pokemondb.net/ability/lightning-rod
 Trapinch,Arena Trap,prevents opponents from fleeing or switching out.,https://pokemondb.net/ability/arena-trap
-Gulpin,Liquid Ooze,Damages attackers using any draining move.,https://pokemondb.net/ability/liquid-ooze
-Blastoise,Mega Launcher,increases the power of all,https://pokemondb.net/ability/mega-launcher
+Camerupt,Magma Armor,"prevents the Pokémon from becoming frozen, for example from moves like",https://pokemondb.net/ability/magma-armor
+Venusaur,Thick Fat,reduces the damage taken from,https://pokemondb.net/ability/thick-fat
+Swalot,Liquid Ooze,Damages attackers using any draining move.,https://pokemondb.net/ability/liquid-ooze
 Medicham,Pure Power,Raises the Pokémon's Attack stat.,https://pokemondb.net/ability/pure-power
-Arbok,Intimidate,lower's the Attack of all opponents by one stage when the ability-bearer switches in (including the start of a battle).,https://pokemondb.net/ability/intimidate
+Chinchou,Volt Absorb,A Pokémon with,https://pokemondb.net/ability/volt-absorb
+Articuno,Pressure,makes any attack targeted at the ability-bearer - regardless of whether it hits - use 2 PP instead of 1.,https://pokemondb.net/ability/pressure
+Machop,Guts,"raises the ability-bearer's Attack by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If burnt, the Pokémon does not suffer the usual drop in Attack.",https://pokemondb.net/ability/guts
+Ekans,Intimidate,lower's the Attack of all opponents by one stage when the ability-bearer switches in (including the start of a battle).,https://pokemondb.net/ability/intimidate
 Pikachu,Static,If a Pokémon with,https://pokemondb.net/ability/static
-Charizard,Drought,"creates harsh sunlight when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via",https://pokemondb.net/ability/drought
-Charizard,Tough Claws,increases the power of moves that make contact.,https://pokemondb.net/ability/tough-claws
-Charizard,Solar Power,"During harsh sunlight,",https://pokemondb.net/ability/solar-power
+Delcatty,Normalize,causes all moves used by the Pokémon to become,https://pokemondb.net/ability/normalize
 Sableye,Stall,The Pokémon moves after all other Pokémon do.,https://pokemondb.net/ability/stall
 Shedinja,Wonder Guard,prevents damage from direct attacks unless they are super-effective. Shedinja is the only Pokémon to have this ability so this means that only,https://pokemondb.net/ability/wonder-guard
-Caterpie,Run Away,"allows the bearer to flee a battle with a wild Pokémon without fail, even if the opposing Pokémon has used a move like",https://pokemondb.net/ability/run-away
-Caterpie,Shield Dust,Blocks the added effects of attacks taken.,https://pokemondb.net/ability/shield-dust
-Kakuna,Shed Skin,The Pokémon may heal its own status problems.,https://pokemondb.net/ability/shed-skin
-Butterfree,Compound Eyes,raises the ability-bearer's accuracy by 30%.,https://pokemondb.net/ability/compound-eyes
+Wartortle,Torrent,increases the power of,https://pokemondb.net/ability/torrent
+Metapod,Shed Skin,The Pokémon may heal its own status problems.,https://pokemondb.net/ability/shed-skin
+Shroomish,Quick Feet,"raises the ability-bearer's Speed by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If paralyzed, the Pokémon does not suffer the usual drop in Speed.",https://pokemondb.net/ability/quick-feet
 Gardevoir,Trace,The Pokémon copies a foe's Ability.,https://pokemondb.net/ability/trace
 Lugia,Multiscale,Reduces damage when HP is full.,https://pokemondb.net/ability/multiscale
-Bulbasaur,Chlorophyll,doubles the ability-bearer's Speed during,https://pokemondb.net/ability/chlorophyll
 Slowking,Curious Medicine,Resets all stat changes upon entering battlefield.,https://pokemondb.net/ability/curious-medicine
 Ditto,Imposter,It transforms itself into the Pokémon it is facing.,https://pokemondb.net/ability/imposter
-Weezing,Neutralizing Gas,Neutralizes abilities of all Pokémon in battle.,https://pokemondb.net/ability/neutralizing-gas
 Kangaskhan,Parental Bond,"allows the ability-bearer to attack twice. The second attack hits with 25% of the power, so in effect it is equivalent to a 25% boost to all attacks.",https://pokemondb.net/ability/parental-bond
-Grimer,Power of Alchemy,The Pokémon copies the Ability of a defeated ally.,https://pokemondb.net/ability/power-of-alchemy
-Slowbro,Quick Draw,,https://pokemondb.net/ability/quick-draw
+Weezing,Neutralizing Gas,Neutralizes abilities of all Pokémon in battle.,https://pokemondb.net/ability/neutralizing-gas
+Muk,Power of Alchemy,The Pokémon copies the Ability of a defeated ally.,https://pokemondb.net/ability/power-of-alchemy
 Golem,Galvanize,Normal-type moves become Electric-type moves and their power boosted.,https://pokemondb.net/ability/galvanize
 Rapidash,Pastel Veil,prevents the Pokémon and its teammates from being poisoned. It also cures teammates of poisoning when it enters the battlefield.,https://pokemondb.net/ability/pastel-veil
+Slowbro,Quick Draw,,https://pokemondb.net/ability/quick-draw
 Dugtrio,Tangling Hair,Contact with the Pokémon lowers the attacker's Speed stat.,https://pokemondb.net/ability/tangling-hair
 Raichu,Surge Surfer,doubles the bearer's Speed when,https://pokemondb.net/ability/surge-surfer

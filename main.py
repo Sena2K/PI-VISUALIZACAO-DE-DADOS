@@ -118,4 +118,3 @@ class PokemonScraper(scrapy.Spider):
         import json
         with open('pokemons_sorted.json', 'w') as f:
             json.dump(sorted_pokemons, f, indent=4)
-
