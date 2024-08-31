@@ -1,8 +1,12 @@
 import scrapy
+from scrapy.crawler import CrawlerProcess
 
 class PokemonScraper(scrapy.Spider):
     name = 'pokemon_scraper'
     start_urls = ["https://pokemondb.net/pokedex/all"]
+
+    def __init__(self):
+        self.pokemons = []
 
     def parse(self, response):
         # Captura todos os Pokémon na página
@@ -61,8 +65,8 @@ class PokemonScraper(scrapy.Spider):
                 'url': ability_url
             })
 
-        # Salva o Pokémon
-        yield {
+        # Adiciona o Pokémon na lista de pokémons
+        self.pokemons.append({
             'number': number,
             'name': name,
             'url': pokemon_url,
@@ -71,7 +75,7 @@ class PokemonScraper(scrapy.Spider):
             'weight_kg': weight,
             'evolutions': evolutions,
             'abilities': abilities,
-        }
+        })
 
         # Continua para processar as habilidades
         for ability in abilities:
@@ -100,3 +104,18 @@ class PokemonScraper(scrapy.Spider):
             'description': description.strip() if description else "No description available",
             'url': ability_url
         }
+
+    def closed(self, reason):
+        # Ordena a lista de pokémons pelo número
+        sorted_pokemons = sorted(self.pokemons, key=lambda x: int(x['number']))
+
+        # Log ou salva os pokémons ordenados
+        for pokemon in sorted_pokemons:
+            self.log(f"Pokémon {pokemon['number']}: {pokemon['name']}")
+
+        # Aqui você pode optar por salvar os dados ordenados em um arquivo JSON ou CSV
+        # Por exemplo, para salvar como JSON:
+        import json
+        with open('pokemons_sorted.json', 'w') as f:
+            json.dump(sorted_pokemons, f, indent=4)
+
