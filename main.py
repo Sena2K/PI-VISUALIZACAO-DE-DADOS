@@ -58,74 +58,73 @@ dias_da_semana = {
 def traduzir_dia(dia_em_ingles):
     return dias_da_semana.get(dia_em_ingles, dia_em_ingles)
 
-with open("dados_meteorologicos.txt", "w") as file:
-    for cidade, geocode in capitais.items():
-        payload = [
-            {
-                "name": "getSunWeatherAlertHeadlinesUrlConfig",
-                "params": {
-                    "geocode": geocode,
-                    "units": "m"
-                }
-            },
-            {
-                "name": "getSunV3CurrentObservationsUrlConfig",
-                "params": {
-                    "geocode": geocode,
-                    "units": "m"
-                }
-            },
-            {
-                "name": "getSunV3DailyForecastWithHeadersUrlConfig",
-                "params": {
-                    "duration": "7day",
-                    "geocode": geocode,
-                    "units": "m"
-                }
-            },
-            {
-                "name": "getSunIndexPollenDaypartUrlConfig",
-                "params": {
-                    "duration": "3day",
-                    "geocode": geocode,
-                    "units": "m"
-                }
+for cidade, geocode in capitais.items():
+    payload = [
+        {
+            "name": "getSunWeatherAlertHeadlinesUrlConfig",
+            "params": {
+                "geocode": geocode,
+                "units": "m"
             }
-        ]
+        },
+        {
+            "name": "getSunV3CurrentObservationsUrlConfig",
+            "params": {
+                "geocode": geocode,
+                "units": "m"
+            }
+        },
+        {
+            "name": "getSunV3DailyForecastWithHeadersUrlConfig",
+            "params": {
+                "duration": "7day",
+                "geocode": geocode,
+                "units": "m"
+            }
+        },
+        {
+            "name": "getSunIndexPollenDaypartUrlConfig",
+            "params": {
+                "duration": "3day",
+                "geocode": geocode,
+                "units": "m"
+            }
+        }
+    ]
 
-        try:
-            response = requests.post(url, json=payload, headers=headers)
-            response.raise_for_status()
-            data = response.json()
-            dal = data.get('dal', {})
+    try:
+        response = requests.post(url, json=payload, headers=headers)
+        response.raise_for_status()
+        data = response.json()
+        dal = data.get('dal', {})
 
-            daily_forecast = extract_data(dal, 'getSunV3DailyForecastWithHeadersUrlConfig')
-            current_observations = extract_data(dal, 'getSunV3CurrentObservationsUrlConfig')
+        daily_forecast = extract_data(dal, 'getSunV3DailyForecastWithHeadersUrlConfig')
+        current_observations = extract_data(dal, 'getSunV3CurrentObservationsUrlConfig')
 
-            file.write(f"Dados meteorológicos para {cidade}:\n")
+        print(f"Dados meteorológicos para {cidade}:")
 
-            if daily_forecast:
-                calendar_day_temperature_max = daily_forecast.get('calendarDayTemperatureMax', [])
-                calendar_day_temperature_min = daily_forecast.get('calendarDayTemperatureMin', [])
-                day_of_week = daily_forecast.get('dayOfWeek', [])
+        if daily_forecast:
+            calendar_day_temperature_max = daily_forecast.get('calendarDayTemperatureMax', [])
+            calendar_day_temperature_min = daily_forecast.get('calendarDayTemperatureMin', [])
+            day_of_week = daily_forecast.get('dayOfWeek', [])
 
-                temperature_max = daily_forecast.get('temperatureMax', [])
-                temperature_min = daily_forecast.get('temperatureMin', [])
+            temperature_max = daily_forecast.get('temperatureMax', [])
+            temperature_min = daily_forecast.get('temperatureMin', [])
 
-                for i in range(len(day_of_week)):
-                    dia_em_portugues = traduzir_dia(day_of_week[i])
-                    file.write(f"Dia: {dia_em_portugues}\n")
-                    file.write(f"Temperatura Máxima Calendário: {calendar_day_temperature_max[i]}°C\n")
-                    file.write(f"Temperatura Mínima Calendário: {calendar_day_temperature_min[i]}°C\n")
-                    file.write(f"Temperatura Máxima: {temperature_max[i]}°C\n")
-                    file.write(f"Temperatura Mínima: {temperature_min[i]}°C\n")
-                    file.write("-" * 30 + "\n")
-            else:
-                file.write("Não foi possível encontrar os dados de previsão diária.\n")
+            for i in range(len(day_of_week)):
+                dia_em_portugues = traduzir_dia(day_of_week[i])
+                print(f"Dia: {dia_em_portugues}")
+                print(f"Temperatura Máxima Calendário: {calendar_day_temperature_max[i]}°C")
+                print(f"Temperatura Mínima Calendário: {calendar_day_temperature_min[i]}°C")
+                print(f"Temperatura Máxima: {temperature_max[i]}°C")
+                print(f"Temperatura Mínima: {temperature_min[i]}°C")
+                print("-" * 30)
+        else:
+            print("Não foi possível encontrar os dados de previsão diária.")
 
-            file.write("=" * 50 + "\n")
+        print("=" * 50)
 
-        except requests.exceptions.HTTPError as http_err:
-            file.write(f"Falha na requisição para {cidade}: {response.status_code} - {response.text}\n")
-        except Exception as err:
-            file.write(f"Ocorreu um erro para {cidade}: {err}\n")
+    except requests.exceptions.HTTPError as http_err:
+        print(f"Falha na requisição para {cidade}: {response.status_code} - {response.text}")
+    except Exception as err:
+        print(f"Ocorreu um erro para {cidade}: {err}")
