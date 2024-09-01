@@ -1,8 +1,5 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from scrapy import Selector
-import requests
-import re
 import json
 
 class PokemonScraper(scrapy.Spider):
@@ -49,11 +46,12 @@ class PokemonScraper(scrapy.Spider):
                     "table.vitals-table > tbody > tr:contains('Type') > td a.type-icon::text"
                 ).getall()
             ],
-            "URL": pokemon_url
+            "URL": pokemon_url,
+            "Evolucoes": [],
+            "Habilidades": []
         }
 
         # Extrair informações de evolução
-        evolutions = []
         evolution_cards = response.css(
             "div.infocard-list-evo > div.infocard:not(:first-child)")
         for evolution_card in evolution_cards:
@@ -62,23 +60,27 @@ class PokemonScraper(scrapy.Spider):
             url_evolution = evolution_card.css('a.ent-name::attr(href)').get()
 
             if id_evolution and name_evolution and url_evolution:
-                evolutions.append({
-                    "Id": id_evolution,
+                pokemon_data["Evolucoes"].append({
+                    "Id": id_evolution.strip('#'),
                     'Nome': name_evolution,
                     'URL': response.urljoin(url_evolution)
                 })
 
-        # Extrair URLs das habilidades e seguir para cada uma
+        # Armazena as URLs das habilidades para processamento posterior
         ability_urls = response.css(
             'table.vitals-table > tbody > tr:contains("Abilities") td a::attr(href)'
         ).getall()
-        for ability_url in ability_urls:
-            yield response.follow(ability_url,
-                                  self.parse_ability,
-                                  meta={
-                                      "pokemon_data": pokemon_data,
-                                      "Evolucoes": evolutions
-                                  })
+
+        # Se houver habilidades, processa-as
+        if ability_urls:
+            for ability_url in ability_urls:
+                yield response.follow(ability_url, self.parse_ability, meta={
+                    "pokemon_data": pokemon_data,
+                    "ability_urls": ability_urls
+                })
+        else:
+            # Se não houver habilidades, salva o Pokémon diretamente
+            self.pokemons.append(pokemon_data)
 
     def parse_ability(self, response):
         # Extrair informações da habilidade
@@ -86,25 +88,19 @@ class PokemonScraper(scrapy.Spider):
             "Nome": response.css("h1::text").get(),
             "URL": response.url,
             "Descricao": ' '.join(
-                response.css(
-                    'div > div > h2:contains("Effect") + p::text').getall())
+                response.css('div > div > p::text').getall())
         }
 
-        # Combinar informações do Pokémon com as da habilidade
+        # Recuperar as informações do Pokémon
         pokemon_data = response.meta["pokemon_data"]
-        evolutions = response.meta["Evolucoes"]
+        ability_urls = response.meta["ability_urls"]
 
-        # Montar o resultado final e adicionar à lista de Pokémon
-        self.pokemons.append({
-            "Id": pokemon_data["Id"],
-            "URL": pokemon_data["URL"],
-            "Nome": pokemon_data["Nome"],
-            "Altura": pokemon_data["Altura"],
-            "Peso": pokemon_data["Peso"],
-            "Tipos": pokemon_data["Tipos"],
-            "Evolucoes": evolutions,
-            "Habilidades": [ability_data]
-        })
+        # Adicionar a habilidade à lista de habilidades do Pokémon
+        pokemon_data["Habilidades"].append(ability_data)
+
+        # Verifica se todas as habilidades foram processadas
+        if len(pokemon_data["Habilidades"]) == len(ability_urls):
+            self.pokemons.append(pokemon_data)
 
     def closed(self, reason):
         # Ordena a lista de pokémons pelo número
