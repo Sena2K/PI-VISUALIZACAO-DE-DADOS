@@ -9,6 +9,7 @@ class PokemonScraper(scrapy.Spider):
 
     def __init__(self):
         self.pokemons = []
+        self.processed_pokemon_urls = set()  # Usado para rastrear URLs já processadas
 
     def parse(self, response):
         # Captura todos os Pokémon na página
@@ -21,14 +22,16 @@ class PokemonScraper(scrapy.Spider):
 
             # Verifica se o número está presente para evitar problemas
             if number and name and pokemon_url:
-                self.log(f"Capturando Pokémon: {number} - {name}")
-                # Segue o link para a página detalhada do Pokémon
-                yield response.follow(pokemon_url, self.parse_pokemon, meta={
-                    'number': number,
-                    'name': name,
-                    'url': pokemon_url
-                })
-                time.sleep(0.3)  # Adiciona um pequeno delay entre requests para evitar bloqueios
+                if pokemon_url not in self.processed_pokemon_urls:
+                    self.processed_pokemon_urls.add(pokemon_url)
+                    self.log(f"Capturando Pokémon: {number} - {name}")
+                    # Segue o link para a página detalhada do Pokémon
+                    yield response.follow(pokemon_url, self.parse_pokemon, meta={
+                        'number': number,
+                        'name': name,
+                        'url': pokemon_url
+                    })
+                    time.sleep(1)  # Adiciona um pequeno delay entre requests para evitar bloqueios
             else:
                 self.log(f"Falha ao capturar dados para o Pokémon: {name}")
 
@@ -53,21 +56,26 @@ class PokemonScraper(scrapy.Spider):
             "URL": pokemon_url
         }
 
-        # Extrair informações de evolução
+        # Extrair informações de evolução e seguir cada uma
         evolutions = []
         evolution_cards = response.css(
-            "div.infocard-list-evo > div.infocard:not(:first-child)")
+            "div.infocard-list-evo > div.infocard")
         for evolution_card in evolution_cards:
             id_evolution = evolution_card.css('small::text').get()
             name_evolution = evolution_card.css('a.ent-name::text').get()
             url_evolution = evolution_card.css('a.ent-name::attr(href)').get()
 
             if id_evolution and name_evolution and url_evolution:
+                evolution_url_full = response.urljoin(url_evolution)
                 evolutions.append({
                     "Id": id_evolution,
                     'Nome': name_evolution,
-                    'URL': response.urljoin(url_evolution)
+                    'URL': evolution_url_full
                 })
+
+                if evolution_url_full not in self.processed_pokemon_urls:
+                    self.processed_pokemon_urls.add(evolution_url_full)
+                    yield response.follow(evolution_url_full, self.parse_pokemon)
 
         # Extrair URLs das habilidades e seguir para cada uma
         ability_urls = response.css(

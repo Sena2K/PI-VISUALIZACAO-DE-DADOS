@@ -11,6 +11,11 @@
         "URL": "https://pokemondb.net/pokedex/bulbasaur",
         "Evolucoes": [
             {
+                "Id": "#0001",
+                "Nome": "Bulbasaur",
+                "URL": "https://pokemondb.net/pokedex/bulbasaur"
+            },
+            {
                 "Id": "#0002",
                 "Nome": "Ivysaur",
                 "URL": "https://pokemondb.net/pokedex/ivysaur"
@@ -48,6 +53,11 @@
         "URL": "https://pokemondb.net/pokedex/venusaur",
         "Evolucoes": [
             {
+                "Id": "#0001",
+                "Nome": "Bulbasaur",
+                "URL": "https://pokemondb.net/pokedex/bulbasaur"
+            },
+            {
                 "Id": "#0002",
                 "Nome": "Ivysaur",
                 "URL": "https://pokemondb.net/pokedex/ivysaur"
@@ -76,6 +86,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/charmander",
         "Evolucoes": [
+            {
+                "Id": "#0004",
+                "Nome": "Charmander",
+                "URL": "https://pokemondb.net/pokedex/charmander"
+            },
             {
                 "Id": "#0005",
                 "Nome": "Charmeleon",
@@ -116,6 +131,11 @@
         "URL": "https://pokemondb.net/pokedex/charizard",
         "Evolucoes": [
             {
+                "Id": "#0004",
+                "Nome": "Charmander",
+                "URL": "https://pokemondb.net/pokedex/charmander"
+            },
+            {
                 "Id": "#0005",
                 "Nome": "Charmeleon",
                 "URL": "https://pokemondb.net/pokedex/charmeleon"
@@ -140,15 +160,20 @@
         ]
     },
     {
-        "Id": "0007",
-        "Nome": "Squirtle",
-        "Altura": "0.5\u00a0m (1\u203208\u2033)",
-        "Peso": "9.0\u00a0kg (19.8\u00a0lbs)",
+        "Id": "0008",
+        "Nome": "Wartortle",
+        "Altura": "1.0\u00a0m (3\u203203\u2033)",
+        "Peso": "22.5\u00a0kg (49.6\u00a0lbs)",
         "Tipos": [
             "Water"
         ],
-        "URL": "https://pokemondb.net/pokedex/squirtle",
+        "URL": "https://pokemondb.net/pokedex/wartortle",
         "Evolucoes": [
+            {
+                "Id": "#0007",
+                "Nome": "Squirtle",
+                "URL": "https://pokemondb.net/pokedex/squirtle"
+            },
             {
                 "Id": "#0008",
                 "Nome": "Wartortle",
@@ -185,6 +210,11 @@
         "URL": "https://pokemondb.net/pokedex/blastoise",
         "Evolucoes": [
             {
+                "Id": "#0007",
+                "Nome": "Squirtle",
+                "URL": "https://pokemondb.net/pokedex/squirtle"
+            },
+            {
                 "Id": "#0008",
                 "Nome": "Wartortle",
                 "URL": "https://pokemondb.net/pokedex/wartortle"
@@ -213,6 +243,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/caterpie",
         "Evolucoes": [
+            {
+                "Id": "#0010",
+                "Nome": "Caterpie",
+                "URL": "https://pokemondb.net/pokedex/caterpie"
+            },
             {
                 "Id": "#0011",
                 "Nome": "Metapod",
@@ -248,6 +283,11 @@
         "URL": "https://pokemondb.net/pokedex/metapod",
         "Evolucoes": [
             {
+                "Id": "#0010",
+                "Nome": "Caterpie",
+                "URL": "https://pokemondb.net/pokedex/caterpie"
+            },
+            {
                 "Id": "#0011",
                 "Nome": "Metapod",
                 "URL": "https://pokemondb.net/pokedex/metapod"
@@ -278,6 +318,11 @@
         "URL": "https://pokemondb.net/pokedex/butterfree",
         "Evolucoes": [
             {
+                "Id": "#0010",
+                "Nome": "Caterpie",
+                "URL": "https://pokemondb.net/pokedex/caterpie"
+            },
+            {
                 "Id": "#0011",
                 "Nome": "Metapod",
                 "URL": "https://pokemondb.net/pokedex/metapod"
@@ -290,14 +335,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Compound Eyes ",
-                "URL": "https://pokemondb.net/ability/compound-eyes",
-                "Descricao": " raises the ability-bearer's accuracy by 30%."
-            },
-            {
                 "Nome": "Tinted Lens ",
                 "URL": "https://pokemondb.net/ability/tinted-lens",
                 "Descricao": "Powers up \u201cnot very effective\u201d moves.\n"
+            },
+            {
+                "Nome": "Compound Eyes ",
+                "URL": "https://pokemondb.net/ability/compound-eyes",
+                "Descricao": " raises the ability-bearer's accuracy by 30%."
             }
         ]
     },
@@ -315,6 +360,11 @@
         "URL": "https://pokemondb.net/pokedex/beedrill",
         "Evolucoes": [
             {
+                "Id": "#0013",
+                "Nome": "Weedle",
+                "URL": "https://pokemondb.net/pokedex/weedle"
+            },
+            {
                 "Id": "#0014",
                 "Nome": "Kakuna",
                 "URL": "https://pokemondb.net/pokedex/kakuna"
@@ -327,11 +377,6 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Swarm ",
-                "URL": "https://pokemondb.net/ability/swarm",
-                "Descricao": " increases the power of  -type moves by 50% (1.5\u00d7) when the ability-bearer's HP falls below a third of its maximum (known in-game as  )."
-            },
-            {
                 "Nome": "Adaptability ",
                 "URL": "https://pokemondb.net/ability/adaptability",
                 "Descricao": " increases the effectiveness of   moves from the usual 1.5\u00d7 to 2\u00d7."
@@ -340,6 +385,11 @@
                 "Nome": "Sniper ",
                 "URL": "https://pokemondb.net/ability/sniper",
                 "Descricao": " increases the power of critical hits by 1.5\u00d7. This means a critical hit will deal   normal damage instead of 1.5\u00d7."
+            },
+            {
+                "Nome": "Swarm ",
+                "URL": "https://pokemondb.net/ability/swarm",
+                "Descricao": " increases the power of  -type moves by 50% (1.5\u00d7) when the ability-bearer's HP falls below a third of its maximum (known in-game as  )."
             }
         ]
     },
@@ -354,6 +404,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/pidgey",
         "Evolucoes": [
+            {
+                "Id": "#0016",
+                "Nome": "Pidgey",
+                "URL": "https://pokemondb.net/pokedex/pidgey"
+            },
             {
                 "Id": "#0017",
                 "Nome": "Pidgeotto",
@@ -372,14 +427,14 @@
                 "Descricao": " prevents the Pok\u00e9mon from losing accuracy, for example from moves like  ."
             },
             {
-                "Nome": "Big Pecks ",
-                "URL": "https://pokemondb.net/ability/big-pecks",
-                "Descricao": " prevents the ability-bearer's Defense stat from being lowered, for example via  ."
-            },
-            {
                 "Nome": "Tangled Feet ",
                 "URL": "https://pokemondb.net/ability/tangled-feet",
                 "Descricao": "Raises evasion if the Pok\u00e9mon is confused.\n"
+            },
+            {
+                "Nome": "Big Pecks ",
+                "URL": "https://pokemondb.net/ability/big-pecks",
+                "Descricao": " prevents the ability-bearer's Defense stat from being lowered, for example via  ."
             }
         ]
     },
@@ -396,6 +451,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/pidgeot",
         "Evolucoes": [
+            {
+                "Id": "#0016",
+                "Nome": "Pidgey",
+                "URL": "https://pokemondb.net/pokedex/pidgey"
+            },
             {
                 "Id": "#0017",
                 "Nome": "Pidgeotto",
@@ -428,9 +488,19 @@
         "URL": "https://pokemondb.net/pokedex/rattata",
         "Evolucoes": [
             {
+                "Id": "#0019",
+                "Nome": "Rattata",
+                "URL": "https://pokemondb.net/pokedex/rattata"
+            },
+            {
                 "Id": "#0020",
                 "Nome": "Raticate",
                 "URL": "https://pokemondb.net/pokedex/raticate"
+            },
+            {
+                "Id": "#0019",
+                "Nome": "Rattata",
+                "URL": "https://pokemondb.net/pokedex/rattata"
             },
             {
                 "Id": "#0020",
@@ -467,6 +537,11 @@
         "URL": "https://pokemondb.net/pokedex/ekans",
         "Evolucoes": [
             {
+                "Id": "#0023",
+                "Nome": "Ekans",
+                "URL": "https://pokemondb.net/pokedex/ekans"
+            },
+            {
                 "Id": "#0024",
                 "Nome": "Arbok",
                 "URL": "https://pokemondb.net/pokedex/arbok"
@@ -497,6 +572,11 @@
         "URL": "https://pokemondb.net/pokedex/pikachu",
         "Evolucoes": [
             {
+                "Id": "#0172",
+                "Nome": "Pichu",
+                "URL": "https://pokemondb.net/pokedex/pichu"
+            },
+            {
                 "Id": "#0025",
                 "Nome": "Pikachu",
                 "URL": "https://pokemondb.net/pokedex/pikachu"
@@ -514,14 +594,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Lightning Rod ",
-                "URL": "https://pokemondb.net/ability/lightning-rod",
-                "Descricao": " forces all single-target  -type moves - used by any other Pok\u00e9mon on the field - to target this Pok\u00e9mon, and with 100% accuracy. This includes the status move  . The ability is most useful in double/triple battles."
-            },
-            {
                 "Nome": "Static ",
                 "URL": "https://pokemondb.net/ability/static",
                 "Descricao": "If a Pok\u00e9mon with   is hit by a move making contact, there is a 30% chance the foe will become paralyzed."
+            },
+            {
+                "Nome": "Lightning Rod ",
+                "URL": "https://pokemondb.net/ability/lightning-rod",
+                "Descricao": " forces all single-target  -type moves - used by any other Pok\u00e9mon on the field - to target this Pok\u00e9mon, and with 100% accuracy. This includes the status move  . The ability is most useful in double/triple battles."
             }
         ]
     },
@@ -537,6 +617,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/raichu",
         "Evolucoes": [
+            {
+                "Id": "#0172",
+                "Nome": "Pichu",
+                "URL": "https://pokemondb.net/pokedex/pichu"
+            },
             {
                 "Id": "#0025",
                 "Nome": "Pikachu",
@@ -574,9 +659,19 @@
         "URL": "https://pokemondb.net/pokedex/sandshrew",
         "Evolucoes": [
             {
+                "Id": "#0027",
+                "Nome": "Sandshrew",
+                "URL": "https://pokemondb.net/pokedex/sandshrew"
+            },
+            {
                 "Id": "#0028",
                 "Nome": "Sandslash",
                 "URL": "https://pokemondb.net/pokedex/sandslash"
+            },
+            {
+                "Id": "#0027",
+                "Nome": "Sandshrew",
+                "URL": "https://pokemondb.net/pokedex/sandshrew"
             },
             {
                 "Id": "#0028",
@@ -586,9 +681,9 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Slush Rush ",
-                "URL": "https://pokemondb.net/ability/slush-rush",
-                "Descricao": "Boosts the Pok\u00e9mon's Speed stat in a hailstorm.\n"
+                "Nome": "Snow Cloak ",
+                "URL": "https://pokemondb.net/ability/snow-cloak",
+                "Descricao": " raises ability-bearer's evasion by 20% in a hail storm. It also gives immunity to damage by hail (if they are not already protected by being   type)."
             },
             {
                 "Nome": "Sand Rush ",
@@ -596,14 +691,14 @@
                 "Descricao": " doubles the ability-bearer's Speed during a  ."
             },
             {
+                "Nome": "Slush Rush ",
+                "URL": "https://pokemondb.net/ability/slush-rush",
+                "Descricao": "Boosts the Pok\u00e9mon's Speed stat in a hailstorm.\n"
+            },
+            {
                 "Nome": "Sand Veil ",
                 "URL": "https://pokemondb.net/ability/sand-veil",
                 "Descricao": " raises the ability-bearer's evasion by 20% in a  . It also gives immunity to sandstorm damage (if they are not already protected by being  / /  type)."
-            },
-            {
-                "Nome": "Snow Cloak ",
-                "URL": "https://pokemondb.net/ability/snow-cloak",
-                "Descricao": " raises ability-bearer's evasion by 20% in a hail storm. It also gives immunity to damage by hail (if they are not already protected by being   type)."
             }
         ]
     },
@@ -618,6 +713,11 @@
         "URL": "https://pokemondb.net/pokedex/nidoran-f",
         "Evolucoes": [
             {
+                "Id": "#0029",
+                "Nome": "Nidoran\u2640",
+                "URL": "https://pokemondb.net/pokedex/nidoran-f"
+            },
+            {
                 "Id": "#0030",
                 "Nome": "Nidorina",
                 "URL": "https://pokemondb.net/pokedex/nidorina"
@@ -630,14 +730,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Rivalry ",
-                "URL": "https://pokemondb.net/ability/rivalry",
-                "Descricao": "Deals more damage to a Pok\u00e9mon of same gender.\n"
-            },
-            {
                 "Nome": "Poison Point ",
                 "URL": "https://pokemondb.net/ability/poison-point",
                 "Descricao": "Contact with the Pok\u00e9mon may poison the attacker.\n"
+            },
+            {
+                "Nome": "Rivalry ",
+                "URL": "https://pokemondb.net/ability/rivalry",
+                "Descricao": "Deals more damage to a Pok\u00e9mon of same gender.\n"
             }
         ]
     },
@@ -652,6 +752,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/nidoqueen",
         "Evolucoes": [
+            {
+                "Id": "#0029",
+                "Nome": "Nidoran\u2640",
+                "URL": "https://pokemondb.net/pokedex/nidoran-f"
+            },
             {
                 "Id": "#0030",
                 "Nome": "Nidorina",
@@ -682,6 +787,11 @@
         "URL": "https://pokemondb.net/pokedex/clefairy",
         "Evolucoes": [
             {
+                "Id": "#0173",
+                "Nome": "Cleffa",
+                "URL": "https://pokemondb.net/pokedex/cleffa"
+            },
+            {
                 "Id": "#0035",
                 "Nome": "Clefairy",
                 "URL": "https://pokemondb.net/pokedex/clefairy"
@@ -694,9 +804,9 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Cute Charm ",
-                "URL": "https://pokemondb.net/ability/cute-charm",
-                "Descricao": "If a Pok\u00e9mon with   is hit by a move that makes contact, there is a 30% chance the attacker will become infatuated. It will not infatuate Pok\u00e9mon of the same gender, genderless Pok\u00e9mon, nor those with the ability  ."
+                "Nome": "Magic Guard ",
+                "URL": "https://pokemondb.net/ability/magic-guard",
+                "Descricao": " protects the Pok\u00e9mon from indirect damage, including:"
             },
             {
                 "Nome": "Friend Guard ",
@@ -704,9 +814,9 @@
                 "Descricao": "Reduces damage done to allies.\n"
             },
             {
-                "Nome": "Magic Guard ",
-                "URL": "https://pokemondb.net/ability/magic-guard",
-                "Descricao": " protects the Pok\u00e9mon from indirect damage, including:"
+                "Nome": "Cute Charm ",
+                "URL": "https://pokemondb.net/ability/cute-charm",
+                "Descricao": "If a Pok\u00e9mon with   is hit by a move that makes contact, there is a 30% chance the attacker will become infatuated. It will not infatuate Pok\u00e9mon of the same gender, genderless Pok\u00e9mon, nor those with the ability  ."
             }
         ]
     },
@@ -720,6 +830,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/clefable",
         "Evolucoes": [
+            {
+                "Id": "#0173",
+                "Nome": "Cleffa",
+                "URL": "https://pokemondb.net/pokedex/cleffa"
+            },
             {
                 "Id": "#0035",
                 "Nome": "Clefairy",
@@ -751,9 +866,19 @@
         "URL": "https://pokemondb.net/pokedex/vulpix",
         "Evolucoes": [
             {
+                "Id": "#0037",
+                "Nome": "Vulpix",
+                "URL": "https://pokemondb.net/pokedex/vulpix"
+            },
+            {
                 "Id": "#0038",
                 "Nome": "Ninetales",
                 "URL": "https://pokemondb.net/pokedex/ninetales"
+            },
+            {
+                "Id": "#0037",
+                "Nome": "Vulpix",
+                "URL": "https://pokemondb.net/pokedex/vulpix"
             },
             {
                 "Id": "#0038",
@@ -786,6 +911,11 @@
         "URL": "https://pokemondb.net/pokedex/jigglypuff",
         "Evolucoes": [
             {
+                "Id": "#0174",
+                "Nome": "Igglybuff",
+                "URL": "https://pokemondb.net/pokedex/igglybuff"
+            },
+            {
                 "Id": "#0039",
                 "Nome": "Jigglypuff",
                 "URL": "https://pokemondb.net/pokedex/jigglypuff"
@@ -815,6 +945,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/wigglytuff",
         "Evolucoes": [
+            {
+                "Id": "#0174",
+                "Nome": "Igglybuff",
+                "URL": "https://pokemondb.net/pokedex/igglybuff"
+            },
             {
                 "Id": "#0039",
                 "Nome": "Jigglypuff",
@@ -846,6 +981,11 @@
         "URL": "https://pokemondb.net/pokedex/zubat",
         "Evolucoes": [
             {
+                "Id": "#0041",
+                "Nome": "Zubat",
+                "URL": "https://pokemondb.net/pokedex/zubat"
+            },
+            {
                 "Id": "#0042",
                 "Nome": "Golbat",
                 "URL": "https://pokemondb.net/pokedex/golbat"
@@ -858,14 +998,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Inner Focus ",
-                "URL": "https://pokemondb.net/ability/inner-focus",
-                "Descricao": " prevents the Pok\u00e9mon from flinching, for example when attacked by a move like  ."
-            },
-            {
                 "Nome": "Infiltrator ",
                 "URL": "https://pokemondb.net/ability/infiltrator",
                 "Descricao": " ignores the effects of  ,   and  . In other words, if the opponent has used Safeguard,   would still badly poison them."
+            },
+            {
+                "Nome": "Inner Focus ",
+                "URL": "https://pokemondb.net/ability/inner-focus",
+                "Descricao": " prevents the Pok\u00e9mon from flinching, for example when attacked by a move like  ."
             }
         ]
     },
@@ -880,6 +1020,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/gloom",
         "Evolucoes": [
+            {
+                "Id": "#0043",
+                "Nome": "Oddish",
+                "URL": "https://pokemondb.net/pokedex/oddish"
+            },
             {
                 "Id": "#0044",
                 "Nome": "Gloom",
@@ -916,6 +1061,11 @@
         "URL": "https://pokemondb.net/pokedex/vileplume",
         "Evolucoes": [
             {
+                "Id": "#0043",
+                "Nome": "Oddish",
+                "URL": "https://pokemondb.net/pokedex/oddish"
+            },
+            {
                 "Id": "#0044",
                 "Nome": "Gloom",
                 "URL": "https://pokemondb.net/pokedex/gloom"
@@ -951,6 +1101,11 @@
         "URL": "https://pokemondb.net/pokedex/paras",
         "Evolucoes": [
             {
+                "Id": "#0046",
+                "Nome": "Paras",
+                "URL": "https://pokemondb.net/pokedex/paras"
+            },
+            {
                 "Id": "#0047",
                 "Nome": "Parasect",
                 "URL": "https://pokemondb.net/pokedex/parasect"
@@ -958,14 +1113,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Damp ",
-                "URL": "https://pokemondb.net/ability/damp",
-                "Descricao": " prevents all Pok\u00e9mon on the field from using the moves   and  . It also prevents damage (to the   Pok\u00e9mon only) from the ability  ."
-            },
-            {
                 "Nome": "Dry Skin ",
                 "URL": "https://pokemondb.net/ability/dry-skin",
                 "Descricao": " causes several effects:"
+            },
+            {
+                "Nome": "Damp ",
+                "URL": "https://pokemondb.net/ability/damp",
+                "Descricao": " prevents all Pok\u00e9mon on the field from using the moves   and  . It also prevents damage (to the   Pok\u00e9mon only) from the ability  ."
             }
         ]
     },
@@ -980,6 +1135,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/venomoth",
         "Evolucoes": [
+            {
+                "Id": "#0048",
+                "Nome": "Venonat",
+                "URL": "https://pokemondb.net/pokedex/venonat"
+            },
             {
                 "Id": "#0049",
                 "Nome": "Venomoth",
@@ -1007,9 +1167,19 @@
         "URL": "https://pokemondb.net/pokedex/diglett",
         "Evolucoes": [
             {
+                "Id": "#0050",
+                "Nome": "Diglett",
+                "URL": "https://pokemondb.net/pokedex/diglett"
+            },
+            {
                 "Id": "#0051",
                 "Nome": "Dugtrio",
                 "URL": "https://pokemondb.net/pokedex/dugtrio"
+            },
+            {
+                "Id": "#0050",
+                "Nome": "Diglett",
+                "URL": "https://pokemondb.net/pokedex/diglett"
             },
             {
                 "Id": "#0051",
@@ -1048,14 +1218,29 @@
         "URL": "https://pokemondb.net/pokedex/meowth",
         "Evolucoes": [
             {
-                "Id": "#0053",
-                "Nome": "Persian",
-                "URL": "https://pokemondb.net/pokedex/persian"
+                "Id": "#0052",
+                "Nome": "Meowth",
+                "URL": "https://pokemondb.net/pokedex/meowth"
             },
             {
                 "Id": "#0053",
                 "Nome": "Persian",
                 "URL": "https://pokemondb.net/pokedex/persian"
+            },
+            {
+                "Id": "#0052",
+                "Nome": "Meowth",
+                "URL": "https://pokemondb.net/pokedex/meowth"
+            },
+            {
+                "Id": "#0053",
+                "Nome": "Persian",
+                "URL": "https://pokemondb.net/pokedex/persian"
+            },
+            {
+                "Id": "#0052",
+                "Nome": "Meowth",
+                "URL": "https://pokemondb.net/pokedex/meowth"
             },
             {
                 "Id": "#0863",
@@ -1065,6 +1250,11 @@
         ],
         "Habilidades": [
             {
+                "Nome": "Technician ",
+                "URL": "https://pokemondb.net/ability/technician",
+                "Descricao": " increases the power of moves - that are usually base power 60 or below - by 50%."
+            },
+            {
                 "Nome": "Pickup ",
                 "URL": "https://pokemondb.net/ability/pickup",
                 "Descricao": "When another Pok\u00e9mon on the field uses a single-use held item, a Pok\u00e9mon with   will obtain the used item (if they are not already holding anything) and it can be used again."
@@ -1073,11 +1263,6 @@
                 "Nome": "Rattled ",
                 "URL": "https://pokemondb.net/ability/rattled",
                 "Descricao": "When a Pok\u00e9mon with   is hit by a  ,   or   type move, its Speed is raised one stage (up to the usual maximum of +6 stages)."
-            },
-            {
-                "Nome": "Technician ",
-                "URL": "https://pokemondb.net/ability/technician",
-                "Descricao": " increases the power of moves - that are usually base power 60 or below - by 50%."
             }
         ]
     },
@@ -1093,14 +1278,29 @@
         "URL": "https://pokemondb.net/pokedex/persian",
         "Evolucoes": [
             {
-                "Id": "#0053",
-                "Nome": "Persian",
-                "URL": "https://pokemondb.net/pokedex/persian"
+                "Id": "#0052",
+                "Nome": "Meowth",
+                "URL": "https://pokemondb.net/pokedex/meowth"
             },
             {
                 "Id": "#0053",
                 "Nome": "Persian",
                 "URL": "https://pokemondb.net/pokedex/persian"
+            },
+            {
+                "Id": "#0052",
+                "Nome": "Meowth",
+                "URL": "https://pokemondb.net/pokedex/meowth"
+            },
+            {
+                "Id": "#0053",
+                "Nome": "Persian",
+                "URL": "https://pokemondb.net/pokedex/persian"
+            },
+            {
+                "Id": "#0052",
+                "Nome": "Meowth",
+                "URL": "https://pokemondb.net/pokedex/meowth"
             },
             {
                 "Id": "#0863",
@@ -1132,6 +1332,11 @@
         "URL": "https://pokemondb.net/pokedex/psyduck",
         "Evolucoes": [
             {
+                "Id": "#0054",
+                "Nome": "Psyduck",
+                "URL": "https://pokemondb.net/pokedex/psyduck"
+            },
+            {
                 "Id": "#0055",
                 "Nome": "Golduck",
                 "URL": "https://pokemondb.net/pokedex/golduck"
@@ -1161,6 +1366,11 @@
         "URL": "https://pokemondb.net/pokedex/mankey",
         "Evolucoes": [
             {
+                "Id": "#0056",
+                "Nome": "Mankey",
+                "URL": "https://pokemondb.net/pokedex/mankey"
+            },
+            {
                 "Id": "#0057",
                 "Nome": "Primeape",
                 "URL": "https://pokemondb.net/pokedex/primeape"
@@ -1178,14 +1388,14 @@
                 "Descricao": " raises the ability-bearer's Attack by two stages when hit by a stat-lowering move."
             },
             {
-                "Nome": "Vital Spirit ",
-                "URL": "https://pokemondb.net/ability/vital-spirit",
-                "Descricao": " prevents the ability-bearer from falling asleep. This means that it also prevents the use of the move  ."
-            },
-            {
                 "Nome": "Anger Point ",
                 "URL": "https://pokemondb.net/ability/anger-point",
                 "Descricao": " raises the ability-bearer's Attack to its maximum level - +6 stages or 4\u00d7 usual power - when a move targeting it receives a critical hit."
+            },
+            {
+                "Nome": "Vital Spirit ",
+                "URL": "https://pokemondb.net/ability/vital-spirit",
+                "Descricao": " prevents the ability-bearer from falling asleep. This means that it also prevents the use of the move  ."
             }
         ]
     },
@@ -1202,9 +1412,19 @@
         "URL": "https://pokemondb.net/pokedex/growlithe",
         "Evolucoes": [
             {
+                "Id": "#0058",
+                "Nome": "Growlithe",
+                "URL": "https://pokemondb.net/pokedex/growlithe"
+            },
+            {
                 "Id": "#0059",
                 "Nome": "Arcanine",
                 "URL": "https://pokemondb.net/pokedex/arcanine"
+            },
+            {
+                "Id": "#0058",
+                "Nome": "Growlithe",
+                "URL": "https://pokemondb.net/pokedex/growlithe"
             },
             {
                 "Id": "#0059",
@@ -1235,6 +1455,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/poliwag",
         "Evolucoes": [
+            {
+                "Id": "#0060",
+                "Nome": "Poliwag",
+                "URL": "https://pokemondb.net/pokedex/poliwag"
+            },
             {
                 "Id": "#0061",
                 "Nome": "Poliwhirl",
@@ -1270,6 +1495,11 @@
         "URL": "https://pokemondb.net/pokedex/abra",
         "Evolucoes": [
             {
+                "Id": "#0063",
+                "Nome": "Abra",
+                "URL": "https://pokemondb.net/pokedex/abra"
+            },
+            {
                 "Id": "#0064",
                 "Nome": "Kadabra",
                 "URL": "https://pokemondb.net/pokedex/kadabra"
@@ -1300,6 +1530,11 @@
         "URL": "https://pokemondb.net/pokedex/alakazam",
         "Evolucoes": [
             {
+                "Id": "#0063",
+                "Nome": "Abra",
+                "URL": "https://pokemondb.net/pokedex/abra"
+            },
+            {
                 "Id": "#0064",
                 "Nome": "Kadabra",
                 "URL": "https://pokemondb.net/pokedex/kadabra"
@@ -1328,6 +1563,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/machop",
         "Evolucoes": [
+            {
+                "Id": "#0066",
+                "Nome": "Machop",
+                "URL": "https://pokemondb.net/pokedex/machop"
+            },
             {
                 "Id": "#0067",
                 "Nome": "Machoke",
@@ -1358,6 +1598,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/tentacool",
         "Evolucoes": [
+            {
+                "Id": "#0072",
+                "Nome": "Tentacool",
+                "URL": "https://pokemondb.net/pokedex/tentacool"
+            },
             {
                 "Id": "#0073",
                 "Nome": "Tentacruel",
@@ -1391,6 +1636,11 @@
         "URL": "https://pokemondb.net/pokedex/geodude",
         "Evolucoes": [
             {
+                "Id": "#0074",
+                "Nome": "Geodude",
+                "URL": "https://pokemondb.net/pokedex/geodude"
+            },
+            {
                 "Id": "#0075",
                 "Nome": "Graveler",
                 "URL": "https://pokemondb.net/pokedex/graveler"
@@ -1399,6 +1649,11 @@
                 "Id": "#0076",
                 "Nome": "Golem",
                 "URL": "https://pokemondb.net/pokedex/golem"
+            },
+            {
+                "Id": "#0074",
+                "Nome": "Geodude",
+                "URL": "https://pokemondb.net/pokedex/geodude"
             },
             {
                 "Id": "#0075",
@@ -1413,9 +1668,9 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Galvanize ",
-                "URL": "https://pokemondb.net/ability/galvanize",
-                "Descricao": "Normal-type moves become Electric-type moves and their power boosted.\n"
+                "Nome": "Magnet Pull ",
+                "URL": "https://pokemondb.net/ability/magnet-pull",
+                "Descricao": " prevents   type Pok\u00e9mon from switching out of battle or fleeing."
             },
             {
                 "Nome": "Sturdy ",
@@ -1423,9 +1678,9 @@
                 "Descricao": " allows the Pok\u00e9mon to survive with 1 HP if attacked at full HP with an attack that would otherwise knock it out. It also prevents One-Hit-KO moves ( ,  ,   or  )."
             },
             {
-                "Nome": "Magnet Pull ",
-                "URL": "https://pokemondb.net/ability/magnet-pull",
-                "Descricao": " prevents   type Pok\u00e9mon from switching out of battle or fleeing."
+                "Nome": "Galvanize ",
+                "URL": "https://pokemondb.net/ability/galvanize",
+                "Descricao": "Normal-type moves become Electric-type moves and their power boosted.\n"
             }
         ]
     },
@@ -1441,9 +1696,19 @@
         "URL": "https://pokemondb.net/pokedex/ponyta",
         "Evolucoes": [
             {
+                "Id": "#0077",
+                "Nome": "Ponyta",
+                "URL": "https://pokemondb.net/pokedex/ponyta"
+            },
+            {
                 "Id": "#0078",
                 "Nome": "Rapidash",
                 "URL": "https://pokemondb.net/pokedex/rapidash"
+            },
+            {
+                "Id": "#0077",
+                "Nome": "Ponyta",
+                "URL": "https://pokemondb.net/pokedex/ponyta"
             },
             {
                 "Id": "#0078",
@@ -1482,6 +1747,11 @@
         "URL": "https://pokemondb.net/pokedex/slowpoke",
         "Evolucoes": [
             {
+                "Id": "#0079",
+                "Nome": "Slowpoke",
+                "URL": "https://pokemondb.net/pokedex/slowpoke"
+            },
+            {
                 "Id": "#0080",
                 "Nome": "Slowbro",
                 "URL": "https://pokemondb.net/pokedex/slowbro"
@@ -1490,6 +1760,11 @@
                 "Id": "#0199",
                 "Nome": "Slowking",
                 "URL": "https://pokemondb.net/pokedex/slowking"
+            },
+            {
+                "Id": "#0079",
+                "Nome": "Slowpoke",
+                "URL": "https://pokemondb.net/pokedex/slowpoke"
             },
             {
                 "Id": "#0080",
@@ -1504,11 +1779,6 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Own Tempo ",
-                "URL": "https://pokemondb.net/ability/own-tempo",
-                "Descricao": "Prevents the Pok\u00e9mon from becoming confused.\n"
-            },
-            {
                 "Nome": "Oblivious ",
                 "URL": "https://pokemondb.net/ability/oblivious",
                 "Descricao": " makes the Pok\u00e9mon immune to gender-based moves and abilities, specifically  ,   and  ."
@@ -1517,6 +1787,11 @@
                 "Nome": "Regenerator ",
                 "URL": "https://pokemondb.net/ability/regenerator",
                 "Descricao": "A Pok\u00e9mon with   restores   of its maximum HP when switching out."
+            },
+            {
+                "Nome": "Own Tempo ",
+                "URL": "https://pokemondb.net/ability/own-tempo",
+                "Descricao": "Prevents the Pok\u00e9mon from becoming confused.\n"
             }
         ]
     },
@@ -1536,6 +1811,11 @@
         "URL": "https://pokemondb.net/pokedex/slowbro",
         "Evolucoes": [
             {
+                "Id": "#0079",
+                "Nome": "Slowpoke",
+                "URL": "https://pokemondb.net/pokedex/slowpoke"
+            },
+            {
                 "Id": "#0080",
                 "Nome": "Slowbro",
                 "URL": "https://pokemondb.net/pokedex/slowbro"
@@ -1544,6 +1824,11 @@
                 "Id": "#0199",
                 "Nome": "Slowking",
                 "URL": "https://pokemondb.net/pokedex/slowking"
+            },
+            {
+                "Id": "#0079",
+                "Nome": "Slowpoke",
+                "URL": "https://pokemondb.net/pokedex/slowpoke"
             },
             {
                 "Id": "#0080",
@@ -1558,14 +1843,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Shell Armor ",
-                "URL": "https://pokemondb.net/ability/shell-armor",
-                "Descricao": " prevents the Pok\u00e9mon from receiving a critical hit."
-            },
-            {
                 "Nome": "Quick Draw ",
                 "URL": "https://pokemondb.net/ability/quick-draw",
                 "Descricao": "\n"
+            },
+            {
+                "Nome": "Shell Armor ",
+                "URL": "https://pokemondb.net/ability/shell-armor",
+                "Descricao": " prevents the Pok\u00e9mon from receiving a critical hit."
             }
         ]
     },
@@ -1580,6 +1865,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/magnemite",
         "Evolucoes": [
+            {
+                "Id": "#0081",
+                "Nome": "Magnemite",
+                "URL": "https://pokemondb.net/pokedex/magnemite"
+            },
             {
                 "Id": "#0082",
                 "Nome": "Magneton",
@@ -1612,6 +1902,11 @@
         "URL": "https://pokemondb.net/pokedex/farfetchd",
         "Evolucoes": [
             {
+                "Id": "#0083",
+                "Nome": "Farfetch'd",
+                "URL": "https://pokemondb.net/pokedex/farfetchd"
+            },
+            {
                 "Id": "#0865",
                 "Nome": "Sirfetch'd",
                 "URL": "https://pokemondb.net/pokedex/sirfetchd"
@@ -1637,6 +1932,11 @@
         "URL": "https://pokemondb.net/pokedex/doduo",
         "Evolucoes": [
             {
+                "Id": "#0084",
+                "Nome": "Doduo",
+                "URL": "https://pokemondb.net/pokedex/doduo"
+            },
+            {
                 "Id": "#0085",
                 "Nome": "Dodrio",
                 "URL": "https://pokemondb.net/pokedex/dodrio"
@@ -1651,16 +1951,20 @@
         ]
     },
     {
-        "Id": "0087",
-        "Nome": "Dewgong",
-        "Altura": "1.7\u00a0m (5\u203207\u2033)",
-        "Peso": "120.0\u00a0kg (264.6\u00a0lbs)",
+        "Id": "0086",
+        "Nome": "Seel",
+        "Altura": "1.1\u00a0m (3\u203207\u2033)",
+        "Peso": "90.0\u00a0kg (198.4\u00a0lbs)",
         "Tipos": [
-            "Water",
-            "Ice"
+            "Water"
         ],
-        "URL": "https://pokemondb.net/pokedex/dewgong",
+        "URL": "https://pokemondb.net/pokedex/seel",
         "Evolucoes": [
+            {
+                "Id": "#0086",
+                "Nome": "Seel",
+                "URL": "https://pokemondb.net/pokedex/seel"
+            },
             {
                 "Id": "#0087",
                 "Nome": "Dewgong",
@@ -1669,14 +1973,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Ice Body ",
-                "URL": "https://pokemondb.net/ability/ice-body",
-                "Descricao": "A Pok\u00e9mon with   will recover   of its maximum HP during hail, after each turn. It also grants immunity to the hailstorm damage, if not already immune."
-            },
-            {
                 "Nome": "Hydration ",
                 "URL": "https://pokemondb.net/ability/hydration",
                 "Descricao": "A Pok\u00e9mon with   will cure itself of any status conditions during rain, at the end of each turn. This includes self-inflicted conditions such as from using  ."
+            },
+            {
+                "Nome": "Ice Body ",
+                "URL": "https://pokemondb.net/ability/ice-body",
+                "Descricao": "A Pok\u00e9mon with   will recover   of its maximum HP during hail, after each turn. It also grants immunity to the hailstorm damage, if not already immune."
             }
         ]
     },
@@ -1693,9 +1997,19 @@
         "URL": "https://pokemondb.net/pokedex/grimer",
         "Evolucoes": [
             {
+                "Id": "#0088",
+                "Nome": "Grimer",
+                "URL": "https://pokemondb.net/pokedex/grimer"
+            },
+            {
                 "Id": "#0089",
                 "Nome": "Muk",
                 "URL": "https://pokemondb.net/pokedex/muk"
+            },
+            {
+                "Id": "#0088",
+                "Nome": "Grimer",
+                "URL": "https://pokemondb.net/pokedex/grimer"
             },
             {
                 "Id": "#0089",
@@ -1732,6 +2046,11 @@
         "URL": "https://pokemondb.net/pokedex/shellder",
         "Evolucoes": [
             {
+                "Id": "#0090",
+                "Nome": "Shellder",
+                "URL": "https://pokemondb.net/pokedex/shellder"
+            },
+            {
                 "Id": "#0091",
                 "Nome": "Cloyster",
                 "URL": "https://pokemondb.net/pokedex/cloyster"
@@ -1739,14 +2058,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Overcoat ",
-                "URL": "https://pokemondb.net/ability/overcoat",
-                "Descricao": " makes the Pok\u00e9mon immune to residual damage from weather conditions (specifically   and  )."
-            },
-            {
                 "Nome": "Skill Link ",
                 "URL": "https://pokemondb.net/ability/skill-link",
                 "Descricao": " causes multi-strike moves to always hit their maximum number of times. The moves affected are listed below; note that moves such as   that always strike the same number of times are not affected."
+            },
+            {
+                "Nome": "Overcoat ",
+                "URL": "https://pokemondb.net/ability/overcoat",
+                "Descricao": " makes the Pok\u00e9mon immune to residual damage from weather conditions (specifically   and  )."
             }
         ]
     },
@@ -1761,6 +2080,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/gastly",
         "Evolucoes": [
+            {
+                "Id": "#0092",
+                "Nome": "Gastly",
+                "URL": "https://pokemondb.net/pokedex/gastly"
+            },
             {
                 "Id": "#0093",
                 "Nome": "Haunter",
@@ -1794,6 +2118,11 @@
         "URL": "https://pokemondb.net/pokedex/gengar",
         "Evolucoes": [
             {
+                "Id": "#0092",
+                "Nome": "Gastly",
+                "URL": "https://pokemondb.net/pokedex/gastly"
+            },
+            {
                 "Id": "#0093",
                 "Nome": "Haunter",
                 "URL": "https://pokemondb.net/pokedex/haunter"
@@ -1806,14 +2135,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Shadow Tag ",
-                "URL": "https://pokemondb.net/ability/shadow-tag",
-                "Descricao": "Prevents the foe from escaping.\n"
-            },
-            {
                 "Nome": "Cursed Body ",
                 "URL": "https://pokemondb.net/ability/cursed-body",
                 "Descricao": "May disable a move used on the Pok\u00e9mon.\n"
+            },
+            {
+                "Nome": "Shadow Tag ",
+                "URL": "https://pokemondb.net/ability/shadow-tag",
+                "Descricao": "Prevents the foe from escaping.\n"
             }
         ]
     },
@@ -1828,6 +2157,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/onix",
         "Evolucoes": [
+            {
+                "Id": "#0095",
+                "Nome": "Onix",
+                "URL": "https://pokemondb.net/pokedex/onix"
+            },
             {
                 "Id": "#0208",
                 "Nome": "Steelix",
@@ -1853,6 +2187,11 @@
         "URL": "https://pokemondb.net/pokedex/drowzee",
         "Evolucoes": [
             {
+                "Id": "#0096",
+                "Nome": "Drowzee",
+                "URL": "https://pokemondb.net/pokedex/drowzee"
+            },
+            {
                 "Id": "#0097",
                 "Nome": "Hypno",
                 "URL": "https://pokemondb.net/pokedex/hypno"
@@ -1860,14 +2199,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Forewarn ",
-                "URL": "https://pokemondb.net/ability/forewarn",
-                "Descricao": "Determines what moves a foe has.\n"
-            },
-            {
                 "Nome": "Insomnia ",
                 "URL": "https://pokemondb.net/ability/insomnia",
                 "Descricao": " prevents the ability-bearer from falling asleep, both from moves by other Pok\u00e9mon like  , and self-inflicted sleep like  ."
+            },
+            {
+                "Nome": "Forewarn ",
+                "URL": "https://pokemondb.net/ability/forewarn",
+                "Descricao": "Determines what moves a foe has.\n"
             }
         ]
     },
@@ -1881,6 +2220,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/krabby",
         "Evolucoes": [
+            {
+                "Id": "#0098",
+                "Nome": "Krabby",
+                "URL": "https://pokemondb.net/pokedex/krabby"
+            },
             {
                 "Id": "#0099",
                 "Nome": "Kingler",
@@ -1908,9 +2252,19 @@
         "URL": "https://pokemondb.net/pokedex/voltorb",
         "Evolucoes": [
             {
+                "Id": "#0100",
+                "Nome": "Voltorb",
+                "URL": "https://pokemondb.net/pokedex/voltorb"
+            },
+            {
                 "Id": "#0101",
                 "Nome": "Electrode",
                 "URL": "https://pokemondb.net/pokedex/electrode"
+            },
+            {
+                "Id": "#0100",
+                "Nome": "Voltorb",
+                "URL": "https://pokemondb.net/pokedex/voltorb"
             },
             {
                 "Id": "#0101",
@@ -1943,6 +2297,11 @@
         "URL": "https://pokemondb.net/pokedex/exeggcute",
         "Evolucoes": [
             {
+                "Id": "#0102",
+                "Nome": "Exeggcute",
+                "URL": "https://pokemondb.net/pokedex/exeggcute"
+            },
+            {
                 "Id": "#0103",
                 "Nome": "Exeggutor",
                 "URL": "https://pokemondb.net/pokedex/exeggutor"
@@ -1971,6 +2330,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/cubone",
         "Evolucoes": [
+            {
+                "Id": "#0104",
+                "Nome": "Cubone",
+                "URL": "https://pokemondb.net/pokedex/cubone"
+            },
             {
                 "Id": "#0105",
                 "Nome": "Marowak",
@@ -2001,6 +2365,11 @@
         "URL": "https://pokemondb.net/pokedex/hitmonlee",
         "Evolucoes": [
             {
+                "Id": "#0236",
+                "Nome": "Tyrogue",
+                "URL": "https://pokemondb.net/pokedex/tyrogue"
+            },
+            {
                 "Id": "#0106",
                 "Nome": "Hitmonlee",
                 "URL": "https://pokemondb.net/pokedex/hitmonlee"
@@ -2018,14 +2387,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Unburden ",
-                "URL": "https://pokemondb.net/ability/unburden",
-                "Descricao": "Raises Speed if a held item is used.\n"
-            },
-            {
                 "Nome": "Reckless ",
                 "URL": "https://pokemondb.net/ability/reckless",
                 "Descricao": " increases the power of   moves by 20%. By extension, this means the amount of recoil damage taken will increase as more damage is dealt (except for   and   which are based on the user's HP)."
+            },
+            {
+                "Nome": "Unburden ",
+                "URL": "https://pokemondb.net/ability/unburden",
+                "Descricao": "Raises Speed if a held item is used.\n"
             }
         ]
     },
@@ -2039,6 +2408,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/hitmonchan",
         "Evolucoes": [
+            {
+                "Id": "#0236",
+                "Nome": "Tyrogue",
+                "URL": "https://pokemondb.net/pokedex/tyrogue"
+            },
             {
                 "Id": "#0106",
                 "Nome": "Hitmonlee",
@@ -2074,6 +2448,11 @@
         "URL": "https://pokemondb.net/pokedex/koffing",
         "Evolucoes": [
             {
+                "Id": "#0109",
+                "Nome": "Koffing",
+                "URL": "https://pokemondb.net/pokedex/koffing"
+            },
+            {
                 "Id": "#0110",
                 "Nome": "Weezing",
                 "URL": "https://pokemondb.net/pokedex/weezing"
@@ -2105,6 +2484,11 @@
         "URL": "https://pokemondb.net/pokedex/weezing",
         "Evolucoes": [
             {
+                "Id": "#0109",
+                "Nome": "Koffing",
+                "URL": "https://pokemondb.net/pokedex/koffing"
+            },
+            {
                 "Id": "#0110",
                 "Nome": "Weezing",
                 "URL": "https://pokemondb.net/pokedex/weezing"
@@ -2133,6 +2517,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/chansey",
         "Evolucoes": [
+            {
+                "Id": "#0440",
+                "Nome": "Happiny",
+                "URL": "https://pokemondb.net/pokedex/happiny"
+            },
             {
                 "Id": "#0113",
                 "Nome": "Chansey",
@@ -2172,6 +2561,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/tangela",
         "Evolucoes": [
+            {
+                "Id": "#0114",
+                "Nome": "Tangela",
+                "URL": "https://pokemondb.net/pokedex/tangela"
+            },
             {
                 "Id": "#0465",
                 "Nome": "Tangrowth",
@@ -2216,6 +2610,11 @@
         "URL": "https://pokemondb.net/pokedex/goldeen",
         "Evolucoes": [
             {
+                "Id": "#0118",
+                "Nome": "Goldeen",
+                "URL": "https://pokemondb.net/pokedex/goldeen"
+            },
+            {
                 "Id": "#0119",
                 "Nome": "Seaking",
                 "URL": "https://pokemondb.net/pokedex/seaking"
@@ -2239,6 +2638,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/staryu",
         "Evolucoes": [
+            {
+                "Id": "#0120",
+                "Nome": "Staryu",
+                "URL": "https://pokemondb.net/pokedex/staryu"
+            },
             {
                 "Id": "#0121",
                 "Nome": "Starmie",
@@ -2266,6 +2670,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/mr-mime",
         "Evolucoes": [
+            {
+                "Id": "#0439",
+                "Nome": "Mime Jr.",
+                "URL": "https://pokemondb.net/pokedex/mime-jr"
+            },
             {
                 "Id": "#0122",
                 "Nome": "Mr. Mime",
@@ -2377,6 +2786,11 @@
         "URL": "https://pokemondb.net/pokedex/jolteon",
         "Evolucoes": [
             {
+                "Id": "#0133",
+                "Nome": "Eevee",
+                "URL": "https://pokemondb.net/pokedex/eevee"
+            },
+            {
                 "Id": "#0134",
                 "Nome": "Vaporeon",
                 "URL": "https://pokemondb.net/pokedex/vaporeon"
@@ -2392,6 +2806,11 @@
                 "URL": "https://pokemondb.net/pokedex/flareon"
             },
             {
+                "Id": "#0133",
+                "Nome": "Eevee",
+                "URL": "https://pokemondb.net/pokedex/eevee"
+            },
+            {
                 "Id": "#0196",
                 "Nome": "Espeon",
                 "URL": "https://pokemondb.net/pokedex/espeon"
@@ -2400,6 +2819,11 @@
                 "Id": "#0197",
                 "Nome": "Umbreon",
                 "URL": "https://pokemondb.net/pokedex/umbreon"
+            },
+            {
+                "Id": "#0133",
+                "Nome": "Eevee",
+                "URL": "https://pokemondb.net/pokedex/eevee"
             },
             {
                 "Id": "#0470",
@@ -2412,6 +2836,11 @@
                 "URL": "https://pokemondb.net/pokedex/glaceon"
             },
             {
+                "Id": "#0133",
+                "Nome": "Eevee",
+                "URL": "https://pokemondb.net/pokedex/eevee"
+            },
+            {
                 "Id": "#0700",
                 "Nome": "Sylveon",
                 "URL": "https://pokemondb.net/pokedex/sylveon"
@@ -2419,14 +2848,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Volt Absorb ",
-                "URL": "https://pokemondb.net/ability/volt-absorb",
-                "Descricao": "A Pok\u00e9mon with   heals   of its maximum HP when hit by an  -type attack, including  ."
-            },
-            {
                 "Nome": "Quick Feet ",
                 "URL": "https://pokemondb.net/ability/quick-feet",
                 "Descricao": " raises the ability-bearer's Speed by 50% when inflicted by a major status ailment (poison, burn, paralysis, freeze or sleep). If paralyzed, the Pok\u00e9mon does not suffer the usual drop in Speed."
+            },
+            {
+                "Nome": "Volt Absorb ",
+                "URL": "https://pokemondb.net/ability/volt-absorb",
+                "Descricao": "A Pok\u00e9mon with   heals   of its maximum HP when hit by an  -type attack, including  ."
             }
         ]
     },
@@ -2440,6 +2869,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/porygon",
         "Evolucoes": [
+            {
+                "Id": "#0137",
+                "Nome": "Porygon",
+                "URL": "https://pokemondb.net/pokedex/porygon"
+            },
             {
                 "Id": "#0233",
                 "Nome": "Porygon2",
@@ -2491,6 +2925,11 @@
         "URL": "https://pokemondb.net/pokedex/snorlax",
         "Evolucoes": [
             {
+                "Id": "#0446",
+                "Nome": "Munchlax",
+                "URL": "https://pokemondb.net/pokedex/munchlax"
+            },
+            {
                 "Id": "#0143",
                 "Nome": "Snorlax",
                 "URL": "https://pokemondb.net/pokedex/snorlax"
@@ -2536,6 +2975,11 @@
         "URL": "https://pokemondb.net/pokedex/dratini",
         "Evolucoes": [
             {
+                "Id": "#0147",
+                "Nome": "Dratini",
+                "URL": "https://pokemondb.net/pokedex/dratini"
+            },
+            {
                 "Id": "#0148",
                 "Nome": "Dragonair",
                 "URL": "https://pokemondb.net/pokedex/dragonair"
@@ -2566,6 +3010,11 @@
         "URL": "https://pokemondb.net/pokedex/dragonite",
         "Evolucoes": [
             {
+                "Id": "#0147",
+                "Nome": "Dratini",
+                "URL": "https://pokemondb.net/pokedex/dratini"
+            },
+            {
                 "Id": "#0148",
                 "Nome": "Dragonair",
                 "URL": "https://pokemondb.net/pokedex/dragonair"
@@ -2594,6 +3043,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/togepi",
         "Evolucoes": [
+            {
+                "Id": "#0175",
+                "Nome": "Togepi",
+                "URL": "https://pokemondb.net/pokedex/togepi"
+            },
             {
                 "Id": "#0176",
                 "Nome": "Togetic",
@@ -2625,6 +3079,11 @@
         "URL": "https://pokemondb.net/pokedex/natu",
         "Evolucoes": [
             {
+                "Id": "#0177",
+                "Nome": "Natu",
+                "URL": "https://pokemondb.net/pokedex/natu"
+            },
+            {
                 "Id": "#0178",
                 "Nome": "Xatu",
                 "URL": "https://pokemondb.net/pokedex/xatu"
@@ -2648,6 +3107,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/mareep",
         "Evolucoes": [
+            {
+                "Id": "#0179",
+                "Nome": "Mareep",
+                "URL": "https://pokemondb.net/pokedex/mareep"
+            },
             {
                 "Id": "#0180",
                 "Nome": "Flaaffy",
@@ -2679,6 +3143,11 @@
         "URL": "https://pokemondb.net/pokedex/marill",
         "Evolucoes": [
             {
+                "Id": "#0298",
+                "Nome": "Azurill",
+                "URL": "https://pokemondb.net/pokedex/azurill"
+            },
+            {
                 "Id": "#0183",
                 "Nome": "Marill",
                 "URL": "https://pokemondb.net/pokedex/marill"
@@ -2703,40 +3172,6 @@
         ]
     },
     {
-        "Id": "0186",
-        "Nome": "Politoed",
-        "Altura": "1.1\u00a0m (3\u203207\u2033)",
-        "Peso": "33.9\u00a0kg (74.7\u00a0lbs)",
-        "Tipos": [
-            "Water"
-        ],
-        "URL": "https://pokemondb.net/pokedex/politoed",
-        "Evolucoes": [
-            {
-                "Id": "#0061",
-                "Nome": "Poliwhirl",
-                "URL": "https://pokemondb.net/pokedex/poliwhirl"
-            },
-            {
-                "Id": "#0062",
-                "Nome": "Poliwrath",
-                "URL": "https://pokemondb.net/pokedex/poliwrath"
-            },
-            {
-                "Id": "#0186",
-                "Nome": "Politoed",
-                "URL": "https://pokemondb.net/pokedex/politoed"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Drizzle ",
-                "URL": "https://pokemondb.net/ability/drizzle",
-                "Descricao": " creates a rain shower when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via   or   or replaced by another weather condition."
-            }
-        ]
-    },
-    {
         "Id": "0193",
         "Nome": "Yanma",
         "Altura": "1.2\u00a0m (3\u203211\u2033)",
@@ -2747,6 +3182,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/yanma",
         "Evolucoes": [
+            {
+                "Id": "#0193",
+                "Nome": "Yanma",
+                "URL": "https://pokemondb.net/pokedex/yanma"
+            },
             {
                 "Id": "#0469",
                 "Nome": "Yanmega",
@@ -2773,6 +3213,11 @@
         "URL": "https://pokemondb.net/pokedex/murkrow",
         "Evolucoes": [
             {
+                "Id": "#0198",
+                "Nome": "Murkrow",
+                "URL": "https://pokemondb.net/pokedex/murkrow"
+            },
+            {
                 "Id": "#0430",
                 "Nome": "Honchkrow",
                 "URL": "https://pokemondb.net/pokedex/honchkrow"
@@ -2787,48 +3232,6 @@
         ]
     },
     {
-        "Id": "0199",
-        "Nome": "Slowking",
-        "Altura": "2.0\u00a0m (6\u203207\u2033)",
-        "Peso": "79.5\u00a0kg (175.3\u00a0lbs)",
-        "Tipos": [
-            "Water",
-            "Psychic",
-            "Poison",
-            "Psychic"
-        ],
-        "URL": "https://pokemondb.net/pokedex/slowking",
-        "Evolucoes": [
-            {
-                "Id": "#0080",
-                "Nome": "Slowbro",
-                "URL": "https://pokemondb.net/pokedex/slowbro"
-            },
-            {
-                "Id": "#0199",
-                "Nome": "Slowking",
-                "URL": "https://pokemondb.net/pokedex/slowking"
-            },
-            {
-                "Id": "#0080",
-                "Nome": "Slowbro",
-                "URL": "https://pokemondb.net/pokedex/slowbro"
-            },
-            {
-                "Id": "#0199",
-                "Nome": "Slowking",
-                "URL": "https://pokemondb.net/pokedex/slowking"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Curious Medicine ",
-                "URL": "https://pokemondb.net/ability/curious-medicine",
-                "Descricao": "Resets all stat changes upon entering battlefield.\n"
-            }
-        ]
-    },
-    {
         "Id": "0202",
         "Nome": "Wobbuffet",
         "Altura": "1.3\u00a0m (4\u203203\u2033)",
@@ -2838,6 +3241,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/wobbuffet",
         "Evolucoes": [
+            {
+                "Id": "#0360",
+                "Nome": "Wynaut",
+                "URL": "https://pokemondb.net/pokedex/wynaut"
+            },
             {
                 "Id": "#0202",
                 "Nome": "Wobbuffet",
@@ -2849,38 +3257,6 @@
                 "Nome": "Telepathy ",
                 "URL": "https://pokemondb.net/ability/telepathy",
                 "Descricao": "Pok\u00e9mon with the   ability will not take damage from teammates in double and triple battles."
-            }
-        ]
-    },
-    {
-        "Id": "0212",
-        "Nome": "Scizor",
-        "Altura": "1.8\u00a0m (5\u203211\u2033)",
-        "Peso": "118.0\u00a0kg (260.1\u00a0lbs)",
-        "Tipos": [
-            "Bug",
-            "Steel",
-            "Bug",
-            "Steel"
-        ],
-        "URL": "https://pokemondb.net/pokedex/scizor",
-        "Evolucoes": [
-            {
-                "Id": "#0212",
-                "Nome": "Scizor",
-                "URL": "https://pokemondb.net/pokedex/scizor"
-            },
-            {
-                "Id": "#0900",
-                "Nome": "Kleavor",
-                "URL": "https://pokemondb.net/pokedex/kleavor"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Light Metal ",
-                "URL": "https://pokemondb.net/ability/light-metal",
-                "Descricao": " halves the Pok\u00e9mon's weight in battle. Decreasing weight affects these moves:"
             }
         ]
     },
@@ -2917,9 +3293,19 @@
         "URL": "https://pokemondb.net/pokedex/sneasel",
         "Evolucoes": [
             {
+                "Id": "#0215",
+                "Nome": "Sneasel",
+                "URL": "https://pokemondb.net/pokedex/sneasel"
+            },
+            {
                 "Id": "#0461",
                 "Nome": "Weavile",
                 "URL": "https://pokemondb.net/pokedex/weavile"
+            },
+            {
+                "Id": "#0215",
+                "Nome": "Sneasel",
+                "URL": "https://pokemondb.net/pokedex/sneasel"
             },
             {
                 "Id": "#0903",
@@ -2945,6 +3331,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/teddiursa",
         "Evolucoes": [
+            {
+                "Id": "#0216",
+                "Nome": "Teddiursa",
+                "URL": "https://pokemondb.net/pokedex/teddiursa"
+            },
             {
                 "Id": "#0217",
                 "Nome": "Ursaring",
@@ -2975,6 +3366,11 @@
         "URL": "https://pokemondb.net/pokedex/slugma",
         "Evolucoes": [
             {
+                "Id": "#0218",
+                "Nome": "Slugma",
+                "URL": "https://pokemondb.net/pokedex/slugma"
+            },
+            {
                 "Id": "#0219",
                 "Nome": "Magcargo",
                 "URL": "https://pokemondb.net/pokedex/magcargo"
@@ -2999,6 +3395,11 @@
         "URL": "https://pokemondb.net/pokedex/remoraid",
         "Evolucoes": [
             {
+                "Id": "#0223",
+                "Nome": "Remoraid",
+                "URL": "https://pokemondb.net/pokedex/remoraid"
+            },
+            {
                 "Id": "#0224",
                 "Nome": "Octillery",
                 "URL": "https://pokemondb.net/pokedex/octillery"
@@ -3022,6 +3423,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/octillery",
         "Evolucoes": [
+            {
+                "Id": "#0223",
+                "Nome": "Remoraid",
+                "URL": "https://pokemondb.net/pokedex/remoraid"
+            },
             {
                 "Id": "#0224",
                 "Nome": "Octillery",
@@ -3050,6 +3456,11 @@
         "URL": "https://pokemondb.net/pokedex/tyranitar",
         "Evolucoes": [
             {
+                "Id": "#0246",
+                "Nome": "Larvitar",
+                "URL": "https://pokemondb.net/pokedex/larvitar"
+            },
+            {
                 "Id": "#0247",
                 "Nome": "Pupitar",
                 "URL": "https://pokemondb.net/pokedex/pupitar"
@@ -3069,6 +3480,36 @@
         ]
     },
     {
+        "Id": "0279",
+        "Nome": "Pelipper",
+        "Altura": "1.2\u00a0m (3\u203211\u2033)",
+        "Peso": "28.0\u00a0kg (61.7\u00a0lbs)",
+        "Tipos": [
+            "Water",
+            "Flying"
+        ],
+        "URL": "https://pokemondb.net/pokedex/pelipper",
+        "Evolucoes": [
+            {
+                "Id": "#0278",
+                "Nome": "Wingull",
+                "URL": "https://pokemondb.net/pokedex/wingull"
+            },
+            {
+                "Id": "#0279",
+                "Nome": "Pelipper",
+                "URL": "https://pokemondb.net/pokedex/pelipper"
+            }
+        ],
+        "Habilidades": [
+            {
+                "Nome": "Drizzle ",
+                "URL": "https://pokemondb.net/ability/drizzle",
+                "Descricao": " creates a rain shower when the ability-bearer enters battle. The effect lasts 5 turns, unless it is cleared via   or   or replaced by another weather condition."
+            }
+        ]
+    },
+    {
         "Id": "0282",
         "Nome": "Gardevoir",
         "Altura": "1.6\u00a0m (5\u203203\u2033)",
@@ -3081,6 +3522,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/gardevoir",
         "Evolucoes": [
+            {
+                "Id": "#0280",
+                "Nome": "Ralts",
+                "URL": "https://pokemondb.net/pokedex/ralts"
+            },
             {
                 "Id": "#0281",
                 "Nome": "Kirlia",
@@ -3116,6 +3562,11 @@
         "URL": "https://pokemondb.net/pokedex/shroomish",
         "Evolucoes": [
             {
+                "Id": "#0285",
+                "Nome": "Shroomish",
+                "URL": "https://pokemondb.net/pokedex/shroomish"
+            },
+            {
                 "Id": "#0286",
                 "Nome": "Breloom",
                 "URL": "https://pokemondb.net/pokedex/breloom"
@@ -3139,6 +3590,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/slakoth",
         "Evolucoes": [
+            {
+                "Id": "#0287",
+                "Nome": "Slakoth",
+                "URL": "https://pokemondb.net/pokedex/slakoth"
+            },
             {
                 "Id": "#0288",
                 "Nome": "Vigoroth",
@@ -3169,6 +3625,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/shedinja",
         "Evolucoes": [
+            {
+                "Id": "#0290",
+                "Nome": "Nincada",
+                "URL": "https://pokemondb.net/pokedex/nincada"
+            },
             {
                 "Id": "#0291",
                 "Nome": "Ninjask",
@@ -3203,6 +3664,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/skitty",
         "Evolucoes": [
+            {
+                "Id": "#0300",
+                "Nome": "Skitty",
+                "URL": "https://pokemondb.net/pokedex/skitty"
+            },
             {
                 "Id": "#0301",
                 "Nome": "Delcatty",
@@ -3250,6 +3716,11 @@
         "URL": "https://pokemondb.net/pokedex/aron",
         "Evolucoes": [
             {
+                "Id": "#0304",
+                "Nome": "Aron",
+                "URL": "https://pokemondb.net/pokedex/aron"
+            },
+            {
                 "Id": "#0305",
                 "Nome": "Lairon",
                 "URL": "https://pokemondb.net/pokedex/lairon"
@@ -3280,6 +3751,11 @@
         "URL": "https://pokemondb.net/pokedex/meditite",
         "Evolucoes": [
             {
+                "Id": "#0307",
+                "Nome": "Meditite",
+                "URL": "https://pokemondb.net/pokedex/meditite"
+            },
+            {
                 "Id": "#0308",
                 "Nome": "Medicham",
                 "URL": "https://pokemondb.net/pokedex/medicham"
@@ -3303,6 +3779,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/electrike",
         "Evolucoes": [
+            {
+                "Id": "#0309",
+                "Nome": "Electrike",
+                "URL": "https://pokemondb.net/pokedex/electrike"
+            },
             {
                 "Id": "#0310",
                 "Nome": "Manectric",
@@ -3328,6 +3809,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/carvanha",
         "Evolucoes": [
+            {
+                "Id": "#0318",
+                "Nome": "Carvanha",
+                "URL": "https://pokemondb.net/pokedex/carvanha"
+            },
             {
                 "Id": "#0319",
                 "Nome": "Sharpedo",
@@ -3356,6 +3842,11 @@
         "URL": "https://pokemondb.net/pokedex/sharpedo",
         "Evolucoes": [
             {
+                "Id": "#0318",
+                "Nome": "Carvanha",
+                "URL": "https://pokemondb.net/pokedex/carvanha"
+            },
+            {
                 "Id": "#0319",
                 "Nome": "Sharpedo",
                 "URL": "https://pokemondb.net/pokedex/sharpedo"
@@ -3380,6 +3871,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/numel",
         "Evolucoes": [
+            {
+                "Id": "#0322",
+                "Nome": "Numel",
+                "URL": "https://pokemondb.net/pokedex/numel"
+            },
             {
                 "Id": "#0323",
                 "Nome": "Camerupt",
@@ -3407,6 +3903,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/camerupt",
         "Evolucoes": [
+            {
+                "Id": "#0322",
+                "Nome": "Numel",
+                "URL": "https://pokemondb.net/pokedex/numel"
+            },
             {
                 "Id": "#0323",
                 "Nome": "Camerupt",
@@ -3468,6 +3969,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/lileep",
         "Evolucoes": [
+            {
+                "Id": "#0345",
+                "Nome": "Lileep",
+                "URL": "https://pokemondb.net/pokedex/lileep"
+            },
             {
                 "Id": "#0346",
                 "Nome": "Cradily",
@@ -3538,6 +4044,11 @@
         "URL": "https://pokemondb.net/pokedex/glalie",
         "Evolucoes": [
             {
+                "Id": "#0361",
+                "Nome": "Snorunt",
+                "URL": "https://pokemondb.net/pokedex/snorunt"
+            },
+            {
                 "Id": "#0362",
                 "Nome": "Glalie",
                 "URL": "https://pokemondb.net/pokedex/glalie"
@@ -3553,6 +4064,41 @@
                 "Nome": "Refrigerate ",
                 "URL": "https://pokemondb.net/ability/refrigerate",
                 "Descricao": " causes all  -type attacking moves used by the Pok\u00e9mon to become  -type, and increase in power by 20%."
+            }
+        ]
+    },
+    {
+        "Id": "0374",
+        "Nome": "Beldum",
+        "Altura": "0.6\u00a0m (2\u203200\u2033)",
+        "Peso": "95.2\u00a0kg (209.9\u00a0lbs)",
+        "Tipos": [
+            "Steel",
+            "Psychic"
+        ],
+        "URL": "https://pokemondb.net/pokedex/beldum",
+        "Evolucoes": [
+            {
+                "Id": "#0374",
+                "Nome": "Beldum",
+                "URL": "https://pokemondb.net/pokedex/beldum"
+            },
+            {
+                "Id": "#0375",
+                "Nome": "Metang",
+                "URL": "https://pokemondb.net/pokedex/metang"
+            },
+            {
+                "Id": "#0376",
+                "Nome": "Metagross",
+                "URL": "https://pokemondb.net/pokedex/metagross"
+            }
+        ],
+        "Habilidades": [
+            {
+                "Nome": "Light Metal ",
+                "URL": "https://pokemondb.net/ability/light-metal",
+                "Descricao": " halves the Pok\u00e9mon's weight in battle. Decreasing weight affects these moves:"
             }
         ]
     },
@@ -3632,6 +4178,11 @@
         "URL": "https://pokemondb.net/pokedex/cherrim",
         "Evolucoes": [
             {
+                "Id": "#0420",
+                "Nome": "Cherubi",
+                "URL": "https://pokemondb.net/pokedex/cherubi"
+            },
+            {
                 "Id": "#0421",
                 "Nome": "Cherrim",
                 "URL": "https://pokemondb.net/pokedex/cherrim"
@@ -3657,6 +4208,11 @@
         "URL": "https://pokemondb.net/pokedex/drifloon",
         "Evolucoes": [
             {
+                "Id": "#0425",
+                "Nome": "Drifloon",
+                "URL": "https://pokemondb.net/pokedex/drifloon"
+            },
+            {
                 "Id": "#0426",
                 "Nome": "Drifblim",
                 "URL": "https://pokemondb.net/pokedex/drifblim"
@@ -3680,6 +4236,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/buneary",
         "Evolucoes": [
+            {
+                "Id": "#0427",
+                "Nome": "Buneary",
+                "URL": "https://pokemondb.net/pokedex/buneary"
+            },
             {
                 "Id": "#0428",
                 "Nome": "Lopunny",
@@ -3706,6 +4267,11 @@
         "URL": "https://pokemondb.net/pokedex/bronzor",
         "Evolucoes": [
             {
+                "Id": "#0436",
+                "Nome": "Bronzor",
+                "URL": "https://pokemondb.net/pokedex/bronzor"
+            },
+            {
                 "Id": "#0437",
                 "Nome": "Bronzong",
                 "URL": "https://pokemondb.net/pokedex/bronzong"
@@ -3716,72 +4282,6 @@
                 "Nome": "Heatproof ",
                 "URL": "https://pokemondb.net/ability/heatproof",
                 "Descricao": " reduces the damage taken from  -type moves by 50%. It also halves the damage from a burn, from   to   of the Pok\u00e9mon's maximum HP."
-            }
-        ]
-    },
-    {
-        "Id": "0466",
-        "Nome": "Electivire",
-        "Altura": "1.8\u00a0m (5\u203211\u2033)",
-        "Peso": "138.6\u00a0kg (305.6\u00a0lbs)",
-        "Tipos": [
-            "Electric"
-        ],
-        "URL": "https://pokemondb.net/pokedex/electivire",
-        "Evolucoes": [
-            {
-                "Id": "#0125",
-                "Nome": "Electabuzz",
-                "URL": "https://pokemondb.net/pokedex/electabuzz"
-            },
-            {
-                "Id": "#0466",
-                "Nome": "Electivire",
-                "URL": "https://pokemondb.net/pokedex/electivire"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Motor Drive ",
-                "URL": "https://pokemondb.net/ability/motor-drive",
-                "Descricao": "Raises Speed if hit by an Electric-type move.\n"
-            }
-        ]
-    },
-    {
-        "Id": "0475",
-        "Nome": "Gallade",
-        "Altura": "1.6\u00a0m (5\u203203\u2033)",
-        "Peso": "52.0\u00a0kg (114.6\u00a0lbs)",
-        "Tipos": [
-            "Psychic",
-            "Fighting",
-            "Psychic",
-            "Fighting"
-        ],
-        "URL": "https://pokemondb.net/pokedex/gallade",
-        "Evolucoes": [
-            {
-                "Id": "#0281",
-                "Nome": "Kirlia",
-                "URL": "https://pokemondb.net/pokedex/kirlia"
-            },
-            {
-                "Id": "#0282",
-                "Nome": "Gardevoir",
-                "URL": "https://pokemondb.net/pokedex/gardevoir"
-            },
-            {
-                "Id": "#0475",
-                "Nome": "Gallade",
-                "URL": "https://pokemondb.net/pokedex/gallade"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Sharpness ",
-                "URL": "https://pokemondb.net/ability/sharpness",
-                "Descricao": " increases the power of all   moves by 50%."
             }
         ]
     },
@@ -3859,6 +4359,76 @@
         ]
     },
     {
+        "Id": "0503",
+        "Nome": "Samurott",
+        "Altura": "1.5\u00a0m (4\u203211\u2033)",
+        "Peso": "94.6\u00a0kg (208.6\u00a0lbs)",
+        "Tipos": [
+            "Water",
+            "Water",
+            "Dark"
+        ],
+        "URL": "https://pokemondb.net/pokedex/samurott",
+        "Evolucoes": [
+            {
+                "Id": "#0501",
+                "Nome": "Oshawott",
+                "URL": "https://pokemondb.net/pokedex/oshawott"
+            },
+            {
+                "Id": "#0502",
+                "Nome": "Dewott",
+                "URL": "https://pokemondb.net/pokedex/dewott"
+            },
+            {
+                "Id": "#0503",
+                "Nome": "Samurott",
+                "URL": "https://pokemondb.net/pokedex/samurott"
+            },
+            {
+                "Id": "#0503",
+                "Nome": "Samurott",
+                "URL": "https://pokemondb.net/pokedex/samurott"
+            }
+        ],
+        "Habilidades": [
+            {
+                "Nome": "Sharpness ",
+                "URL": "https://pokemondb.net/ability/sharpness",
+                "Descricao": " increases the power of all   moves by 50%."
+            }
+        ]
+    },
+    {
+        "Id": "0522",
+        "Nome": "Blitzle",
+        "Altura": "0.8\u00a0m (2\u203207\u2033)",
+        "Peso": "29.8\u00a0kg (65.7\u00a0lbs)",
+        "Tipos": [
+            "Electric"
+        ],
+        "URL": "https://pokemondb.net/pokedex/blitzle",
+        "Evolucoes": [
+            {
+                "Id": "#0522",
+                "Nome": "Blitzle",
+                "URL": "https://pokemondb.net/pokedex/blitzle"
+            },
+            {
+                "Id": "#0523",
+                "Nome": "Zebstrika",
+                "URL": "https://pokemondb.net/pokedex/zebstrika"
+            }
+        ],
+        "Habilidades": [
+            {
+                "Nome": "Motor Drive ",
+                "URL": "https://pokemondb.net/ability/motor-drive",
+                "Descricao": "Raises Speed if hit by an Electric-type move.\n"
+            }
+        ]
+    },
+    {
         "Id": "0555",
         "Nome": "Darmanitan",
         "Altura": "1.3\u00a0m (4\u203203\u2033)",
@@ -3874,9 +4444,19 @@
         "URL": "https://pokemondb.net/pokedex/darmanitan",
         "Evolucoes": [
             {
+                "Id": "#0554",
+                "Nome": "Darumaka",
+                "URL": "https://pokemondb.net/pokedex/darumaka"
+            },
+            {
                 "Id": "#0555",
                 "Nome": "Darmanitan",
                 "URL": "https://pokemondb.net/pokedex/darmanitan"
+            },
+            {
+                "Id": "#0554",
+                "Nome": "Darumaka",
+                "URL": "https://pokemondb.net/pokedex/darumaka"
             },
             {
                 "Id": "#0555",
@@ -3910,9 +4490,19 @@
         "URL": "https://pokemondb.net/pokedex/yamask",
         "Evolucoes": [
             {
+                "Id": "#0562",
+                "Nome": "Yamask",
+                "URL": "https://pokemondb.net/pokedex/yamask"
+            },
+            {
                 "Id": "#0563",
                 "Nome": "Cofagrigus",
                 "URL": "https://pokemondb.net/pokedex/cofagrigus"
+            },
+            {
+                "Id": "#0562",
+                "Nome": "Yamask",
+                "URL": "https://pokemondb.net/pokedex/yamask"
             },
             {
                 "Id": "#0867",
@@ -3922,14 +4512,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Mummy ",
-                "URL": "https://pokemondb.net/ability/mummy",
-                "Descricao": "Contact with this Pok\u00e9mon spreads this Ability.\n"
-            },
-            {
                 "Nome": "Wandering Spirit ",
                 "URL": "https://pokemondb.net/ability/wandering-spirit",
                 "Descricao": "Swaps abilities with opponents on contact.\n"
+            },
+            {
+                "Nome": "Mummy ",
+                "URL": "https://pokemondb.net/ability/mummy",
+                "Descricao": "Contact with this Pok\u00e9mon spreads this Ability.\n"
             }
         ]
     },
@@ -3944,6 +4534,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/archen",
         "Evolucoes": [
+            {
+                "Id": "#0566",
+                "Nome": "Archen",
+                "URL": "https://pokemondb.net/pokedex/archen"
+            },
             {
                 "Id": "#0567",
                 "Nome": "Archeops",
@@ -3971,9 +4566,19 @@
         "URL": "https://pokemondb.net/pokedex/zorua",
         "Evolucoes": [
             {
+                "Id": "#0570",
+                "Nome": "Zorua",
+                "URL": "https://pokemondb.net/pokedex/zorua"
+            },
+            {
                 "Id": "#0571",
                 "Nome": "Zoroark",
                 "URL": "https://pokemondb.net/pokedex/zoroark"
+            },
+            {
+                "Id": "#0570",
+                "Nome": "Zorua",
+                "URL": "https://pokemondb.net/pokedex/zorua"
             },
             {
                 "Id": "#0571",
@@ -4000,6 +4605,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/ferroseed",
         "Evolucoes": [
+            {
+                "Id": "#0597",
+                "Nome": "Ferroseed",
+                "URL": "https://pokemondb.net/pokedex/ferroseed"
+            },
             {
                 "Id": "#0598",
                 "Nome": "Ferrothorn",
@@ -4084,6 +4694,11 @@
         "URL": "https://pokemondb.net/pokedex/chespin",
         "Evolucoes": [
             {
+                "Id": "#0650",
+                "Nome": "Chespin",
+                "URL": "https://pokemondb.net/pokedex/chespin"
+            },
+            {
                 "Id": "#0651",
                 "Nome": "Quilladin",
                 "URL": "https://pokemondb.net/pokedex/quilladin"
@@ -4112,6 +4727,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/fennekin",
         "Evolucoes": [
+            {
+                "Id": "#0653",
+                "Nome": "Fennekin",
+                "URL": "https://pokemondb.net/pokedex/fennekin"
+            },
             {
                 "Id": "#0654",
                 "Nome": "Braixen",
@@ -4145,6 +4765,11 @@
         "URL": "https://pokemondb.net/pokedex/greninja",
         "Evolucoes": [
             {
+                "Id": "#0656",
+                "Nome": "Froakie",
+                "URL": "https://pokemondb.net/pokedex/froakie"
+            },
+            {
                 "Id": "#0657",
                 "Nome": "Frogadier",
                 "URL": "https://pokemondb.net/pokedex/frogadier"
@@ -4174,6 +4799,11 @@
         "URL": "https://pokemondb.net/pokedex/bunnelby",
         "Evolucoes": [
             {
+                "Id": "#0659",
+                "Nome": "Bunnelby",
+                "URL": "https://pokemondb.net/pokedex/bunnelby"
+            },
+            {
                 "Id": "#0660",
                 "Nome": "Diggersby",
                 "URL": "https://pokemondb.net/pokedex/diggersby"
@@ -4198,6 +4828,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/fletchling",
         "Evolucoes": [
+            {
+                "Id": "#0661",
+                "Nome": "Fletchling",
+                "URL": "https://pokemondb.net/pokedex/fletchling"
+            },
             {
                 "Id": "#0662",
                 "Nome": "Fletchinder",
@@ -4228,6 +4863,11 @@
         "URL": "https://pokemondb.net/pokedex/flabebe",
         "Evolucoes": [
             {
+                "Id": "#0669",
+                "Nome": "Flab\u00e9b\u00e9",
+                "URL": "https://pokemondb.net/pokedex/flabebe"
+            },
+            {
                 "Id": "#0670",
                 "Nome": "Floette",
                 "URL": "https://pokemondb.net/pokedex/floette"
@@ -4240,14 +4880,14 @@
         ],
         "Habilidades": [
             {
-                "Nome": "Symbiosis ",
-                "URL": "https://pokemondb.net/ability/symbiosis",
-                "Descricao": "The Pok\u00e9mon can pass an item to an ally.\n"
-            },
-            {
                 "Nome": "Flower Veil ",
                 "URL": "https://pokemondb.net/ability/flower-veil",
                 "Descricao": " prevents ally Grass-type Pok\u00e9mon's stats from being lowered, in double and triple battles."
+            },
+            {
+                "Nome": "Symbiosis ",
+                "URL": "https://pokemondb.net/ability/symbiosis",
+                "Descricao": "The Pok\u00e9mon can pass an item to an ally.\n"
             }
         ]
     },
@@ -4261,6 +4901,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/skiddo",
         "Evolucoes": [
+            {
+                "Id": "#0672",
+                "Nome": "Skiddo",
+                "URL": "https://pokemondb.net/pokedex/skiddo"
+            },
             {
                 "Id": "#0673",
                 "Nome": "Gogoat",
@@ -4288,6 +4933,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/aegislash",
         "Evolucoes": [
+            {
+                "Id": "#0679",
+                "Nome": "Honedge",
+                "URL": "https://pokemondb.net/pokedex/honedge"
+            },
             {
                 "Id": "#0680",
                 "Nome": "Doublade",
@@ -4318,6 +4968,11 @@
         "URL": "https://pokemondb.net/pokedex/spritzee",
         "Evolucoes": [
             {
+                "Id": "#0682",
+                "Nome": "Spritzee",
+                "URL": "https://pokemondb.net/pokedex/spritzee"
+            },
+            {
                 "Id": "#0683",
                 "Nome": "Aromatisse",
                 "URL": "https://pokemondb.net/pokedex/aromatisse"
@@ -4342,6 +4997,11 @@
         "URL": "https://pokemondb.net/pokedex/swirlix",
         "Evolucoes": [
             {
+                "Id": "#0684",
+                "Nome": "Swirlix",
+                "URL": "https://pokemondb.net/pokedex/swirlix"
+            },
+            {
                 "Id": "#0685",
                 "Nome": "Slurpuff",
                 "URL": "https://pokemondb.net/pokedex/slurpuff"
@@ -4365,6 +5025,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/goomy",
         "Evolucoes": [
+            {
+                "Id": "#0704",
+                "Nome": "Goomy",
+                "URL": "https://pokemondb.net/pokedex/goomy"
+            },
             {
                 "Id": "#0705",
                 "Nome": "Sliggoo",
@@ -4448,14 +5113,14 @@
         "Evolucoes": [],
         "Habilidades": [
             {
-                "Nome": "Power Construct ",
-                "URL": "https://pokemondb.net/ability/power-construct",
-                "Descricao": " is unique to Zygarde. When Zygarde 10% Forme or Zygarde 50% Forme falls below half HP, it changes into Zygarde Complete Forme."
-            },
-            {
                 "Nome": "Aura Break ",
                 "URL": "https://pokemondb.net/ability/aura-break",
                 "Descricao": " cancels the effects of the abilities   and   and instead reduces the power of Dark-type and Fairy-type moves by 25%, for all Pok\u00e9mon on the field."
+            },
+            {
+                "Nome": "Power Construct ",
+                "URL": "https://pokemondb.net/ability/power-construct",
+                "Descricao": " is unique to Zygarde. When Zygarde 10% Forme or Zygarde 50% Forme falls below half HP, it changes into Zygarde Complete Forme."
             }
         ]
     },
@@ -4470,6 +5135,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/rowlet",
         "Evolucoes": [
+            {
+                "Id": "#0722",
+                "Nome": "Rowlet",
+                "URL": "https://pokemondb.net/pokedex/rowlet"
+            },
             {
                 "Id": "#0723",
                 "Nome": "Dartrix",
@@ -4505,6 +5175,11 @@
         "URL": "https://pokemondb.net/pokedex/popplio",
         "Evolucoes": [
             {
+                "Id": "#0728",
+                "Nome": "Popplio",
+                "URL": "https://pokemondb.net/pokedex/popplio"
+            },
+            {
                 "Id": "#0729",
                 "Nome": "Brionne",
                 "URL": "https://pokemondb.net/pokedex/brionne"
@@ -4534,6 +5209,11 @@
         "URL": "https://pokemondb.net/pokedex/yungoos",
         "Evolucoes": [
             {
+                "Id": "#0734",
+                "Nome": "Yungoos",
+                "URL": "https://pokemondb.net/pokedex/yungoos"
+            },
+            {
                 "Id": "#0735",
                 "Nome": "Gumshoos",
                 "URL": "https://pokemondb.net/pokedex/gumshoos"
@@ -4558,6 +5238,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/charjabug",
         "Evolucoes": [
+            {
+                "Id": "#0736",
+                "Nome": "Grubbin",
+                "URL": "https://pokemondb.net/pokedex/grubbin"
+            },
             {
                 "Id": "#0737",
                 "Nome": "Charjabug",
@@ -4633,6 +5318,11 @@
         "URL": "https://pokemondb.net/pokedex/mareanie",
         "Evolucoes": [
             {
+                "Id": "#0747",
+                "Nome": "Mareanie",
+                "URL": "https://pokemondb.net/pokedex/mareanie"
+            },
+            {
                 "Id": "#0748",
                 "Nome": "Toxapex",
                 "URL": "https://pokemondb.net/pokedex/toxapex"
@@ -4656,6 +5346,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/mudbray",
         "Evolucoes": [
+            {
+                "Id": "#0749",
+                "Nome": "Mudbray",
+                "URL": "https://pokemondb.net/pokedex/mudbray"
+            },
             {
                 "Id": "#0750",
                 "Nome": "Mudsdale",
@@ -4682,6 +5377,11 @@
         "URL": "https://pokemondb.net/pokedex/dewpider",
         "Evolucoes": [
             {
+                "Id": "#0751",
+                "Nome": "Dewpider",
+                "URL": "https://pokemondb.net/pokedex/dewpider"
+            },
+            {
                 "Id": "#0752",
                 "Nome": "Araquanid",
                 "URL": "https://pokemondb.net/pokedex/araquanid"
@@ -4706,6 +5406,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/salandit",
         "Evolucoes": [
+            {
+                "Id": "#0757",
+                "Nome": "Salandit",
+                "URL": "https://pokemondb.net/pokedex/salandit"
+            },
             {
                 "Id": "#0758",
                 "Nome": "Salazzle",
@@ -4732,6 +5437,11 @@
         "URL": "https://pokemondb.net/pokedex/stufful",
         "Evolucoes": [
             {
+                "Id": "#0759",
+                "Nome": "Stufful",
+                "URL": "https://pokemondb.net/pokedex/stufful"
+            },
+            {
                 "Id": "#0760",
                 "Nome": "Bewear",
                 "URL": "https://pokemondb.net/pokedex/bewear"
@@ -4755,6 +5465,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/tsareena",
         "Evolucoes": [
+            {
+                "Id": "#0761",
+                "Nome": "Bounsweet",
+                "URL": "https://pokemondb.net/pokedex/bounsweet"
+            },
             {
                 "Id": "#0762",
                 "Nome": "Steenee",
@@ -4822,6 +5537,11 @@
         "URL": "https://pokemondb.net/pokedex/wimpod",
         "Evolucoes": [
             {
+                "Id": "#0767",
+                "Nome": "Wimpod",
+                "URL": "https://pokemondb.net/pokedex/wimpod"
+            },
+            {
                 "Id": "#0768",
                 "Nome": "Golisopod",
                 "URL": "https://pokemondb.net/pokedex/golisopod"
@@ -4847,6 +5567,11 @@
         "URL": "https://pokemondb.net/pokedex/golisopod",
         "Evolucoes": [
             {
+                "Id": "#0767",
+                "Nome": "Wimpod",
+                "URL": "https://pokemondb.net/pokedex/wimpod"
+            },
+            {
                 "Id": "#0768",
                 "Nome": "Golisopod",
                 "URL": "https://pokemondb.net/pokedex/golisopod"
@@ -4871,6 +5596,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/sandygast",
         "Evolucoes": [
+            {
+                "Id": "#0769",
+                "Nome": "Sandygast",
+                "URL": "https://pokemondb.net/pokedex/sandygast"
+            },
             {
                 "Id": "#0770",
                 "Nome": "Palossand",
@@ -4913,6 +5643,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/silvally",
         "Evolucoes": [
+            {
+                "Id": "#0772",
+                "Nome": "Type: Null",
+                "URL": "https://pokemondb.net/pokedex/type-null"
+            },
             {
                 "Id": "#0773",
                 "Nome": "Silvally",
@@ -5092,6 +5827,11 @@
         "URL": "https://pokemondb.net/pokedex/solgaleo",
         "Evolucoes": [
             {
+                "Id": "#0789",
+                "Nome": "Cosmog",
+                "URL": "https://pokemondb.net/pokedex/cosmog"
+            },
+            {
                 "Id": "#0790",
                 "Nome": "Cosmoem",
                 "URL": "https://pokemondb.net/pokedex/cosmoem"
@@ -5126,6 +5866,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/lunala",
         "Evolucoes": [
+            {
+                "Id": "#0789",
+                "Nome": "Cosmog",
+                "URL": "https://pokemondb.net/pokedex/cosmog"
+            },
             {
                 "Id": "#0790",
                 "Nome": "Cosmoem",
@@ -5228,6 +5973,11 @@
         "URL": "https://pokemondb.net/pokedex/scorbunny",
         "Evolucoes": [
             {
+                "Id": "#0813",
+                "Nome": "Scorbunny",
+                "URL": "https://pokemondb.net/pokedex/scorbunny"
+            },
+            {
                 "Id": "#0814",
                 "Nome": "Raboot",
                 "URL": "https://pokemondb.net/pokedex/raboot"
@@ -5258,6 +6008,11 @@
         "URL": "https://pokemondb.net/pokedex/corviknight",
         "Evolucoes": [
             {
+                "Id": "#0821",
+                "Nome": "Rookidee",
+                "URL": "https://pokemondb.net/pokedex/rookidee"
+            },
+            {
                 "Id": "#0822",
                 "Nome": "Corvisquire",
                 "URL": "https://pokemondb.net/pokedex/corvisquire"
@@ -5287,6 +6042,11 @@
         "URL": "https://pokemondb.net/pokedex/gossifleur",
         "Evolucoes": [
             {
+                "Id": "#0829",
+                "Nome": "Gossifleur",
+                "URL": "https://pokemondb.net/pokedex/gossifleur"
+            },
+            {
                 "Id": "#0830",
                 "Nome": "Eldegoss",
                 "URL": "https://pokemondb.net/pokedex/eldegoss"
@@ -5311,6 +6071,11 @@
         "URL": "https://pokemondb.net/pokedex/yamper",
         "Evolucoes": [
             {
+                "Id": "#0835",
+                "Nome": "Yamper",
+                "URL": "https://pokemondb.net/pokedex/yamper"
+            },
+            {
                 "Id": "#0836",
                 "Nome": "Boltund",
                 "URL": "https://pokemondb.net/pokedex/boltund"
@@ -5334,6 +6099,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/rolycoly",
         "Evolucoes": [
+            {
+                "Id": "#0837",
+                "Nome": "Rolycoly",
+                "URL": "https://pokemondb.net/pokedex/rolycoly"
+            },
             {
                 "Id": "#0838",
                 "Nome": "Carkol",
@@ -5364,6 +6134,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/applin",
         "Evolucoes": [
+            {
+                "Id": "#0840",
+                "Nome": "Applin",
+                "URL": "https://pokemondb.net/pokedex/applin"
+            },
             {
                 "Id": "#0841",
                 "Nome": "Flapple",
@@ -5403,6 +6178,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/silicobra",
         "Evolucoes": [
+            {
+                "Id": "#0843",
+                "Nome": "Silicobra",
+                "URL": "https://pokemondb.net/pokedex/silicobra"
+            },
             {
                 "Id": "#0844",
                 "Nome": "Sandaconda",
@@ -5447,6 +6227,11 @@
         "URL": "https://pokemondb.net/pokedex/arrokuda",
         "Evolucoes": [
             {
+                "Id": "#0846",
+                "Nome": "Arrokuda",
+                "URL": "https://pokemondb.net/pokedex/arrokuda"
+            },
+            {
                 "Id": "#0847",
                 "Nome": "Barraskewda",
                 "URL": "https://pokemondb.net/pokedex/barraskewda"
@@ -5474,6 +6259,11 @@
         "URL": "https://pokemondb.net/pokedex/toxtricity",
         "Evolucoes": [
             {
+                "Id": "#0848",
+                "Nome": "Toxel",
+                "URL": "https://pokemondb.net/pokedex/toxel"
+            },
+            {
                 "Id": "#0849",
                 "Nome": "Toxtricity",
                 "URL": "https://pokemondb.net/pokedex/toxtricity"
@@ -5493,64 +6283,6 @@
         ]
     },
     {
-        "Id": "0863",
-        "Nome": "Perrserker",
-        "Altura": "0.8\u00a0m (2\u203207\u2033)",
-        "Peso": "28.0\u00a0kg (61.7\u00a0lbs)",
-        "Tipos": [
-            "Steel"
-        ],
-        "URL": "https://pokemondb.net/pokedex/perrserker",
-        "Evolucoes": [
-            {
-                "Id": "#0053",
-                "Nome": "Persian",
-                "URL": "https://pokemondb.net/pokedex/persian"
-            },
-            {
-                "Id": "#0053",
-                "Nome": "Persian",
-                "URL": "https://pokemondb.net/pokedex/persian"
-            },
-            {
-                "Id": "#0863",
-                "Nome": "Perrserker",
-                "URL": "https://pokemondb.net/pokedex/perrserker"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Steely Spirit ",
-                "URL": "https://pokemondb.net/ability/steely-spirit",
-                "Descricao": "Powers up ally Pok\u00e9mon's Steel-type moves.\n"
-            }
-        ]
-    },
-    {
-        "Id": "0864",
-        "Nome": "Cursola",
-        "Altura": "1.0\u00a0m (3\u203203\u2033)",
-        "Peso": "0.4\u00a0kg (0.9\u00a0lbs)",
-        "Tipos": [
-            "Ghost"
-        ],
-        "URL": "https://pokemondb.net/pokedex/cursola",
-        "Evolucoes": [
-            {
-                "Id": "#0864",
-                "Nome": "Cursola",
-                "URL": "https://pokemondb.net/pokedex/cursola"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Perish Body ",
-                "URL": "https://pokemondb.net/ability/perish-body",
-                "Descricao": "When hit by a move that makes direct contact, the Pok\u00e9mon and the attacker will faint after three turns unless they switch out of battle.\n"
-            }
-        ]
-    },
-    {
         "Id": "0872",
         "Nome": "Snom",
         "Altura": "0.3\u00a0m (1\u203200\u2033)",
@@ -5561,6 +6293,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/snom",
         "Evolucoes": [
+            {
+                "Id": "#0872",
+                "Nome": "Snom",
+                "URL": "https://pokemondb.net/pokedex/snom"
+            },
             {
                 "Id": "#0873",
                 "Nome": "Frosmoth",
@@ -5645,6 +6382,11 @@
         "URL": "https://pokemondb.net/pokedex/duraludon",
         "Evolucoes": [
             {
+                "Id": "#0884",
+                "Nome": "Duraludon",
+                "URL": "https://pokemondb.net/pokedex/duraludon"
+            },
+            {
                 "Id": "#1018",
                 "Nome": "Archaludon",
                 "URL": "https://pokemondb.net/pokedex/archaludon"
@@ -5711,6 +6453,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/urshifu",
         "Evolucoes": [
+            {
+                "Id": "#0891",
+                "Nome": "Kubfu",
+                "URL": "https://pokemondb.net/pokedex/kubfu"
+            },
             {
                 "Id": "#0892",
                 "Nome": "Urshifu",
@@ -5826,38 +6573,6 @@
         ]
     },
     {
-        "Id": "0901",
-        "Nome": "Ursaluna",
-        "Altura": "2.4\u00a0m (7\u203210\u2033)",
-        "Peso": "290.0\u00a0kg (639.3\u00a0lbs)",
-        "Tipos": [
-            "Ground",
-            "Normal",
-            "Ground",
-            "Normal"
-        ],
-        "URL": "https://pokemondb.net/pokedex/ursaluna",
-        "Evolucoes": [
-            {
-                "Id": "#0217",
-                "Nome": "Ursaring",
-                "URL": "https://pokemondb.net/pokedex/ursaring"
-            },
-            {
-                "Id": "#0901",
-                "Nome": "Ursaluna",
-                "URL": "https://pokemondb.net/pokedex/ursaluna"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Mind's Eye ",
-                "URL": "https://pokemondb.net/ability/minds-eye",
-                "Descricao": "The Pok\u00e9mon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."
-            }
-        ]
-    },
-    {
         "Id": "0916",
         "Nome": "Oinkologne",
         "Altura": "1.0\u00a0m (3\u203203\u2033)",
@@ -5868,6 +6583,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/oinkologne",
         "Evolucoes": [
+            {
+                "Id": "#0915",
+                "Nome": "Lechonk",
+                "URL": "https://pokemondb.net/pokedex/lechonk"
+            },
             {
                 "Id": "#0916",
                 "Nome": "Oinkologne",
@@ -5898,6 +6618,11 @@
         "URL": "https://pokemondb.net/pokedex/dachsbun",
         "Evolucoes": [
             {
+                "Id": "#0926",
+                "Nome": "Fidough",
+                "URL": "https://pokemondb.net/pokedex/fidough"
+            },
+            {
                 "Id": "#0927",
                 "Nome": "Dachsbun",
                 "URL": "https://pokemondb.net/pokedex/dachsbun"
@@ -5922,6 +6647,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/arboliva",
         "Evolucoes": [
+            {
+                "Id": "#0928",
+                "Nome": "Smoliv",
+                "URL": "https://pokemondb.net/pokedex/smoliv"
+            },
             {
                 "Id": "#0929",
                 "Nome": "Dolliv",
@@ -5952,6 +6682,11 @@
         "URL": "https://pokemondb.net/pokedex/nacli",
         "Evolucoes": [
             {
+                "Id": "#0932",
+                "Nome": "Nacli",
+                "URL": "https://pokemondb.net/pokedex/nacli"
+            },
+            {
                 "Id": "#0933",
                 "Nome": "Naclstack",
                 "URL": "https://pokemondb.net/pokedex/naclstack"
@@ -5981,6 +6716,11 @@
         "URL": "https://pokemondb.net/pokedex/bellibolt",
         "Evolucoes": [
             {
+                "Id": "#0938",
+                "Nome": "Tadbulb",
+                "URL": "https://pokemondb.net/pokedex/tadbulb"
+            },
+            {
                 "Id": "#0939",
                 "Nome": "Bellibolt",
                 "URL": "https://pokemondb.net/pokedex/bellibolt"
@@ -6006,6 +6746,11 @@
         "URL": "https://pokemondb.net/pokedex/wattrel",
         "Evolucoes": [
             {
+                "Id": "#0940",
+                "Nome": "Wattrel",
+                "URL": "https://pokemondb.net/pokedex/wattrel"
+            },
+            {
                 "Id": "#0941",
                 "Nome": "Kilowattrel",
                 "URL": "https://pokemondb.net/pokedex/kilowattrel"
@@ -6029,6 +6774,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/mabosstiff",
         "Evolucoes": [
+            {
+                "Id": "#0942",
+                "Nome": "Maschiff",
+                "URL": "https://pokemondb.net/pokedex/maschiff"
+            },
             {
                 "Id": "#0943",
                 "Nome": "Mabosstiff",
@@ -6055,6 +6805,11 @@
         "URL": "https://pokemondb.net/pokedex/bramblin",
         "Evolucoes": [
             {
+                "Id": "#0946",
+                "Nome": "Bramblin",
+                "URL": "https://pokemondb.net/pokedex/bramblin"
+            },
+            {
                 "Id": "#0947",
                 "Nome": "Brambleghast",
                 "URL": "https://pokemondb.net/pokedex/brambleghast"
@@ -6079,6 +6834,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/toedscool",
         "Evolucoes": [
+            {
+                "Id": "#0948",
+                "Nome": "Toedscool",
+                "URL": "https://pokemondb.net/pokedex/toedscool"
+            },
             {
                 "Id": "#0949",
                 "Nome": "Toedscruel",
@@ -6121,6 +6881,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/espathra",
         "Evolucoes": [
+            {
+                "Id": "#0955",
+                "Nome": "Flittle",
+                "URL": "https://pokemondb.net/pokedex/flittle"
+            },
             {
                 "Id": "#0956",
                 "Nome": "Espathra",
@@ -6166,6 +6931,11 @@
         "URL": "https://pokemondb.net/pokedex/palafin",
         "Evolucoes": [
             {
+                "Id": "#0963",
+                "Nome": "Finizen",
+                "URL": "https://pokemondb.net/pokedex/finizen"
+            },
+            {
                 "Id": "#0964",
                 "Nome": "Palafin",
                 "URL": "https://pokemondb.net/pokedex/palafin"
@@ -6208,6 +6978,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/glimmet",
         "Evolucoes": [
+            {
+                "Id": "#0969",
+                "Nome": "Glimmet",
+                "URL": "https://pokemondb.net/pokedex/glimmet"
+            },
             {
                 "Id": "#0970",
                 "Nome": "Glimmora",
@@ -6265,61 +7040,6 @@
         ]
     },
     {
-        "Id": "0981",
-        "Nome": "Farigiraf",
-        "Altura": "3.2\u00a0m (10\u203206\u2033)",
-        "Peso": "160.0\u00a0kg (352.7\u00a0lbs)",
-        "Tipos": [
-            "Normal",
-            "Psychic"
-        ],
-        "URL": "https://pokemondb.net/pokedex/farigiraf",
-        "Evolucoes": [
-            {
-                "Id": "#0981",
-                "Nome": "Farigiraf",
-                "URL": "https://pokemondb.net/pokedex/farigiraf"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Armor Tail ",
-                "URL": "https://pokemondb.net/ability/armor-tail",
-                "Descricao": " prevents the opponent from using any moves that have priority, such as  ."
-            }
-        ]
-    },
-    {
-        "Id": "0983",
-        "Nome": "Kingambit",
-        "Altura": "2.0\u00a0m (6\u203207\u2033)",
-        "Peso": "120.0\u00a0kg (264.6\u00a0lbs)",
-        "Tipos": [
-            "Dark",
-            "Steel"
-        ],
-        "URL": "https://pokemondb.net/pokedex/kingambit",
-        "Evolucoes": [
-            {
-                "Id": "#0625",
-                "Nome": "Bisharp",
-                "URL": "https://pokemondb.net/pokedex/bisharp"
-            },
-            {
-                "Id": "#0983",
-                "Nome": "Kingambit",
-                "URL": "https://pokemondb.net/pokedex/kingambit"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Supreme Overlord ",
-                "URL": "https://pokemondb.net/ability/supreme-overlord",
-                "Descricao": "Attack and Special Attack are boosted for each party Pok\u00e9mon that has been defeated.\n"
-            }
-        ]
-    },
-    {
         "Id": "0984",
         "Nome": "Great Tusk",
         "Altura": "2.2\u00a0m (7\u203203\u2033)",
@@ -6369,6 +7089,11 @@
         "URL": "https://pokemondb.net/pokedex/frigibax",
         "Evolucoes": [
             {
+                "Id": "#0996",
+                "Nome": "Frigibax",
+                "URL": "https://pokemondb.net/pokedex/frigibax"
+            },
+            {
                 "Id": "#0997",
                 "Nome": "Arctibax",
                 "URL": "https://pokemondb.net/pokedex/arctibax"
@@ -6398,6 +7123,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/gholdengo",
         "Evolucoes": [
+            {
+                "Id": "#0999",
+                "Nome": "Gimmighoul",
+                "URL": "https://pokemondb.net/pokedex/gimmighoul"
+            },
             {
                 "Id": "#1000",
                 "Nome": "Gholdengo",
@@ -6527,46 +7257,6 @@
         ]
     },
     {
-        "Id": "1011",
-        "Nome": "Dipplin",
-        "Altura": "0.4\u00a0m (1\u203204\u2033)",
-        "Peso": "4.4\u00a0kg (9.7\u00a0lbs)",
-        "Tipos": [
-            "Grass",
-            "Dragon"
-        ],
-        "URL": "https://pokemondb.net/pokedex/dipplin",
-        "Evolucoes": [
-            {
-                "Id": "#0841",
-                "Nome": "Flapple",
-                "URL": "https://pokemondb.net/pokedex/flapple"
-            },
-            {
-                "Id": "#0842",
-                "Nome": "Appletun",
-                "URL": "https://pokemondb.net/pokedex/appletun"
-            },
-            {
-                "Id": "#1011",
-                "Nome": "Dipplin",
-                "URL": "https://pokemondb.net/pokedex/dipplin"
-            },
-            {
-                "Id": "#1019",
-                "Nome": "Hydrapple",
-                "URL": "https://pokemondb.net/pokedex/hydrapple"
-            }
-        ],
-        "Habilidades": [
-            {
-                "Nome": "Supersweet Syrup ",
-                "URL": "https://pokemondb.net/ability/supersweet-syrup",
-                "Descricao": "A sickly sweet scent spreads across the field the first time the Pok\u00e9mon enters a battle, lowering the evasiveness of opposing Pok\u00e9mon."
-            }
-        ]
-    },
-    {
         "Id": "1012",
         "Nome": "Poltchageist",
         "Altura": "0.1\u00a0m (0\u203204\u2033)",
@@ -6577,6 +7267,11 @@
         ],
         "URL": "https://pokemondb.net/pokedex/poltchageist",
         "Evolucoes": [
+            {
+                "Id": "#1012",
+                "Nome": "Poltchageist",
+                "URL": "https://pokemondb.net/pokedex/poltchageist"
+            },
             {
                 "Id": "#1013",
                 "Nome": "Sinistcha",
@@ -6648,11 +7343,6 @@
         "Evolucoes": [],
         "Habilidades": [
             {
-                "Nome": "Teraform Zero ",
-                "URL": "https://pokemondb.net/ability/teraform-zero",
-                "Descricao": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero."
-            },
-            {
                 "Nome": "Tera Shell ",
                 "URL": "https://pokemondb.net/ability/tera-shell",
                 "Descricao": "The Pok\u00e9mon\u2019s shell contains the powers of each type. All damage-dealing moves that hit the Pok\u00e9mon when its HP is full will not be very effective."
@@ -6661,6 +7351,11 @@
                 "Nome": "Tera Shift ",
                 "URL": "https://pokemondb.net/ability/tera-shift",
                 "Descricao": "When the Pok\u00e9mon enters a battle, it absorbs the energy around itself and transforms into its Terastal Form."
+            },
+            {
+                "Nome": "Teraform Zero ",
+                "URL": "https://pokemondb.net/ability/teraform-zero",
+                "Descricao": "When Terapagos changes into its Stellar Form, it uses its hidden powers to eliminate all effects of weather and terrain, reducing them to zero."
             }
         ]
     },
