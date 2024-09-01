@@ -1,9 +1,7 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from scrapy import Selector
-import requests
-import re
 import json
+import time
 
 class PokemonScraper(scrapy.Spider):
     name = 'pokemon_scraper'
@@ -21,15 +19,18 @@ class PokemonScraper(scrapy.Spider):
             link = pokemon.css('td.cell-name a.ent-name::attr(href)').get()
             pokemon_url = response.urljoin(link)
 
-            # Log para verificar se está capturando os Pokémon
-            self.log(f"Capturando Pokémon: {number} - {name}")
-
-            # Segue o link para a página detalhada do Pokémon
-            yield response.follow(pokemon_url, self.parse_pokemon, meta={
-                'number': number,
-                'name': name,
-                'url': pokemon_url
-            })
+            # Verifica se o número está presente para evitar problemas
+            if number and name and pokemon_url:
+                self.log(f"Capturando Pokémon: {number} - {name}")
+                # Segue o link para a página detalhada do Pokémon
+                yield response.follow(pokemon_url, self.parse_pokemon, meta={
+                    'number': number,
+                    'name': name,
+                    'url': pokemon_url
+                })
+                time.sleep(0.3)  # Adiciona um pequeno delay entre requests para evitar bloqueios
+            else:
+                self.log(f"Falha ao capturar dados para o Pokémon: {name}")
 
     def parse_pokemon(self, response):
         number = response.meta['number']
@@ -94,17 +95,16 @@ class PokemonScraper(scrapy.Spider):
         pokemon_data = response.meta["pokemon_data"]
         evolutions = response.meta["Evolucoes"]
 
-        # Montar o resultado final e adicionar à lista de Pokémon
-        self.pokemons.append({
-            "Id": pokemon_data["Id"],
-            "URL": pokemon_data["URL"],
-            "Nome": pokemon_data["Nome"],
-            "Altura": pokemon_data["Altura"],
-            "Peso": pokemon_data["Peso"],
-            "Tipos": pokemon_data["Tipos"],
-            "Evolucoes": evolutions,
-            "Habilidades": [ability_data]
-        })
+        # Verificar se o Pokémon já está na lista
+        existing_pokemon = next((p for p in self.pokemons if p["Id"] == pokemon_data["Id"]), None)
+        if existing_pokemon:
+            # Se o Pokémon já existe, adicionar a habilidade à lista de habilidades
+            existing_pokemon["Habilidades"].append(ability_data)
+        else:
+            # Se o Pokémon não existe, adicionar o Pokémon com a primeira habilidade
+            pokemon_data["Evolucoes"] = evolutions
+            pokemon_data["Habilidades"] = [ability_data]
+            self.pokemons.append(pokemon_data)
 
     def closed(self, reason):
         # Ordena a lista de pokémons pelo número
