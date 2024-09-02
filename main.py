@@ -2,6 +2,8 @@ import scrapy
 from scrapy.crawler import CrawlerProcess
 from scrapy.http import Request
 import json
+import pandas as pd
+import re
 
 class PokemonItem(scrapy.Item):
     number = scrapy.Field()
@@ -104,6 +106,24 @@ class PokemonScrapper(scrapy.Spider):
             self.items.append(dict(item))
             yield item
 
+def clean_measurement(value):
+    if value:
+        # Remove todos os caracteres que não são dígitos, pontos ou vírgulas
+        cleaned_value = re.sub(r'[^\d.,]', '', value)
+        # Verifica se existem múltiplos pontos ou vírgulas e mantém apenas o último
+        parts = re.findall(r'\d+', cleaned_value)
+        if len(parts) > 1:
+            cleaned_value = '.'.join(parts[-2:])
+        else:
+            cleaned_value = parts[0]
+        # Substitui vírgulas por pontos
+        cleaned_value = cleaned_value.replace(',', '.')
+        try:
+            return float(cleaned_value)
+        except ValueError:
+            return None  # Se não for possível converter, retorna None
+    return None
+
 if __name__ == "__main__":
     process = CrawlerProcess()
 
@@ -117,3 +137,21 @@ if __name__ == "__main__":
     # Save the results to a JSON file
     with open('pokemons.json', 'w', encoding='utf-8') as f:
         json.dump(PokemonScrapper.items, f, ensure_ascii=False, indent=4)
+
+    # Carregar o JSON gerado pelo Scrapy
+    with open('pokemons.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    # Converter para DataFrame
+    df = pd.DataFrame(data)
+
+    # Remover entradas com dados nulos ou inválidos
+    df.dropna(inplace=True)
+
+    # Limpar e converter altura e peso para valores numéricos
+    df['height_cm'] = df['height_cm'].apply(lambda x: clean_measurement(x) * 100 if x else None)
+    df['weight_kg'] = df['weight_kg'].apply(clean_measurement)
+
+    # Salvar o DataFrame limpo em um novo arquivo JSON ou CSV
+    df.to_json('pokemons_cleaned.json', orient='records', indent=4, force_ascii=False)
+    df.to_csv('pokemons_cleaned.csv', index=False)
