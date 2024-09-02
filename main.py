@@ -8,11 +8,10 @@ class PokemonScraper(scrapy.Spider):
     start_urls = ["https://pokemondb.net/pokedex/all"]
 
     def __init__(self):
-        self.pokemons = []
-        self.processed_pokemon_urls = set()  # Usado para rastrear URLs já processadas
+        self.pokemons = {}
+        self.processed_pokemon_urls = set()
 
     def parse(self, response):
-        # Captura todos os Pokémon na página
         pokemons = response.css('#pokedex tbody tr')
         for pokemon in pokemons:
             number = pokemon.css('td.cell-num span.infocard-cell-data::text').get()
@@ -20,48 +19,42 @@ class PokemonScraper(scrapy.Spider):
             link = pokemon.css('td.cell-name a.ent-name::attr(href)').get()
             pokemon_url = response.urljoin(link)
 
-            # Verifica se o número está presente para evitar problemas
             if number and name and pokemon_url:
-                if pokemon_url not in self.processed_pokemon_urls:
+                if number not in self.pokemons:
+                    self.pokemons[number] = {
+                        "Id": number,
+                        "Nome": name,
+                        "URL": pokemon_url,
+                        "Altura": "",
+                        "Peso": "",
+                        "Tipos": [],
+                        "Evolucoes": [],
+                        "Habilidades": []
+                    }
                     self.processed_pokemon_urls.add(pokemon_url)
-                    self.log(f"Capturando Pokémon: {number} - {name}")
-                    # Segue o link para a página detalhada do Pokémon
                     yield response.follow(pokemon_url, self.parse_pokemon, meta={
-                        'number': number,
-                        'name': name,
-                        'url': pokemon_url
+                        'number': number
                     })
-                    time.sleep(1)  # Adiciona um pequeno delay entre requests para evitar bloqueios
-            else:
-                self.log(f"Falha ao capturar dados para o Pokémon: {name}")
+                    time.sleep(1)
 
     def parse_pokemon(self, response):
         number = response.meta['number']
-        name = response.meta['name']
-        pokemon_url = response.meta['url']
+        pokemon_data = self.pokemons[number]
 
-        # Extrair informações básicas do Pokémon
-        pokemon_data = {
-            "Id": number,
-            "Nome": name,
-            "Altura": response.css(
-                "table.vitals-table > tbody > tr:contains('Height') > td::text").get(),
-            "Peso": response.css(
-                "table.vitals-table > tbody > tr:contains('Weight') > td::text").get(),
-            "Tipos": [
-                tipo.strip() for tipo in response.css(
-                    "table.vitals-table > tbody > tr:contains('Type') > td a.type-icon::text"
-                ).getall()
-            ],
-            "URL": pokemon_url
-        }
+        pokemon_data["Altura"] = response.css(
+            "table.vitals-table > tbody > tr:contains('Height') > td::text").get()
+        pokemon_data["Peso"] = response.css(
+            "table.vitals-table > tbody > tr:contains('Weight') > td::text").get()
+        pokemon_data["Tipos"] = [
+            tipo.strip() for tipo in response.css(
+                "table.vitals-table > tbody > tr:contains('Type') > td a.type-icon::text"
+            ).getall()
+        ]
 
-        # Extrair informações de evolução e seguir cada uma
         evolutions = []
-        evolution_cards = response.css(
-            "div.infocard-list-evo > div.infocard")
+        evolution_cards = response.css("div.infocard-list-evo > div.infocard")
         for evolution_card in evolution_cards:
-            id_evolution = evolution_card.css('small::text').get()
+            id_evolution = evolution_card.css('small::text').get().strip("#")
             name_evolution = evolution_card.css('a.ent-name::text').get()
             url_evolution = evolution_card.css('a.ent-name::attr(href)').get()
 
@@ -73,59 +66,58 @@ class PokemonScraper(scrapy.Spider):
                     'URL': evolution_url_full
                 })
 
-                if evolution_url_full not in self.processed_pokemon_urls:
-                    self.processed_pokemon_urls.add(evolution_url_full)
-                    yield response.follow(evolution_url_full, self.parse_pokemon)
+                if id_evolution not in self.pokemons:
+                    self.pokemons[id_evolution] = {
+                        "Id": id_evolution,
+                        "Nome": name_evolution,
+                        "URL": evolution_url_full,
+                        "Altura": "",
+                        "Peso": "",
+                        "Tipos": [],
+                        "Evolucoes": [],
+                        "Habilidades": []
+                    }
+                    yield response.follow(evolution_url_full, self.parse_pokemon, meta={
+                        'number': id_evolution
+                    })
 
-        # Extrair URLs das habilidades e seguir para cada uma
+        pokemon_data["Evolucoes"] = evolutions
+
         ability_urls = response.css(
             'table.vitals-table > tbody > tr:contains("Abilities") td a::attr(href)'
         ).getall()
+
         for ability_url in ability_urls:
-            yield response.follow(ability_url,
-                                  self.parse_ability,
-                                  meta={
-                                      "pokemon_data": pokemon_data,
-                                      "Evolucoes": evolutions
-                                  })
+            yield response.follow(ability_url, self.parse_ability, meta={
+                "pokemon_data": pokemon_data,
+                "ability_url": ability_url
+            })
 
     def parse_ability(self, response):
-        # Extrair informações da habilidade
-        ability_data = {
-            "Nome": response.css("h1::text").get(),
-            "URL": response.url,
-            "Descricao": ' '.join(
-                response.css(
-                    'div > div > h2:contains("Effect") + p::text').getall())
-        }
+        ability_name = response.css("h1::text").get()
+        ability_description = ' '.join(
+            response.css('div > div > h2:contains("Effect") + p::text').getall()
+        )
+        ability_url = response.meta["ability_url"]
 
-        # Combinar informações do Pokémon com as da habilidade
         pokemon_data = response.meta["pokemon_data"]
-        evolutions = response.meta["Evolucoes"]
 
-        # Verificar se o Pokémon já está na lista
-        existing_pokemon = next((p for p in self.pokemons if p["Id"] == pokemon_data["Id"]), None)
-        if existing_pokemon:
-            # Se o Pokémon já existe, adicionar a habilidade à lista de habilidades
-            existing_pokemon["Habilidades"].append(ability_data)
-        else:
-            # Se o Pokémon não existe, adicionar o Pokémon com a primeira habilidade
-            pokemon_data["Evolucoes"] = evolutions
-            pokemon_data["Habilidades"] = [ability_data]
-            self.pokemons.append(pokemon_data)
+        # Evita habilidades duplicadas
+        if not any(ability['Nome'] == ability_name for ability in pokemon_data["Habilidades"]):
+            pokemon_data["Habilidades"].append({
+                "Nome": ability_name,
+                "URL": ability_url,
+                "Descricao": ability_description
+            })
 
     def closed(self, reason):
-        # Ordena a lista de pokémons pelo número
-        sorted_pokemons = sorted(self.pokemons, key=lambda x: int(x['Id']))
-
-        # Salva os pokémons ordenados em um arquivo JSON
+        sorted_pokemons = sorted(self.pokemons.values(), key=lambda x: int(x['Id']))
         with open('pokemons_sorted.json', 'w') as f:
             json.dump(sorted_pokemons, f, indent=4)
-
-        # Log para indicar que o arquivo foi salvo
         self.log("Arquivo JSON salvo com sucesso.")
 
 # Executa o scraper
-process = CrawlerProcess()
-process.crawl(PokemonScraper)
-process.start()
+if __name__ == "__main__":
+    process = CrawlerProcess()
+    process.crawl(PokemonScraper)
+    process.start()
