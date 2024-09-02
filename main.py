@@ -31,7 +31,6 @@ class PokemonScraper(scrapy.Spider):
                         'name': name,
                         'url': pokemon_url
                     })
-                    time.sleep(1)  # Adiciona um pequeno delay entre requests para evitar bloqueios
             else:
                 self.log(f"Falha ao capturar dados para o Pokémon: {name}")
 
@@ -53,13 +52,20 @@ class PokemonScraper(scrapy.Spider):
                     "table.vitals-table > tbody > tr:contains('Type') > td a.type-icon::text"
                 ).getall()
             ],
-            "URL": pokemon_url
+            "URL": pokemon_url,
+            "Evolucoes": [],
+            "Habilidades": []
         }
 
+        # Verificar se o Pokémon já está na lista para evitar duplicação
+        existing_pokemon = next((p for p in self.pokemons if p["Id"] == pokemon_data["Id"]), None)
+        if not existing_pokemon:
+            self.pokemons.append(pokemon_data)
+        else:
+            pokemon_data = existing_pokemon
+
         # Extrair informações de evolução e seguir cada uma
-        evolutions = []
-        evolution_cards = response.css(
-            "div.infocard-list-evo > div.infocard")
+        evolution_cards = response.css("div.infocard-list-evo > div.infocard")
         for evolution_card in evolution_cards:
             id_evolution = evolution_card.css('small::text').get()
             name_evolution = evolution_card.css('a.ent-name::text').get()
@@ -67,11 +73,13 @@ class PokemonScraper(scrapy.Spider):
 
             if id_evolution and name_evolution and url_evolution:
                 evolution_url_full = response.urljoin(url_evolution)
-                evolutions.append({
+                evolution_data = {
                     "Id": id_evolution,
                     'Nome': name_evolution,
                     'URL': evolution_url_full
-                })
+                }
+                if evolution_data not in pokemon_data["Evolucoes"]:
+                    pokemon_data["Evolucoes"].append(evolution_data)
 
                 if evolution_url_full not in self.processed_pokemon_urls:
                     self.processed_pokemon_urls.add(evolution_url_full)
@@ -81,13 +89,14 @@ class PokemonScraper(scrapy.Spider):
         ability_urls = response.css(
             'table.vitals-table > tbody > tr:contains("Abilities") td a::attr(href)'
         ).getall()
-        for ability_url in ability_urls:
-            yield response.follow(ability_url,
-                                  self.parse_ability,
-                                  meta={
-                                      "pokemon_data": pokemon_data,
-                                      "Evolucoes": evolutions
-                                  })
+        if ability_urls:
+            for ability_url in ability_urls:
+                yield response.follow(ability_url,
+                                      self.parse_ability,
+                                      meta={"pokemon_data": pokemon_data})
+        else:
+            # Se não há habilidades, finalize o processamento deste Pokémon
+            self.pokemons = [p for p in self.pokemons if p["Id"] != pokemon_data["Id"]] + [pokemon_data]
 
     def parse_ability(self, response):
         # Extrair informações da habilidade
@@ -101,7 +110,6 @@ class PokemonScraper(scrapy.Spider):
 
         # Combinar informações do Pokémon com as da habilidade
         pokemon_data = response.meta["pokemon_data"]
-        evolutions = response.meta["Evolucoes"]
 
         # Verificar se o Pokémon já está na lista
         existing_pokemon = next((p for p in self.pokemons if p["Id"] == pokemon_data["Id"]), None)
@@ -110,7 +118,6 @@ class PokemonScraper(scrapy.Spider):
             existing_pokemon["Habilidades"].append(ability_data)
         else:
             # Se o Pokémon não existe, adicionar o Pokémon com a primeira habilidade
-            pokemon_data["Evolucoes"] = evolutions
             pokemon_data["Habilidades"] = [ability_data]
             self.pokemons.append(pokemon_data)
 
