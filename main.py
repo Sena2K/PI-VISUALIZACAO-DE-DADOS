@@ -4,7 +4,7 @@ from scrapy.http import Request
 import json
 import pandas as pd
 import re
-
+import time
 
 class PokemonItem(scrapy.Item):
     numero = scrapy.Field()
@@ -16,29 +16,35 @@ class PokemonItem(scrapy.Item):
     proximas_evolucoes = scrapy.Field()
     habilidades = scrapy.Field()
 
-
-class PokemonScrapper(scrapy.Spider):
-    name = 'pokemon_scrapper'
+class PokemonScraper(scrapy.Spider):
+    name = 'pokemon_scraper'
     start_urls = ["https://pokemondb.net/pokedex/all"]
     itens = []
 
+    def __init__(self):
+        self.processed_pokemon_urls = set()  # Usado para rastrear URLs já processadas
+
     def parse(self, response):
-        pokemons = response.css('#pokedex > tbody > tr')
+        pokemons = response.css('#pokedex tbody tr')
         for pokemon in pokemons:
             numero = self.parse_numero(pokemon)
             nome = self.parse_nome(pokemon)
             pokemon_url = self.parse_url(pokemon, response)
-
             tipos = ", ".join(pokemon.css('td.cell-icon a.type-icon::text').getall())
 
-            yield response.follow(pokemon_url,
-                                  self.parse_pokemon,
-                                  meta={
-                                      'numero': numero,
-                                      'nome': nome,
-                                      'url': pokemon_url,
-                                      'tipos': tipos
-                                  })
+            if numero and nome and pokemon_url:
+                if pokemon_url not in self.processed_pokemon_urls:
+                    self.processed_pokemon_urls.add(pokemon_url)
+                    self.log(f"Capturando Pokémon: {numero} - {nome}")
+                    yield response.follow(pokemon_url,
+                                          self.parse_pokemon,
+                                          meta={
+                                              'numero': numero,
+                                              'nome': nome,
+                                              'url': pokemon_url,
+                                              'tipos': tipos
+                                          })
+                    #time.sleep(1)  # Adiciona um pequeno delay entre requests para evitar bloqueios
 
     def parse_numero(self, pokemon):
         return pokemon.css('td.cell-num span.infocard-cell-data::text').get()
@@ -52,7 +58,6 @@ class PokemonScrapper(scrapy.Spider):
 
     def parse_pokemon(self, response):
         item = self.create_pokemon_item(response)
-
         evolucoes = self.parse_evolucoes(response, item)
         item['proximas_evolucoes'] = evolucoes
 
@@ -129,6 +134,26 @@ class PokemonScrapper(scrapy.Spider):
     def save_item(self, item):
         self.itens.append(dict(item))
 
+    def closed(self, reason):
+        # Ordena a lista de pokémons pelo número
+        sorted_pokemons = sorted(self.itens, key=lambda x: x['numero'])
+
+        # Salva os pokémons ordenados em um arquivo JSON
+        with open('pokemons_sorted.json', 'w', encoding='utf-8') as f:
+            json.dump(sorted_pokemons, f, ensure_ascii=False, indent=4)
+
+        # Log para indicar que o arquivo foi salvo
+        self.log("Arquivo JSON salvo com sucesso.")
+
+        # Processa e limpa os dados usando pandas
+        df = pd.DataFrame(sorted_pokemons)
+        df.dropna(inplace=True)
+
+        df['altura_cm'] = df['altura_cm'].apply(lambda x: limpar_medida(x) * 100 if x else None)
+        df['peso_kg'] = df['peso_kg'].apply(limpar_medida)
+
+        df.to_json('pokemons_limpos.json', orient='records', indent=4, force_ascii=False)
+        df.to_csv('pokemons_limpos.csv', index=False)
 
 def limpar_medida(valor):
     if valor:
@@ -145,27 +170,7 @@ def limpar_medida(valor):
             return None
     return None
 
-
 if __name__ == "__main__":
     process = CrawlerProcess()
-
-    process.crawl(PokemonScrapper)
+    process.crawl(PokemonScraper)
     process.start()
-
-    PokemonScrapper.itens.sort(key=lambda x: x['numero'])
-
-    with open('pokemons.json', 'w', encoding='utf-8') as f:
-        json.dump(PokemonScrapper.itens, f, ensure_ascii=False, indent=4)
-
-    with open('pokemons.json', 'r', encoding='utf-8') as f:
-        dados = json.load(f)
-
-    df = pd.DataFrame(dados)
-
-    df.dropna(inplace=True)
-
-    df['altura_cm'] = df['altura_cm'].apply(lambda x: limpar_medida(x) * 100 if x else None)
-    df['peso_kg'] = df['peso_kg'].apply(limpar_medida)
-
-    df.to_json('pokemons_limpos.json', orient='records', indent=4, force_ascii=False)
-    df.to_csv('pokemons_limpos.csv', index=False)
