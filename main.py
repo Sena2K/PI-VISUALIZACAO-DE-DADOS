@@ -4,7 +4,6 @@ from scrapy.http import Request
 import json
 import pandas as pd
 import re
-import time
 
 class PokemonItem(scrapy.Item):
     numero = scrapy.Field()
@@ -44,7 +43,6 @@ class PokemonScraper(scrapy.Spider):
                                               'url': pokemon_url,
                                               'tipos': tipos
                                           })
-                    #time.sleep(1)  # Adiciona um pequeno delay entre requests para evitar bloqueios
 
     def parse_numero(self, pokemon):
         return pokemon.css('td.cell-num span.infocard-cell-data::text').get()
@@ -145,30 +143,12 @@ class PokemonScraper(scrapy.Spider):
         # Log para indicar que o arquivo foi salvo
         self.log("Arquivo JSON salvo com sucesso.")
 
-        # Processa e limpa os dados usando pandas
+        # Processa os dados usando pandas sem alterar a altura e peso
         df = pd.DataFrame(sorted_pokemons)
         df.dropna(inplace=True)
 
-        df['altura_cm'] = df['altura_cm'].apply(lambda x: limpar_medida(x) * 100 if x else None)
-        df['peso_kg'] = df['peso_kg'].apply(limpar_medida)
-
         df.to_json('pokemons_limpos.json', orient='records', indent=4, force_ascii=False)
         df.to_csv('pokemons_limpos.csv', index=False)
-
-def limpar_medida(valor):
-    if valor:
-        valor_limpo = re.sub(r'[^\d.,]', '', valor)
-        partes = re.findall(r'\d+', valor_limpo)
-        if len(partes) > 1:
-            valor_limpo = '.'.join(partes[-2:])
-        else:
-            valor_limpo = partes[0]
-        valor_limpo = valor_limpo.replace(',', '.')
-        try:
-            return float(valor_limpo)
-        except ValueError:
-            return None
-    return None
 
 if __name__ == "__main__":
     process = CrawlerProcess()
