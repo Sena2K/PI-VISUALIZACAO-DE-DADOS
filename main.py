@@ -125,25 +125,29 @@ class PokemonScraper(scrapy.Spider):
         return {
             'nome': response.css('main > h1::text').get().strip(),
             'desc': response.css('.vitals-table > tbody > tr:nth-child(1) > td::text').get(),
-            'efeito': response.css('main > div > div > p').get(),
+            'efeito': self.clean_html(response.css('main > div > div > p').get()),
             'url': response.css('link[rel="canonical"]::attr(href)').get()
         }
+
+    def clean_html(self, raw_html):
+        """Remove tags HTML do texto."""
+        clean_text = re.sub('<.*?>', '', raw_html)
+        return clean_text.strip()
 
     def save_item(self, item):
         self.itens.append(dict(item))
 
     def closed(self, reason):
-        # Ordena a lista de pokémons pelo número
+  
         sorted_pokemons = sorted(self.itens, key=lambda x: x['numero'])
 
-        # Salva os pokémons ordenados em um arquivo JSON
         with open('pokemons_sorted.json', 'w', encoding='utf-8') as f:
             json.dump(sorted_pokemons, f, ensure_ascii=False, indent=4)
 
-        # Log para indicar que o arquivo foi salvo
+     
         self.log("Arquivo JSON salvo com sucesso.")
 
-        # Processa os dados usando pandas sem alterar a altura e peso
+
         df = pd.DataFrame(sorted_pokemons)
         df.dropna(inplace=True)
 
