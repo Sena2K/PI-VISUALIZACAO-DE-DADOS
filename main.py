@@ -5,6 +5,7 @@ import json
 import pandas as pd
 import re
 
+
 class PokemonItem(scrapy.Item):
     numero = scrapy.Field()
     nome = scrapy.Field()
@@ -15,6 +16,7 @@ class PokemonItem(scrapy.Item):
     proximas_evolucoes = scrapy.Field()
     habilidades = scrapy.Field()
 
+
 class PokemonScrapper(scrapy.Spider):
     name = 'pokemon_scrapper'
     start_urls = ["https://pokemondb.net/pokedex/all"]
@@ -23,10 +25,9 @@ class PokemonScrapper(scrapy.Spider):
     def parse(self, response):
         pokemons = response.css('#pokedex > tbody > tr')
         for pokemon in pokemons:
-            numero = pokemon.css('td.cell-num span.infocard-cell-data::text').get()
-            nome = pokemon.css('td.cell-name a.ent-name::text').get()
-            link = pokemon.css('td.cell-name a.ent-name::attr(href)').get()
-            pokemon_url = response.urljoin(link)
+            numero = self.parse_numero(pokemon)
+            nome = self.parse_nome(pokemon)
+            pokemon_url = self.parse_url(pokemon, response)
 
             tipos = ", ".join(pokemon.css('td.cell-icon a.type-icon::text').getall())
 
@@ -39,16 +40,47 @@ class PokemonScrapper(scrapy.Spider):
                                       'tipos': tipos
                                   })
 
+    def parse_numero(self, pokemon):
+        return pokemon.css('td.cell-num span.infocard-cell-data::text').get()
+
+    def parse_nome(self, pokemon):
+        return pokemon.css('td.cell-name a.ent-name::text').get()
+
+    def parse_url(self, pokemon, response):
+        link = pokemon.css('td.cell-name a.ent-name::attr(href)').get()
+        return response.urljoin(link)
+
     def parse_pokemon(self, response):
+        item = self.create_pokemon_item(response)
+
+        evolucoes = self.parse_evolucoes(response, item)
+        item['proximas_evolucoes'] = evolucoes
+
+        links_habilidades = response.css('.vitals-table tr:contains("Abilities") td a::attr(href)').getall()
+        links_habilidades = [response.urljoin(link) for link in links_habilidades]
+
+        if links_habilidades:
+            request = Request(links_habilidades[0], callback=self.parse_habilidade, dont_filter=True)
+            request.meta['habilidades_pendentes'] = links_habilidades[1:]
+            request.meta['habilidades'] = []
+            request.meta['item'] = item
+            yield request
+        else:
+            item['habilidades'] = []
+            self.save_item(item)
+            yield item
+
+    def create_pokemon_item(self, response):
         item = PokemonItem()
         item['numero'] = int(response.meta['numero'].lstrip('#').lstrip('0') or '0')
         item['nome'] = response.meta['nome']
         item['url'] = response.meta['url']
         item['tipos'] = response.meta['tipos']
-
         item['altura_cm'] = response.css('.vitals-table tr:contains("Height") td::text').get().strip()
         item['peso_kg'] = response.css('.vitals-table tr:contains("Weight") td::text').get().strip()
+        return item
 
+    def parse_evolucoes(self, response, item):
         evolucoes = []
         pokemon_atual_encontrado = False
         for evo in response.css('.infocard-list-evo .infocard'):
@@ -65,34 +97,14 @@ class PokemonScrapper(scrapy.Spider):
                     'nome': nome_evo,
                     'url': link_evo
                 })
-
-        item['proximas_evolucoes'] = evolucoes
-
-        links_habilidades = response.css('.vitals-table tr:contains("Abilities") td a::attr(href)').getall()
-        links_habilidades = [response.urljoin(link) for link in links_habilidades]
-
-        if links_habilidades:
-            request = Request(links_habilidades[0], callback=self.parse_habilidade, dont_filter=True)
-            request.meta['habilidades_pendentes'] = links_habilidades[1:]
-            request.meta['habilidades'] = []
-            request.meta['item'] = item
-            yield request
-        else:
-            item['habilidades'] = []
-            self.itens.append(dict(item))
-            yield item
+        return evolucoes
 
     def parse_habilidade(self, response):
-        info_habilidade = {
-            'nome': response.css('main > h1::text').get().strip(),
-            'desc': response.css('.vitals-table > tbody > tr:nth-child(1) > td::text').get(),
-            'efeito': response.css('main > div > div > p').get(),
-            'url': response.css('link[rel="canonical"]::attr(href)').get()
-        }
+        habilidade = self.extract_habilidade(response)
 
         item = response.meta['item']
         habilidades = response.meta['habilidades']
-        habilidades.append(info_habilidade)
+        habilidades.append(habilidade)
 
         habilidades_pendentes = response.meta['habilidades_pendentes']
         if habilidades_pendentes:
@@ -103,8 +115,20 @@ class PokemonScrapper(scrapy.Spider):
             yield proxima_requisicao
         else:
             item['habilidades'] = habilidades
-            self.itens.append(dict(item))
+            self.save_item(item)
             yield item
+
+    def extract_habilidade(self, response):
+        return {
+            'nome': response.css('main > h1::text').get().strip(),
+            'desc': response.css('.vitals-table > tbody > tr:nth-child(1) > td::text').get(),
+            'efeito': response.css('main > div > div > p').get(),
+            'url': response.css('link[rel="canonical"]::attr(href)').get()
+        }
+
+    def save_item(self, item):
+        self.itens.append(dict(item))
+
 
 def limpar_medida(valor):
     if valor:
@@ -120,6 +144,7 @@ def limpar_medida(valor):
         except ValueError:
             return None
     return None
+
 
 if __name__ == "__main__":
     process = CrawlerProcess()
