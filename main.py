@@ -6,152 +6,141 @@ import pandas as pd
 import re
 
 class PokemonItem(scrapy.Item):
-    number = scrapy.Field()
-    name = scrapy.Field()
+    numero = scrapy.Field()
+    nome = scrapy.Field()
     url = scrapy.Field()
-    types = scrapy.Field()
-    height_cm = scrapy.Field()
-    weight_kg = scrapy.Field()
-    next_evolutions = scrapy.Field()
-    abilities = scrapy.Field()
+    tipos = scrapy.Field()
+    altura_cm = scrapy.Field()
+    peso_kg = scrapy.Field()
+    proximas_evolucoes = scrapy.Field()
+    habilidades = scrapy.Field()
 
 class PokemonScrapper(scrapy.Spider):
     name = 'pokemon_scrapper'
     start_urls = ["https://pokemondb.net/pokedex/all"]
-    items = []  # Lista para armazenar os itens coletados
+    itens = []
 
     def parse(self, response):
         pokemons = response.css('#pokedex > tbody > tr')
         for pokemon in pokemons:
-            number = pokemon.css('td.cell-num span.infocard-cell-data::text').get()
-            name = pokemon.css('td.cell-name a.ent-name::text').get()
+            numero = pokemon.css('td.cell-num span.infocard-cell-data::text').get()
+            nome = pokemon.css('td.cell-name a.ent-name::text').get()
             link = pokemon.css('td.cell-name a.ent-name::attr(href)').get()
             pokemon_url = response.urljoin(link)
 
-            types = ", ".join(pokemon.css('td.cell-icon a.type-icon::text').getall())
+            tipos = ", ".join(pokemon.css('td.cell-icon a.type-icon::text').getall())
 
             yield response.follow(pokemon_url,
                                   self.parse_pokemon,
                                   meta={
-                                      'number': number,
-                                      'name': name,
+                                      'numero': numero,
+                                      'nome': nome,
                                       'url': pokemon_url,
-                                      'types': types
+                                      'tipos': tipos
                                   })
 
     def parse_pokemon(self, response):
         item = PokemonItem()
-        item['number'] = int(response.meta['number'].lstrip('#').lstrip('0') or '0')
-        item['name'] = response.meta['name']
+        item['numero'] = int(response.meta['numero'].lstrip('#').lstrip('0') or '0')
+        item['nome'] = response.meta['nome']
         item['url'] = response.meta['url']
-        item['types'] = response.meta['types']
+        item['tipos'] = response.meta['tipos']
 
-        item['height_cm'] = response.css('.vitals-table tr:contains("Height") td::text').get().strip()
-        item['weight_kg'] = response.css('.vitals-table tr:contains("Weight") td::text').get().strip()
+        item['altura_cm'] = response.css('.vitals-table tr:contains("Height") td::text').get().strip()
+        item['peso_kg'] = response.css('.vitals-table tr:contains("Weight") td::text').get().strip()
 
-        evolutions = []
-        current_pokemon_found = False
+        evolucoes = []
+        pokemon_atual_encontrado = False
         for evo in response.css('.infocard-list-evo .infocard'):
-            evo_number = evo.css('.text-muted small::text').get()
-            evo_name = evo.css('.ent-name::text').get()
-            evo_link = response.urljoin(evo.css('a::attr(href)').get())
+            numero_evo = evo.css('.text-muted small::text').get()
+            nome_evo = evo.css('.ent-name::text').get()
+            link_evo = response.urljoin(evo.css('a::attr(href)').get())
 
-            if evo_name and evo_name.strip() == item['name'].strip():
-                current_pokemon_found = True
-            elif current_pokemon_found and evo_name and evo_number:
-                evo_number_int = int(evo_number.lstrip('#').lstrip('0') or '0')
-                evolutions.append({
-                    'number': evo_number_int,
-                    'name': evo_name,
-                    'url': evo_link
+            if nome_evo and nome_evo.strip() == item['nome'].strip():
+                pokemon_atual_encontrado = True
+            elif pokemon_atual_encontrado and nome_evo and numero_evo:
+                numero_evo_int = int(numero_evo.lstrip('#').lstrip('0') or '0')
+                evolucoes.append({
+                    'numero': numero_evo_int,
+                    'nome': nome_evo,
+                    'url': link_evo
                 })
 
-        item['next_evolutions'] = evolutions
+        item['proximas_evolucoes'] = evolucoes
 
-        ability_links = response.css('.vitals-table tr:contains("Abilities") td a::attr(href)').getall()
-        ability_links = [response.urljoin(link) for link in ability_links]
+        links_habilidades = response.css('.vitals-table tr:contains("Abilities") td a::attr(href)').getall()
+        links_habilidades = [response.urljoin(link) for link in links_habilidades]
 
-        if ability_links:
-            request = Request(ability_links[0], callback=self.parse_ability, dont_filter=True)
-            request.meta['pending_abilities'] = ability_links[1:]
-            request.meta['abilities'] = []
+        if links_habilidades:
+            request = Request(links_habilidades[0], callback=self.parse_habilidade, dont_filter=True)
+            request.meta['habilidades_pendentes'] = links_habilidades[1:]
+            request.meta['habilidades'] = []
             request.meta['item'] = item
             yield request
         else:
-            item['abilities'] = []
-            self.items.append(dict(item))
+            item['habilidades'] = []
+            self.itens.append(dict(item))
             yield item
 
-    def parse_ability(self, response):
-        ability_info = {
-            'name': response.css('main > h1::text').get().strip(),
+    def parse_habilidade(self, response):
+        info_habilidade = {
+            'nome': response.css('main > h1::text').get().strip(),
             'desc': response.css('.vitals-table > tbody > tr:nth-child(1) > td::text').get(),
-            'effect': response.css('main > div > div > p').get(),
+            'efeito': response.css('main > div > div > p').get(),
             'url': response.css('link[rel="canonical"]::attr(href)').get()
         }
 
         item = response.meta['item']
-        abilities = response.meta['abilities']
-        abilities.append(ability_info)
+        habilidades = response.meta['habilidades']
+        habilidades.append(info_habilidade)
 
-        pending_abilities = response.meta['pending_abilities']
-        if pending_abilities:
-            next_request = Request(pending_abilities[0], callback=self.parse_ability, dont_filter=True)
-            next_request.meta.update(response.meta)
-            next_request.meta['abilities'] = abilities
-            next_request.meta['pending_abilities'] = pending_abilities[1:]
-            yield next_request
+        habilidades_pendentes = response.meta['habilidades_pendentes']
+        if habilidades_pendentes:
+            proxima_requisicao = Request(habilidades_pendentes[0], callback=self.parse_habilidade, dont_filter=True)
+            proxima_requisicao.meta.update(response.meta)
+            proxima_requisicao.meta['habilidades'] = habilidades
+            proxima_requisicao.meta['habilidades_pendentes'] = habilidades_pendentes[1:]
+            yield proxima_requisicao
         else:
-            item['abilities'] = abilities
-            self.items.append(dict(item))
+            item['habilidades'] = habilidades
+            self.itens.append(dict(item))
             yield item
 
-def clean_measurement(value):
-    if value:
-        # Remove todos os caracteres que não são dígitos, pontos ou vírgulas
-        cleaned_value = re.sub(r'[^\d.,]', '', value)
-        # Verifica se existem múltiplos pontos ou vírgulas e mantém apenas o último
-        parts = re.findall(r'\d+', cleaned_value)
-        if len(parts) > 1:
-            cleaned_value = '.'.join(parts[-2:])
+def limpar_medida(valor):
+    if valor:
+        valor_limpo = re.sub(r'[^\d.,]', '', valor)
+        partes = re.findall(r'\d+', valor_limpo)
+        if len(partes) > 1:
+            valor_limpo = '.'.join(partes[-2:])
         else:
-            cleaned_value = parts[0]
-        # Substitui vírgulas por pontos
-        cleaned_value = cleaned_value.replace(',', '.')
+            valor_limpo = partes[0]
+        valor_limpo = valor_limpo.replace(',', '.')
         try:
-            return float(cleaned_value)
+            return float(valor_limpo)
         except ValueError:
-            return None  # Se não for possível converter, retorna None
+            return None
     return None
 
 if __name__ == "__main__":
     process = CrawlerProcess()
 
-    # Run the spider
     process.crawl(PokemonScrapper)
     process.start()
 
-    # Ordenar os Pokémon por ID antes de salvar
-    PokemonScrapper.items.sort(key=lambda x: x['number'])
+    PokemonScrapper.itens.sort(key=lambda x: x['numero'])
 
-    # Save the results to a JSON file
     with open('pokemons.json', 'w', encoding='utf-8') as f:
-        json.dump(PokemonScrapper.items, f, ensure_ascii=False, indent=4)
+        json.dump(PokemonScrapper.itens, f, ensure_ascii=False, indent=4)
 
-    # Carregar o JSON gerado pelo Scrapy
     with open('pokemons.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        dados = json.load(f)
 
-    # Converter para DataFrame
-    df = pd.DataFrame(data)
+    df = pd.DataFrame(dados)
 
-    # Remover entradas com dados nulos ou inválidos
     df.dropna(inplace=True)
 
-    # Limpar e converter altura e peso para valores numéricos
-    df['height_cm'] = df['height_cm'].apply(lambda x: clean_measurement(x) * 100 if x else None)
-    df['weight_kg'] = df['weight_kg'].apply(clean_measurement)
+    df['altura_cm'] = df['altura_cm'].apply(lambda x: limpar_medida(x) * 100 if x else None)
+    df['peso_kg'] = df['peso_kg'].apply(limpar_medida)
 
-    # Salvar o DataFrame limpo em um novo arquivo JSON ou CSV
-    df.to_json('pokemons_cleaned.json', orient='records', indent=4, force_ascii=False)
-    df.to_csv('pokemons_cleaned.csv', index=False)
+    df.to_json('pokemons_limpos.json', orient='records', indent=4, force_ascii=False)
+    df.to_csv('pokemons_limpos.csv', index=False)
